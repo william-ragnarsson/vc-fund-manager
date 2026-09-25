@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { Apply } from '../apply/Apply';
 import { FUND, MONTH_SCREENED } from '../config';
 import { useStore, type View } from './store';
 import { DealDrawer, DealFlow, useDealLists } from './views/DealFlow';
@@ -37,11 +38,17 @@ export function App({ tourOpen }: { tourOpen: boolean }) {
   // New page, back to the top, like a real navigation.
   useEffect(() => { main.current?.scrollTo({ top: 0 }); }, [s.view, s.coId, s.dfTab, s.pTab, s.pubTab]);
 
+  // The tab title follows the view, which in-app navigation changes without touching the URL.
+  useEffect(() => { document.title = s.view === 'apply' ? `Apply · ${FUND.name}` : 'Associate demo'; }, [s.view]);
+
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape' && s.selId) a.closeDeal(); };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [s.selId, a]);
+
+  // The founder's apply page replaces the whole app shell: it is the fund's website.
+  if (s.view === 'apply') return <Apply tourOpen={tourOpen} />;
 
   const nav: [View, string, number | string | null][] = [
     ['home', 'Home', null],
@@ -53,7 +60,7 @@ export function App({ tourOpen }: { tourOpen: boolean }) {
   return (
     <div className={tourOpen ? 'app tour-open' : 'app'}>
       <aside className="side">
-        <div className="side-brand"><button onClick={() => a.go('home')}>Associate</button></div>
+        <div className="side-brand"><a href="#/">Associate</a></div>
         <div className="side-fund"><span className="k">Fund</span><span className="v">{FUND.fund}</span></div>
         <nav className="side-nav" aria-label="Main">
           {nav.map(([key, label, count]) => (

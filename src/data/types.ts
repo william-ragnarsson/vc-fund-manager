@@ -48,6 +48,8 @@ export interface Deal {
   src: string;
   website: string;
   meeting?: { day: string; date: string; time: string };
+  /** Set on applications submitted through the demo's apply page. */
+  applicant?: { name: string; email: string; deck: string | null };
 }
 
 export interface SiteEntry {
