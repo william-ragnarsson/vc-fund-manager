@@ -13,6 +13,8 @@
 @media (max-width: 1199px) and (min-width: 861px) {
   .tour.beside-drawer { left: calc((100vw - 540px) / 2); width: calc(100vw - 540px - 24px); }
 }
+/* On the founder's apply page there is no sidebar to clear. */
+.tour.solo { left: 50%; width: min(760px, calc(100vw - 48px)); }
 @keyframes tour-in { from { transform: translate(-50%, 10px); opacity: 0; } }
 .tour-progress { height: 3px; background: rgba(255, 255, 255, .1); }
 .tour-progress div { height: 100%; background: #9aaecb; transition: width .25s ease; }
@@ -48,7 +50,7 @@
 .tour-end-acts { display: flex; gap: 8px; margin-top: 24px; flex-wrap: wrap; }
 
 @media (max-width: 860px) {
-  .tour, .tour.beside-drawer { left: 50%; width: calc(100vw - 24px); bottom: 12px; }
+  .tour, .tour.beside-drawer, .tour.solo { left: 50%; width: calc(100vw - 24px); bottom: 12px; }
   .tour-row { grid-template-columns: minmax(0, 1fr); gap: 10px; padding: 12px 12px 12px 14px; }
   .tour-count { display: none; }
   .tour-body { font-size: 13px; }

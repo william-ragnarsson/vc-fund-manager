@@ -5,7 +5,8 @@
 /* — sidebar — */
 .side { display: flex; flex-direction: column; padding: 24px 0; background: var(--color-ink); color: #e8ecf2; min-height: 0; }
 .side-brand { padding: 0 24px 20px; font-weight: 600; font-size: 20px; letter-spacing: -0.02em; color: #fff; }
-.side-brand button { all: unset; cursor: pointer; }
+.side-brand a, .side-brand a:hover { color: inherit; text-decoration: none; }
+.side-brand a:focus-visible { outline-color: #9aaecb; }
 .side-fund { margin: 0 16px 24px; padding: 10px 12px; background: rgba(255, 255, 255, .06); border-radius: 12px; display: flex; flex-direction: column; gap: 2px; color: #fff; }
 .side-fund .k { font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: #93a0b5; }
 .side-fund .v { font-size: 14px; font-weight: 600; }
@@ -101,6 +102,11 @@
 .in-row .st { font-size: 12px; }
 .in-row .btn { font-size: 13px; }
 .in-more { padding: 14px 20px; font-size: 13px; color: var(--color-neutral-600); }
+/* Applications sent from the demo's apply page. */
+.in-row.fresh { background: var(--color-accent-100); animation: fresh-in 1.2s ease-out; }
+.in-row.fresh:hover { background: var(--color-accent-200); }
+@keyframes fresh-in { from { background: var(--color-accent-300); } }
+.new-pill { display: inline-block; margin-left: 8px; padding: 1px 7px; border-radius: 999px; background: var(--color-accent); color: #fff; font-size: 11px; font-weight: 600; line-height: 1.5; vertical-align: 1px; }
 
 /* — deal drawer — */
 .backdrop { position: fixed; inset: 0; background: rgba(31, 36, 48, .18); z-index: 40; animation: fade .18s ease-out; }
@@ -126,6 +132,7 @@
 .list-h { margin-bottom: 8px; }
 .why { font-size: 14px; padding: 6px 0 6px 14px; border-left: 2px solid var(--color-accent-300); margin-bottom: 6px; }
 .risk { font-size: 14px; padding: 6px 0 6px 14px; border-left: 2px solid var(--color-neutral-300); margin-bottom: 6px; }
+.note-preview { font-size: 14px; line-height: 1.55; padding: 14px 16px; border-radius: 12px; background: var(--color-neutral-100); color: var(--color-neutral-800); white-space: pre-wrap; }
 .drawer-src { font-size: 12px; color: var(--color-neutral-600); }
 .drawer-src a { color: inherit; }
 .drawer-foot { position: sticky; bottom: 0; background: #fff; border-top: 1px solid var(--color-divider); padding: 16px 32px; display: flex; gap: 8px; }

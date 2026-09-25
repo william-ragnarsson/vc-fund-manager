@@ -10,9 +10,12 @@ const STEPS: Step[] = [
   { title: `Associate, running ${FUND.name}`,
     body: 'Everything it handled for the fund this month, in three numbers. Each one opens its module.',
     apply: a => a.go('home') },
+  { title: 'Founders apply on your website',
+    body: `A short form on ${FUND.domain}: the essentials, plus a deck. Associate reads the deck and the website for the rest. Submit this one, or press Next.`,
+    apply: a => { a.go('apply'); a.prefillApplication(); } },
   { title: 'Every application, read for you',
-    body: 'Inbound applications are scored against your thesis as they arrive. The ones that miss get a personal note.',
-    apply: a => { a.go('deals'); a.set({ dfTab: 'inbound' }); } },
+    body: 'Each one is scored against your thesis the moment it arrives. The ones that miss your bar get a personal note.',
+    apply: a => { a.sendDraft(); a.go('deals'); a.set({ dfTab: 'inbound' }); } },
   { title: 'Only the ones worth your time',
     body: 'About 10% clear your bar and land here, each with the reason it fits. Invite or pass in one click.',
     apply: a => { a.go('deals'); a.set({ dfTab: 'screened' }); } },
@@ -42,7 +45,7 @@ const STEPS: Step[] = [
 export const TOUR_LENGTH = STEPS.length;
 
 /** step: 0..n-1 shows that step, n shows the closing card, null hides the tour. */
-export function Tour({ step, setStep, onOverview }: { step: number | null; setStep: (n: number | null) => void; onOverview: () => void }) {
+export function Tour({ step, setStep }: { step: number | null; setStep: (n: number | null) => void }) {
   const { s, a } = useStore();
 
   const goTo = useCallback((n: number) => {
@@ -55,7 +58,7 @@ export function Tour({ step, setStep, onOverview }: { step: number | null; setSt
     if (step === null) return;
     const onKey = (e: KeyboardEvent) => {
       const t = e.target as HTMLElement | null;
-      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+      if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return;
       if (e.key === 'ArrowRight' && step < STEPS.length) { e.preventDefault(); goTo(step + 1); }
       if (e.key === 'ArrowLeft' && step > 0) { e.preventDefault(); goTo(step - 1); }
     };
@@ -66,11 +69,12 @@ export function Tour({ step, setStep, onOverview }: { step: number | null; setSt
   const restart = () => { a.reset(); goTo(0); };
 
   if (step === null) {
+    // The apply page has its own way back, and an open brief needs its footer buttons clear.
+    if (s.view === 'apply' || s.selId) return null;
     return (
       <div className="tour-dock">
         <button className="tour-chip" onClick={() => goTo(0)}>Guided tour</button>
         <button className="tour-chip" onClick={() => { a.reset(); }}>Reset demo</button>
-        <button className="tour-chip" onClick={onOverview}>Overview</button>
       </div>
     );
   }
@@ -95,7 +99,7 @@ export function Tour({ step, setStep, onOverview }: { step: number | null; setSt
   const cur = STEPS[step];
   const last = step === STEPS.length - 1;
   return (
-    <div className={s.selId ? 'tour beside-drawer' : 'tour'} role="region" aria-label="Guided tour" aria-live="polite">
+    <div className={s.view === 'apply' ? 'tour solo' : s.selId ? 'tour beside-drawer' : 'tour'} role="region" aria-label="Guided tour" aria-live="polite">
       <div className="tour-progress"><div style={{ width: `${((step + 1) / STEPS.length) * 100}%` }} /></div>
       <div className="tour-row">
         <div className="tour-count">{step + 1}<span>/{STEPS.length}</span></div>

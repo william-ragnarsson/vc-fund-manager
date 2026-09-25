@@ -13,6 +13,7 @@ html:has(.lp) { scroll-behavior: smooth; }
 .lp-nav nav { display: flex; align-items: center; gap: 28px; }
 .lp-nav nav a:not(.btn) { font-size: 14px; color: var(--color-neutral-700); text-decoration: none; }
 .lp-nav nav a:not(.btn):hover { color: var(--color-text); }
+.lp-nav nav a[aria-current="page"] { color: var(--color-text); font-weight: 600; }
 
 /* — hero — */
 .lp-hero-band { padding: 72px 0 40px; }
@@ -101,14 +102,15 @@ html:has(.lp) { scroll-behavior: smooth; }
   .lp-hero { grid-template-columns: minmax(0, 1fr); gap: 40px; }
   .lp-hero h1 { max-width: none; }
   .lp-lede { font-size: 17px; }
-  .lp-nav nav { gap: 16px; }
-  .lp-nav nav a:not(.btn) { display: none; }
+  .lp-nav nav { gap: 18px; }
   .lp-modules { grid-template-columns: minmax(0, 1fr); margin-top: 32px; }
   .lp-module { padding: 22px; }
   .lp-control { grid-template-columns: minmax(0, 1fr); gap: 40px; }
   .lp-foot-in { flex-direction: column; gap: 10px; }
 }
 @media (max-width: 560px) {
+  .lp-nav nav { gap: 14px; }
+  .lp-nav-long { display: none; }
   .lp-visual { padding: 12px; border-radius: 18px; }
   .lp-flow::before { left: 29px; }
   .lp-step { grid-template-columns: 36px minmax(0, 1fr); gap: 12px; padding: 12px; }

@@ -8,6 +8,7 @@ import { Tour } from './tour/Tour';
 //   #/            landing page (#how, #access jump to its sections)
 //   #/demo        the app with the guided tour, from a fresh state
 //   #/app[/view]  the app without the tour, optionally on a module
+//   #/apply       the fund's apply page, as a founder sees it
 type Route = { page: 'landing'; anchor: string | null } | { page: 'demo' } | { page: 'app'; view: View };
 
 const VIEWS: View[] = ['home', 'deals', 'portfolio', 'public', 'thesis'];
@@ -15,6 +16,7 @@ const VIEWS: View[] = ['home', 'deals', 'portfolio', 'public', 'thesis'];
 function parse(hash: string): Route {
   const h = hash.replace(/^#/, '');
   if (h === '/demo') return { page: 'demo' };
+  if (h === '/apply') return { page: 'app', view: 'apply' };
   const m = h.match(/^\/app(?:\/(\w+))?\/?$/);
   if (m) return { page: 'app', view: VIEWS.includes(m[1] as View) ? (m[1] as View) : 'home' };
   return { page: 'landing', anchor: /^[a-z]+$/.test(h) ? h : null };
@@ -41,7 +43,7 @@ function Router() {
     if (r.page === 'demo') { a.reset(); setStep(0); }
     else setStep(null);
     if (r.page === 'app') a.go(r.view);
-    document.title = r.page === 'landing' ? 'Associate' : 'Associate demo';
+    if (r.page === 'landing') document.title = 'Associate';
     const target = r.page === 'landing' && r.anchor ? document.getElementById(r.anchor) : null;
     if (target) target.scrollIntoView();
     else window.scrollTo(0, 0);
@@ -51,7 +53,7 @@ function Router() {
   return (
     <>
       <App tourOpen={step !== null} />
-      <Tour step={step} setStep={setStep} onOverview={() => { window.location.hash = '#/'; }} />
+      <Tour step={step} setStep={setStep} />
     </>
   );
 }
