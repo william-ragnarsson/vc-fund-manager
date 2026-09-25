@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output: npm run build recreates dist/associate-demo.html
+dist/
+
+# Logo pipeline inputs and reports. Raw logos can be re-downloaded from the
+# logo_url fields in data/candidates.json; the tiles in src/assets/logos are tracked.
+data/logos_raw/
+data/logo_sheet.png
+data/logo_report.json
+
+# Agent skills installed by the skills CLI; skills-lock.json records their sources
+.agents/skills/
+.claude/skills/
+
+# Local Claude Code state
+.claude/settings.local.json
+.claude/worktrees/
+
+# OS, editor and tool clutter
+.DS_Store
+.vscode/
+.idea/
+__pycache__/
+*.log
+*.tsbuildinfo
+.env
+.env.*

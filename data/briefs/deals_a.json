@@ -1,0 +1,258 @@
+[
+ {
+  "id": "papr",
+  "techstars": {
+   "techstars_name": "Papr",
+   "techstars_description": "Papr is a context intelligence infrastructure for AI agent developers that believe their AI agent's memory should get better at scale, not worse. We help you build the brain for your AI-native agents; safe, compliant, and works at scale. 92% Stanford STaRK hit@5 retrieval accuracy, <150ms retrieval.",
+   "city": "Dublin",
+   "country": "United States",
+   "techstars_year": 2026,
+   "website": "papr.ai",
+   "linkedin": "linkedin.com/company/papr.ai",
+   "verticals": [
+    "Artificial intelligence and machine learning"
+   ]
+  },
+  "stage": "meeting",
+  "score": 90,
+  "b_team_market_traction_fit": [
+   95,
+   90,
+   78,
+   92
+  ],
+  "round": "Seed · $4M",
+  "traction": "5 design partners, 2 paying",
+  "src": "Intro from Complok founders · 2w ago",
+  "meeting": {
+   "day": "Tue",
+   "date": "29",
+   "time": "Tue 29 Sep · 14:00 · Video call"
+  }
+ },
+ {
+  "id": "stemma",
+  "techstars": {
+   "techstars_name": "Stemma AI",
+   "techstars_description": "Stemma AI eliminates claims leakage in complex transport insurance - a $10B+ annual problem. Our proprietary technology reads and reasons across 10,000+ page claims files where standard LLMs fail, delivering verifiable answers",
+   "city": "London",
+   "country": "United Kingdom",
+   "techstars_year": 2026,
+   "website": "stemma-ai.com",
+   "linkedin": "linkedin.com/company/the-stemma-ai",
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "Insurtech",
+    "Legal tech",
+    "SaaS"
+   ]
+  },
+  "stage": "meeting",
+  "score": 87,
+  "b_team_market_traction_fit": [
+   88,
+   84,
+   80,
+   90
+  ],
+  "round": "Seed · $3M",
+  "traction": "$120k ARR",
+  "src": "Applied via website · 2w ago",
+  "meeting": {
+   "day": "Thu",
+   "date": "1",
+   "time": "Thu 1 Oct · 10:30 · Founders visiting"
+  }
+ },
+ {
+  "id": "fopsai",
+  "techstars": {
+   "techstars_name": "FopsAI Ltd",
+   "techstars_description": "AI-native reconciliation and data operations platform for financial services.",
+   "city": "London",
+   "country": "United Kingdom",
+   "techstars_year": 2026,
+   "website": "fopsai.com",
+   "linkedin": null,
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "Fintech"
+   ]
+  },
+  "stage": "screened",
+  "score": 92,
+  "b_team_market_traction_fit": [
+   94,
+   88,
+   90,
+   95
+  ],
+  "round": "Seed · $2.5M",
+  "traction": "$310k ARR, 14 customers",
+  "src": "Applied via website · 1w ago"
+ },
+ {
+  "id": "insaio",
+  "techstars": {
+   "techstars_name": "Insaio",
+   "techstars_description": "Insaio is the customer interaction operating system for insurance and finance -- AI-driven and human-led conversations that fill calendars, sharpen advice, and protect portfolios.",
+   "city": "Hamburg",
+   "country": "Germany",
+   "techstars_year": 2026,
+   "website": "insaio.com",
+   "linkedin": null,
+   "verticals": [
+    "Fintech",
+    "Insurtech"
+   ]
+  },
+  "stage": "screened",
+  "score": 88,
+  "b_team_market_traction_fit": [
+   90,
+   84,
+   86,
+   90
+  ],
+  "round": "Seed · $3M",
+  "traction": "$180k ARR, 22 teams",
+  "src": "Intro from Greyline Capital · 1w ago"
+ },
+ {
+  "id": "linesight",
+  "techstars": {
+   "techstars_name": "LineSight",
+   "techstars_description": "AI agents that optimize production planning for metal service centers, reducing material loss and enabling more efficient, autonomous factory operations.",
+   "city": "Oak Brook",
+   "country": "United States",
+   "techstars_year": 2026,
+   "website": "linesight-ai.com",
+   "linkedin": "linkedin.com/company/linesight-ai",
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "Industrials",
+    "SaaS",
+    "Supply chain technology"
+   ]
+  },
+  "stage": "screened",
+  "score": 86,
+  "b_team_market_traction_fit": [
+   88,
+   86,
+   78,
+   88
+  ],
+  "round": "Pre-seed · $1.8M",
+  "traction": "3 paying service centers",
+  "src": "Applied via website · 9d ago"
+ },
+ {
+  "id": "auxilius",
+  "techstars": {
+   "techstars_name": "Auxilius.ai",
+   "techstars_description": "Codified Governance (CoGo) turns manual compliance tasks into tested code, freeing enterprises from repetitive work",
+   "city": "Unterföhring",
+   "country": "Germany",
+   "techstars_year": 2025,
+   "website": "auxilius.ai",
+   "linkedin": null,
+   "verticals": [
+    "SaaS"
+   ]
+  },
+  "stage": "screened",
+  "score": 81,
+  "b_team_market_traction_fit": [
+   84,
+   80,
+   76,
+   86
+  ],
+  "round": "Seed · $2M",
+  "traction": "$140k ARR, 9 customers",
+  "src": "Applied via website · 3d ago"
+ },
+ {
+  "id": "indora",
+  "techstars": {
+   "techstars_name": "Indora",
+   "techstars_description": "Compliance infrastructure for regulated data workflows.",
+   "city": "Albuquerque",
+   "country": "United States",
+   "techstars_year": 2026,
+   "website": "indoralabs.com",
+   "linkedin": "linkedin.com/company/indora-labs",
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "Big Data",
+    "Legal tech",
+    "SaaS"
+   ]
+  },
+  "stage": "screened",
+  "score": 79,
+  "b_team_market_traction_fit": [
+   82,
+   85,
+   74,
+   78
+  ],
+  "round": "Seed · $3.5M",
+  "traction": "$210k ARR",
+  "src": "Applied via website · 4d ago"
+ },
+ {
+  "id": "alethica",
+  "techstars": {
+   "techstars_name": "Alethica",
+   "techstars_description": "Market intelligence for litigators. We identify litigation opportunities,  mitigate client's litigation risks and streamline investigations. \nWe achieve this via different AI agents. ",
+   "city": "London",
+   "country": "United Kingdom",
+   "techstars_year": 2025,
+   "website": "alethica.com",
+   "linkedin": "linkedin.com/company/alethica",
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "Legal tech"
+   ]
+  },
+  "stage": "screened",
+  "score": 77,
+  "b_team_market_traction_fit": [
+   70,
+   74,
+   80,
+   82
+  ],
+  "round": "Pre-seed · $1M",
+  "traction": "35 litigation teams on free trial",
+  "src": "Applied via website · 5d ago"
+ },
+ {
+  "id": "vocations",
+  "techstars": {
+   "techstars_name": "Vocations",
+   "techstars_description": "Vocations is a sales intelligence platform for HR companies that leverages an AI agent to scrape job offers directly from company websites.",
+   "city": "Cernusco sul Naviglio",
+   "country": "Italy",
+   "techstars_year": 2025,
+   "website": "vocations.io",
+   "linkedin": "linkedin.com/company/vocations-io",
+   "verticals": [
+    "HRtech"
+   ]
+  },
+  "stage": "screened",
+  "score": 74,
+  "b_team_market_traction_fit": [
+   80,
+   70,
+   62,
+   78
+  ],
+  "round": "Seed · $2.5M",
+  "traction": "4 design partners",
+  "src": "Applied via website · 6d ago"
+ }
+]

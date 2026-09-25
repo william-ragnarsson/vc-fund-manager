@@ -1,0 +1,2149 @@
+{
+ "codspeed": {
+  "company_name": "CodSpeed",
+  "brief_description": "CodSpeed is a software performance optimization tool that allows engineering teams to automatically measure and improve performance changes of code before it is deployed to production.",
+  "city": "Paris",
+  "country": "France",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Cloudtech and DevOps",
+   "Infrastructure"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_e6d08b9c03c6b90d77563138c.png",
+  "linkedin_url": "linkedin.com/company/codspeed",
+  "website": "codspeed.io",
+  "program_names": [
+   "Techstars New York City Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/codspeed.png"
+ },
+ "nanoapi": {
+  "company_name": "NanoAPI",
+  "brief_description": "NanoAPI is building the #1 refactoring tool for large codebases through automatically splitting APIs apart into microservices.",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Climate tech",
+   "Cloudtech and DevOps"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_5c44d6092c4701d585845bf4b.png",
+  "linkedin_url": "linkedin.com/company/nano-api",
+  "website": "nanoapi.io",
+  "program_names": [
+   "Techstars Berlin Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/nanoapi.png"
+ },
+ "equali": {
+  "company_name": "Equali",
+  "brief_description": "Automated payment reconciliations for the digital economy. B2B SaaS FinTech.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Fintech",
+   "SaaS"
+  ],
+  "logo_url": "https://images.crunchbase.com/image/upload/t_cb-default-original/sdnjjgksuwswvhlpfxw7",
+  "linkedin_url": "linkedin.com/company/80992643",
+  "website": "equali.io",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/equali.img"
+ },
+ "ekei": {
+  "company_name": "Ekei",
+  "brief_description": "Ekei is revolutionizing logistics with the Supply Cloud: a global, provider-agnostic platform unifying freight forwarding and fulfillment. By leveraging automation, AI-driven optimization, and decentralized data sharing, we slash costs, reduce emissions, and enable seamless collaboration across the entire supply chain.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Supply chain technology"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1723284535782_63294.png",
+  "linkedin_url": "linkedin.com/company/ekeigroup",
+  "website": "ekei.net",
+  "program_names": [
+   "Techstars Future of Food Powered by Ecolab"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/ekei.png"
+ },
+ "siftyml": {
+  "company_name": "SiftyML",
+  "brief_description": "Enterprise AI for international trade",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Supply chain technology"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1724248244222_71011.png",
+  "linkedin_url": "linkedin.com/company/70975358",
+  "website": "siftyml.com",
+  "program_names": [
+   "Techstars Los Angeles powered by J.P. Morgan"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/siftyml.png"
+ },
+ "kindlee": {
+  "company_name": "Kindlee",
+  "brief_description": "kindlee develops debiasing tools for AI high risk use cases in lending, insurance, recruitment, and beyond",
+  "city": "Den Haag",
+  "country": "Netherlands",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1725299943768_410830.png",
+  "linkedin_url": "linkedin.com/company/meetkindlee",
+  "website": "kindlee.co",
+  "program_names": [
+   "Techstars Miami powered by J.P. Morgan"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/kindlee.png"
+ },
+ "complok": {
+  "company_name": "Complok",
+  "brief_description": "Supercharge Your Compliance. Accelerate Your Business. AI Driven SaaS tool for the compliance team in fintech.",
+  "city": "Tallinn",
+  "country": "Estonia",
+  "first_session_year": 2023,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Fintech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_471b0723b2bda259cbb840129.png",
+  "linkedin_url": "linkedin.com/company/complok",
+  "website": "complok.eu",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/complok.png"
+ },
+ "periphery": {
+  "company_name": "Periphery",
+  "brief_description": "Embedded AI threat management for critical industrial and enterprise IoT technologies.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2023,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Cloudtech and DevOps",
+   "Cybersecurity",
+   "Infrastructure",
+   "Internet of Things"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_94a2e61ada551a6e0ac1e7d2f.png",
+  "linkedin_url": "linkedin.com/company/peripherysecurity",
+  "website": "periphery.security",
+  "program_names": [
+   "Techstars London Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/periphery.png"
+ },
+ "resourcly": {
+  "company_name": "Resourcly",
+  "brief_description": "Resourcly helps manufacturers improve working capital with their shared inventory OS by leveraging product data and AI.",
+  "city": "Mannheim",
+  "country": "Germany",
+  "first_session_year": 2023,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Big Data",
+   "Cleantech",
+   "Climate tech"
+  ],
+  "logo_url": "https://images.crunchbase.com/image/upload/t_cb-default-original/nhwtwxgzlxizocndm7jl",
+  "linkedin_url": "linkedin.com/company/resourcly",
+  "website": "resourcly.earth",
+  "program_names": [
+   "Techstars Berlin Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/resourcly.img"
+ },
+ "pelikan-mobility": {
+  "company_name": "Pelikan Mobility",
+  "brief_description": "Software platform to optimize the electrification and operation of commercial fleets.",
+  "city": "Paris",
+  "country": "France",
+  "first_session_year": 2023,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Cleantech",
+   "Climate tech",
+   "Infrastructure",
+   "Mobility tech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_866d5055b0fe3766868349f26.jpg",
+  "linkedin_url": "linkedin.com/company/pelikan-mobility",
+  "website": "pelikan-mobility.com",
+  "program_names": [
+   "Sustainability Paris Techstars Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/pelikan-mobility.jpg"
+ },
+ "hylosense": {
+  "company_name": "hylosense",
+  "brief_description": "Cutting imbalance costs by up to 65% for energy generators and utilities worldwide, via per-asset AI weather modelling.",
+  "city": "Skopje",
+  "country": "North Macedonia",
+  "first_session_year": 2023,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Big Data",
+   "Climate tech",
+   "Oil and gas",
+   "SaaS"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1774429681582_116325.png",
+  "linkedin_url": "linkedin.com/company/hylosense",
+  "website": "hylosense.com",
+  "program_names": [
+   "Techstars and Audi Mobility Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/hylosense.png"
+ },
+ "tweezr": {
+  "company_name": "Tweezr",
+  "brief_description": "The modern alternative to large modernization programs.",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Big Data",
+   "Cloudtech and DevOps",
+   "Fintech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_8a53b10c1cfb978fe737f5fc1.png",
+  "linkedin_url": null,
+  "website": "tweezr.io",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/tweezr.png"
+ },
+ "motics-technologies": {
+  "company_name": "Motics Technologies",
+  "brief_description": "Motics Copilot automates clinical note taking, referral letters, and more to save hours a day, enabling practicioners to spend time doing the things that matter.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2022,
+  "industry_vertical": [
+   "Healthtech",
+   "SaaS"
+  ],
+  "logo_url": "https://images.crunchbase.com/image/upload/t_cb-default-original/cf0kyas0rfcvnamqkeej",
+  "linkedin_url": "linkedin.com/company/motics",
+  "website": "motics.co.uk",
+  "program_names": [
+   "Techstars London Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/motics-technologies.img"
+ },
+ "imaginario-ai": {
+  "company_name": "Imaginario.ai",
+  "brief_description": "Imaginario is an AI-powered platform and API that identifies specific moments in video and audio in seconds, allowing content marketers and creators to discover, find, and clip content faster.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2022,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Infrastructure",
+   "Marketing tech",
+   "Technology, media and telecommunications"
+  ],
+  "logo_url": "https://images.crunchbase.com/image/upload/t_cb-default-original/kr3yfby5i9nseeliudjz",
+  "linkedin_url": "linkedin.com/company/imaginario-ai",
+  "website": "imaginario.ai",
+  "program_names": [
+   "Comcast NBCUniversal LIFT Labs Accelerator Powered by Techstars"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/imaginario-ai.img"
+ },
+ "dealpad": {
+  "company_name": "dealpad",
+  "brief_description": "Dealpad is a Virtual Sales Room Platform that transforms more leads into clients and closes transactions on time.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2022,
+  "industry_vertical": [
+   "Big Data",
+   "Marketing tech"
+  ],
+  "logo_url": "https://images.crunchbase.com/image/upload/t_cb-default-original/cahstqjns5yfrwtgoovu",
+  "linkedin_url": "linkedin.com/company/dealpad-io",
+  "website": "dealpad.io",
+  "program_names": [
+   "Techstars Seattle Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/dealpad.img"
+ },
+ "jimo": {
+  "company_name": "Jimo",
+  "brief_description": "Jimo enables product teams to connect and engage directly with end users during all aspects of the product life cycle including ideation and design via a powerful notification center and smart newsfeed.",
+  "city": "Cachan",
+  "country": "France",
+  "first_session_year": 2022,
+  "industry_vertical": [
+   "Cloudtech and DevOps"
+  ],
+  "logo_url": "https://apimg.techstars.com/connect/images/image_files/624704bbf01b4e14f48b35f7/original/Untitled_design_%281%29.png",
+  "linkedin_url": "linkedin.com/company/71515486",
+  "website": "usejimo.com",
+  "program_names": [
+   "Techstars New York City Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/jimo.png"
+ },
+ "i-flow": {
+  "company_name": "i-flow",
+  "brief_description": "i-flow transforms heterogenous data from a broad range of manufacturing floor machinery to an universally usable dataset, enabling Artificial Intelligence / Machine Learning efficiencies for the factory floor.",
+  "city": "Munich",
+  "country": "Germany",
+  "first_session_year": 2021,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Internet of Things",
+   "Manufacturing"
+  ],
+  "logo_url": "https://apimg.techstars.com/connect/images/image_files/6009d25e2553130008000041/original/i-flow_logo.png",
+  "linkedin_url": "linkedin.com/company/i-flow-gmbh",
+  "website": "i-flow.io",
+  "program_names": [
+   "STANLEY+Techstars Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/i-flow.png"
+ },
+ "prediko": {
+  "company_name": "Prediko",
+  "brief_description": "Prediko is an e-commerce inventory planning platform that predicts inventory needs, minimizes stock outs and excess inventory.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2021,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Fintech"
+  ],
+  "logo_url": "https://apimg.techstars.com/connect/images/image_files/60ba1be0261d17000705dc7d/original/techtars_prediko.png",
+  "linkedin_url": "linkedin.com/company/prediko",
+  "website": "prediko.io",
+  "program_names": [
+   "Techstars New York City Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/prediko.png"
+ },
+ "sourcery-ai": {
+  "company_name": "Sourcery.AI",
+  "brief_description": "Powering developers to write beautiful, clear code all the time through real time refactoring. Improving code for 1k+ developers/week & teams at top companies.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2021,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning"
+  ],
+  "logo_url": "https://apimg.techstars.com/connect/images/image_files/5ffdcf82d963870009000020/original/sourcery-logo-640.png",
+  "linkedin_url": "linkedin.com/company/sourcery-ai",
+  "website": "sourcery.ai",
+  "program_names": [
+   "Techstars Berlin Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/sourcery-ai.png"
+ },
+ "telekinesis-ai": {
+  "company_name": "Telekinesis.ai",
+  "brief_description": "Telekinesis is building the first AI-powered robotics cloud platform\nto automate manufacturing.",
+  "city": "Darmstadt",
+  "country": "Germany",
+  "first_session_year": 2022,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Industrials",
+   "Manufacturing",
+   "Robotics and Drones"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_cd6e6014f7fae4783f7480573.png",
+  "linkedin_url": "linkedin.com/company/telekinesis-ai",
+  "website": "telekinesis.ai",
+  "program_names": [
+   "Techstars Berlin Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/telekinesis-ai.png"
+ },
+ "buildstash": {
+  "company_name": "Buildstash",
+  "brief_description": "The build-to-release manager app and game developers have been dreaming of. Automated build archival, simple sharing with your team, and seamless deployment.",
+  "city": "Glasgow",
+  "country": "United Kingdom",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Cloudtech and DevOps"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1723732426664_777527.png",
+  "linkedin_url": "linkedin.com/company/buildstash",
+  "website": "buildstash.com",
+  "program_names": [
+   "Techstars New York City Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/buildstash.png"
+ },
+ "syllotips": {
+  "company_name": "SylloTips",
+  "brief_description": "SylloTips is an all-in-one knowledge sharing platform that leverages artificial intelligence to optimize the circulation of skills and knowledge among all employees in a company",
+  "city": "Rome",
+  "country": "Italy",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_c6eb9cf768fc3eaf6a9308424.png",
+  "linkedin_url": "linkedin.com/company/syllotips",
+  "website": "syllotips.com",
+  "program_names": [
+   "Techstars Transformative World Torino"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/syllotips.png"
+ },
+ "bruin": {
+  "company_name": "Bruin",
+  "brief_description": "Bruin is an online platform for data analysts that allows online data transformation with SQL and Python without any custom code.",
+  "city": "Berlin",
+  "country": "Germany",
+  "first_session_year": 2023,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning"
+  ],
+  "logo_url": "https://images.crunchbase.com/image/upload/t_cb-default-original/eey3dd2nugnwahh2ozpo",
+  "linkedin_url": "linkedin.com/company/bruin-data",
+  "website": "getbruin.com",
+  "program_names": [
+   "Techstars Berlin Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/bruin.img"
+ },
+ "instep": {
+  "company_name": "InStep",
+  "brief_description": "InStep is a B2B data analytics tool, quantifying human behavior in the \"real world\" for product development and customer insights teams.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2023,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Big Data",
+   "Marketing tech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_2dcb58e907eaaa920a7069cfb.png",
+  "linkedin_url": "linkedin.com/company/my-instep",
+  "website": "myinstep.com",
+  "program_names": [
+   "Techstars London Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/instep.png"
+ },
+ "nekod": {
+  "company_name": "NEKOD",
+  "brief_description": "Governance for vibe coded apps in enterprise",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Big Data",
+   "Fintech",
+   "SaaS"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1722237631409_422506.png",
+  "linkedin_url": "linkedin.com/company/nekod",
+  "website": "nekod.co",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/nekod.png"
+ },
+ "artial": {
+  "company_name": "ARTIAL",
+  "brief_description": "ARTIAL is building AI software to help infrastructure construction development and management companies fully automate monitoring and digital inspections using self-flying drones.",
+  "city": "Barcelona",
+  "country": "Spain",
+  "first_session_year": 2023,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Infrastructure",
+   "Robotics and Drones"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1704711888685_213579.png",
+  "linkedin_url": "linkedin.com/company/artialai",
+  "website": "artial.co",
+  "program_names": [
+   "Techstars and Audi Mobility Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/artial.png"
+ },
+ "reeler": {
+  "company_name": "Reeler",
+  "brief_description": "UGC (user-generated content) marketing enterprise SaaS platform",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "first_session_year": 2022,
+  "industry_vertical": [
+   "Marketing tech",
+   "Technology, media and telecommunications"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1662057484650_135950.png",
+  "linkedin_url": "linkedin.com/company/reelertech",
+  "website": "reelertech.com",
+  "program_names": [
+   "Stockholm Techstars Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/reeler.png"
+ },
+ "renderro": {
+  "company_name": "Renderro",
+  "brief_description": "A high-performance cloud desktop for everyday video editing, graphic design, and animation tasks.",
+  "city": "Warsaw",
+  "country": "Poland",
+  "first_session_year": 2022,
+  "industry_vertical": [
+   "Cloudtech and DevOps"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1657536071754_507669.png",
+  "linkedin_url": "linkedin.com/company/renderro",
+  "website": "renderro.com",
+  "program_names": [
+   "Techstars Berlin Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/renderro.png"
+ },
+ "ankra-ab": {
+  "company_name": "Ankra AB",
+  "brief_description": "End-to-end developer platform",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2022,
+  "industry_vertical": [
+   "Cloudtech and DevOps",
+   "Cybersecurity",
+   "Mobile"
+  ],
+  "logo_url": "https://apimg.techstars.com/connect/images/image_files/632da3bcec241b00164cf202/original/Ankra_%282%29_%281%29.png",
+  "linkedin_url": "linkedin.com/company/ankra",
+  "website": "ankra.io",
+  "program_names": [
+   "Stockholm Techstars Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/ankra-ab.png"
+ },
+ "deepflow-ai": {
+  "company_name": "Deepflow AI",
+  "brief_description": "Deepflow is a visual inspection platform that empowers industrial manufacturers to automate quality control processes with machine vision.",
+  "city": "Bordeaux",
+  "country": "France",
+  "first_session_year": 2020,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Infrastructure",
+   "Oil and gas"
+  ],
+  "logo_url": "https://apimg.techstars.com/connect/images/image_files/5fd2631d32730f0009000026/original/Asset_1_4x.png",
+  "linkedin_url": "linkedin.com/company/thinkdeep-ai",
+  "website": "deepflow.ai",
+  "program_names": [
+   "Techstars Montréal AI Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/deepflow-ai.png"
+ },
+ "guardara": {
+  "company_name": "Guardara",
+  "brief_description": "We help companies find critical security issues in complex environments.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2020,
+  "industry_vertical": [
+   "Cybersecurity",
+   "Infrastructure"
+  ],
+  "logo_url": "https://apimg.techstars.com/connect/images/image_files/5f9ee72f44e08208520000c4/original/logo-small.png",
+  "linkedin_url": "linkedin.com/company/guardara",
+  "website": "guardara.com",
+  "program_names": [
+   "Techstars Boston Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/guardara.png"
+ },
+ "kitchn-io": {
+  "company_name": "Kitchn.io",
+  "brief_description": "Enabling world-class digital marketing operations through workflow automation and monitoring. #SAAS #B2B #MarTech #no-code",
+  "city": "Berlin",
+  "country": "Germany",
+  "first_session_year": 2020,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning"
+  ],
+  "logo_url": "https://apimg.techstars.com/connect/images/image_files/5e55334ea36c1156090001c7/original/icon.jpg",
+  "linkedin_url": "linkedin.com/company/kitchn-io",
+  "website": "kitchn.io",
+  "program_names": [
+   "Techstars Berlin Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/kitchn-io.jpg"
+ },
+ "swyft-ai": {
+  "company_name": "Swyft AI",
+  "brief_description": "Swyft AI builds an AI-powered revenue automation platform that generates CRM data and automates revenue motions directly from customer conversations.",
+  "city": "Chicago",
+  "country": "United States",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_7081802e2846d3e7f12c66444.png",
+  "linkedin_url": "linkedin.com/company/swyftai",
+  "website": "swyftai.com",
+  "program_names": [
+   "Techstars Chicago powered by J.P. Morgan"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/swyft-ai.png"
+ },
+ "hirize": {
+  "company_name": "Hirize",
+  "brief_description": "Hirize delivers highly accurate document parsing and workflow automation through AI-powered APIs, enabling SaaS platforms and enterprises to seamlessly extract and integrate data for better decision-making and efficiency.",
+  "city": "Miami",
+  "country": "United States",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "HRtech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_d767f40fbc209b270691aa772.png",
+  "linkedin_url": "linkedin.com/company/hirize",
+  "website": "hirize.ai",
+  "program_names": [
+   "Techstars Chicago powered by J.P. Morgan"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/hirize.png"
+ },
+ "rhenari": {
+  "company_name": "Rhenari",
+  "brief_description": "Operational intelligence for enterprise product teams. Surface, explain, and eliminate roadmap drift continuously with AI.",
+  "city": "Rapid City",
+  "country": "United States",
+  "first_session_year": 2024,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "SaaS"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1776558728420_903542.png",
+  "linkedin_url": "linkedin.com/company/rhenari",
+  "website": "rhenari.com",
+  "program_names": [
+   "Techstars Atlanta powered by Cox Enterprises"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/rhenari.png"
+ },
+ "trissino": {
+  "company_name": "Trissino",
+  "brief_description": "Redefining competitive intelligence with AI to help B2B teams win more deals",
+  "city": "San Francisco",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Marketing tech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_0a772081ccfb72e173c073021.png",
+  "linkedin_url": "linkedin.com/company/trissino-inc",
+  "website": "hiresteve.ai",
+  "program_names": [
+   "Techstars Tokyo Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/trissino.png"
+ },
+ "sonnet": {
+  "company_name": "Sonnet",
+  "brief_description": "Sonnet is a tailored sales outreach copilot that creates hundreds of well-researched and human-sounding sales emails.",
+  "city": "Dublin",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "SaaS"
+  ],
+  "logo_url": "https://images.crunchbase.com/image/upload/t_cb-default-original/n5o9xx6k238s6dyoef5k",
+  "linkedin_url": "linkedin.com/company/sonnetai",
+  "website": "sonnetai.com",
+  "program_names": [
+   "Techstars Columbus Powered by The Ohio State University"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/sonnet.img"
+ },
+ "harvest": {
+  "company_name": "Harvest",
+  "brief_description": "For businesses needing real-time web data, Harvest turns the internet into structured, tabular data using AI chat.",
+  "city": "Monroe",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1742789330325_518194.png",
+  "linkedin_url": "linkedin.com/company/goharvestai",
+  "website": "goharvest.ai",
+  "program_names": [
+   "Techstars San Francisco"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/harvest.png"
+ },
+ "klira-ai": {
+  "company_name": "Klira AI",
+  "brief_description": "Attack your AI agent before others do.",
+  "city": "San Diego",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Cloudtech and DevOps",
+   "Cybersecurity",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_3d56824bfb321c49e6b2bbf72.png",
+  "linkedin_url": "linkedin.com/company/klira-ai",
+  "website": "getklira.com",
+  "program_names": [
+   "Techstars San Diego powered by San Diego State University"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/klira-ai.png"
+ },
+ "luminadata": {
+  "company_name": "LuminaData",
+  "brief_description": "We are developing AI-powered agents and virtual co-workers to automate finance operations. Our technology streamlines critical tasks like reconciliations and data processing, minimizing manual effort, enhancing accuracy, and boosting efficiency for finance teams.",
+  "city": "San Jose",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Fintech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_3b3687010fc8fdcfd6bceb875.png",
+  "linkedin_url": "linkedin.com/company/luminadatainc",
+  "website": "luminadata.ai",
+  "program_names": [
+   "Techstars Anywhere Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/luminadata.png"
+ },
+ "grapple": {
+  "company_name": "Grapple",
+  "brief_description": "Grapple is a do-it-yourself data analytics platform that helps finance and go-to-market teams connect, analyze, and visualize business data without relying on a dedicated data team.",
+  "city": "Omaha",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_ef1af148e090dcafc37b6c8a4.png",
+  "linkedin_url": "linkedin.com/company/askgrapple",
+  "website": "askgrapple.com",
+  "program_names": [
+   "Techstars Founder Catalyst Global Program"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/grapple.png"
+ },
+ "customerbase-ai": {
+  "company_name": "CustomerBase.ai",
+  "brief_description": "CustomerBase.ai uses AI & ML to create custom data models for revenue teams, enabling targeted engagement with prospects likely to close.",
+  "city": "Tulsa",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_ca9ccd260369f41da75704fa7.png",
+  "linkedin_url": "linkedin.com/company/opnbx-ai",
+  "website": "customerbase.ai",
+  "program_names": [
+   "Build in Tulsa Techstars Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/customerbase-ai.png"
+ },
+ "bite-data": {
+  "company_name": "BITE Data",
+  "brief_description": "BITE Data is a trade compliance screening platform that allows users to screen companies and products in their supply chain for risk in real time; classify commodities for accurate duty rates and tariffs; continuously monitor their supply chain and track their compliance audit tasks. We aim to disrupt the trade compliance screening market with self-service SaaS, and AI agents that provide alternative supply chain routes and product procurement.",
+  "city": "Leesburg",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Supply chain technology"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_5c3d97c03bd7e39976c3948b7.jpg",
+  "linkedin_url": "linkedin.com/company/bitedata",
+  "website": "bitedata.io",
+  "program_names": [
+   "Techstars Anywhere Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/bite-data.jpg"
+ },
+ "nuvante-technologies-ltd": {
+  "company_name": "Nuvante Technologies Ltd",
+  "brief_description": "Nuvante is building the institutional clearing layer for stablecoins and tokenised deposits.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Fintech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_26080c2e9d2247840db9ecb42.jpeg",
+  "linkedin_url": null,
+  "website": "nuvante.io",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/nuvante-technologies-ltd.jpeg"
+ },
+ "meridyan": {
+  "company_name": "Meridyan",
+  "brief_description": "Meridyan connects regulated banks to blockchain rails through one ISO 20022 native API, with no changes to their core systems.",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Cryptocurrency/Blockchain",
+   "Fintech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_752e342e7c676e351a65fb5a7.png",
+  "linkedin_url": null,
+  "website": "meridyan.xyz",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/meridyan.png"
+ },
+ "insaio": {
+  "company_name": "Insaio",
+  "brief_description": "Insaio is the customer interaction operating system for insurance and finance -- AI-driven and human-led conversations that fill calendars, sharpen advice, and protect portfolios.",
+  "city": "Hamburg",
+  "country": "Germany",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Fintech",
+   "Insurtech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_4f30517377bb199efefcafea1.png",
+  "linkedin_url": null,
+  "website": "insaio.com",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/insaio.png"
+ },
+ "hedi": {
+  "company_name": "HEDI",
+  "brief_description": "AI agents to prevent insurance fraud ",
+  "city": "Paris",
+  "country": "France",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Fintech",
+   "Insurtech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_b0e98c404a083968ee8951464.png",
+  "linkedin_url": null,
+  "website": "askhedi.com",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/hedi.png"
+ },
+ "umbra-ai": {
+  "company_name": "Umbra Ai",
+  "brief_description": "The compliance operating system for financial services.",
+  "city": "Amsterdam",
+  "country": "Netherlands",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Fintech",
+   "Legal tech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_f581f49cd16ac2bd47ef25fd4.jpeg",
+  "linkedin_url": null,
+  "website": "umbra-ai.com",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/umbra-ai.jpeg"
+ },
+ "fopsai-ltd": {
+  "company_name": "FopsAI Ltd",
+  "brief_description": "AI-native reconciliation and data operations platform for financial services.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Fintech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_d74e5e068f0ac7b46e7fa316d.png",
+  "linkedin_url": null,
+  "website": "fopsai.com",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/fopsai-ltd.png"
+ },
+ "stemma-ai": {
+  "company_name": "Stemma AI",
+  "brief_description": "Stemma AI eliminates claims leakage in complex transport insurance - a $10B+ annual problem. Our proprietary technology reads and reasons across 10,000+ page claims files where standard LLMs fail, delivering verifiable answers",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Insurtech",
+   "Legal tech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_36f776f724628b08b77b0fb11.png",
+  "linkedin_url": "linkedin.com/company/the-stemma-ai",
+  "website": "stemma-ai.com",
+  "program_names": [
+   "Techstars London Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/stemma-ai.png"
+ },
+ "cloudpeek-ai": {
+  "company_name": "CloudPeek AI",
+  "brief_description": "Agentic AI cybersecurity platform that orchestrates and automates security workflows across fragmented tools, data, and organizational context.",
+  "city": "Bristol",
+  "country": "United Kingdom",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Cloudtech and DevOps",
+   "Cybersecurity",
+   "Industrials",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_ad29d27f0878d3d104fcfcb19.png",
+  "linkedin_url": "linkedin.com/company/cloudpeek",
+  "website": "cloudpeek.io",
+  "program_names": [
+   "Techstars New York City Accelerator"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/cloudpeek-ai.png"
+ },
+ "simicx": {
+  "company_name": "SimicX",
+  "brief_description": "The autonomous AI research terminal for all quantitative science.",
+  "city": "Brentford",
+  "country": "United Kingdom",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Cloudtech and DevOps",
+   "Fintech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_0cd76a213558f5acfdc6e7510.png",
+  "linkedin_url": "linkedin.com/company/simicx",
+  "website": "simicx.com",
+  "program_names": [
+   "Techstars London Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/simicx.png"
+ },
+ "kensai": {
+  "company_name": "Kensai",
+  "brief_description": "Kensai is the infrastructure layer for consumer-health brands to launch products internationally in seconds, vetting formulations and  claims against global regulations, and providing real-time monitoring for shifting legal standards.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Foodtech",
+   "Healthtech",
+   "Legal tech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_87325ec5938e8b1fce2ee34fa.png",
+  "linkedin_url": null,
+  "website": "kensai.ai",
+  "program_names": [
+   "Techstars London Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/kensai.png"
+ },
+ "systellar-space": {
+  "company_name": "Systellar Space",
+  "brief_description": "Systellar is enabling Vibe Engineering for complex physical systems. Just like vibe coding lets anyone create software with AI, our platform lets engineers design satellites, aircraft, and other complex machines without needing deep expertise in every dis",
+  "city": "Sant Julia de Vilatorta",
+  "country": "Spain",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Cloudtech and DevOps",
+   "Cybersecurity"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_c09a68536bfd9c90c4ff1d89e.png",
+  "linkedin_url": "linkedin.com/company/systellar-space",
+  "website": "systellar-space.com",
+  "program_names": [
+   "Techstars London Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/systellar-space.png"
+ },
+ "safety-bolt": {
+  "company_name": "Safety Bolt",
+  "brief_description": "Safety Bolt develops monitoring technologies that enable structural bolts to be monitored for cost, time, and risk reduction.",
+  "city": "Stockholm",
+  "country": "Sweden",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Big Data",
+   "Industrials",
+   "Infrastructure",
+   "Internet of Things"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_30ab155fae8d89d43beda2f1e.png",
+  "linkedin_url": "linkedin.com/company/safety-bolt",
+  "website": "safety-bolt.com",
+  "program_names": [
+   "Techstars Anywhere Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/safety-bolt.png"
+ },
+ "gravtech-solutions": {
+  "company_name": "GravTech Solutions",
+  "brief_description": "Providing the world with understand of what risk and opportunities exist for them below the ground.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Agtech",
+   "Climate tech",
+   "Industrials",
+   "Infrastructure",
+   "Oil and gas"
+  ],
+  "logo_url": "https://www.techstars.com/os/api/photo/profile-photos/company-logos/b71367db-904d-4316-9a60-58ea5d357ce5/1789052610966-oudlcl9d6w9.jpg",
+  "linkedin_url": "linkedin.com/company/gravtech-solutions",
+  "website": "gravtech.co.uk",
+  "program_names": [
+   "Techstars Anywhere Accelerator"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/gravtech-solutions.jpg"
+ },
+ "dicetech": {
+  "company_name": "DICEtech",
+  "brief_description": "DICEtech is developing an MRI-based virtual biopsy to remove invasive biopsy from the prostate cancer diagnostic pathway.",
+  "city": "Verona",
+  "country": "Italy",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Digital health",
+   "Healthtech",
+   "Oncology"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_cd0502a5d8808250d3976a912.png",
+  "linkedin_url": "linkedin.com/company/dicetech-srl",
+  "website": "dicetech.ai",
+  "program_names": [
+   "Techstars Healthcare Accelerator powered by Permanente Medicine Mid-Atlantic States"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/dicetech.png"
+ },
+ "arcus-health-limited": {
+  "company_name": "Arcus Health Limited",
+  "brief_description": "Arcus Dental enables remote dental assessments through at-home intraoral imaging.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Digital health",
+   "Healthtech",
+   "Lifestyles of Health and Sustainability and wellness"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_24aecd99d5aff5dcb55a88d92.jpg",
+  "linkedin_url": "linkedin.com/company/arcusdental",
+  "website": "arcusdental.co.uk",
+  "program_names": [
+   "Techstars Healthcare Accelerator powered by Permanente Medicine Mid-Atlantic States"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/arcus-health-limited.jpg"
+ },
+ "voltiumai": {
+  "company_name": "voltiumAi",
+  "brief_description": "VoltiumAi provides an AI-powered SaaS platform that optimizes data-center cooling, UPS usage, and workload scheduling to reduce energy costs and carbon emissions.",
+  "city": "Sarajevo",
+  "country": "Bosnia and Herzegovina",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Big Data",
+   "Cleantech",
+   "Climate tech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_4837f164c2e5f4d0102e70dab.png",
+  "linkedin_url": "linkedin.com/company/voltiumai",
+  "website": "voltium.ai",
+  "program_names": [
+   "Techstars Founder Catalyst Global Program"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/voltiumai.png"
+ },
+ "profit-optimizer": {
+  "company_name": "Profit Optimizer",
+  "brief_description": "Profit Optimizer is a B2B SaaS platform that turns wholesale distributors' ERP data into prioritized actions for customer segmentation, pricing, sales focus, and margin improvement.",
+  "city": "Sarajevo",
+  "country": "Bosnia and Herzegovina",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Big Data",
+   "SaaS",
+   "Supply chain technology"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_f519006022ddda75098560088.png",
+  "linkedin_url": "linkedin.com/company/profit-optimizer",
+  "website": "profit-optimizer.com",
+  "program_names": [
+   "Techstars Founder Catalyst Global Program"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/profit-optimizer.png"
+ },
+ "vocations": {
+  "company_name": "Vocations",
+  "brief_description": "Vocations is a sales intelligence platform for HR companies that leverages an AI agent to scrape job offers directly from company websites.",
+  "city": "Cernusco sul Naviglio",
+  "country": "Italy",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "HRtech"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1739880453967_735275.png",
+  "linkedin_url": "linkedin.com/company/vocations-io",
+  "website": "vocations.io",
+  "program_names": [
+   "Techstars Transformative World Torino"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/vocations.png"
+ },
+ "litlyx": {
+  "company_name": "Litlyx",
+  "brief_description": "Cookie-less, AI-powered website analytics platform. Get started in 30 seconds from signup. ",
+  "city": "Rome",
+  "country": "Italy",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "SaaS"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1748878953415_108294.png",
+  "linkedin_url": "linkedin.com/company/litlyx",
+  "website": "litlyx.com",
+  "program_names": [
+   "Techstars Transformative World Torino"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/litlyx.png"
+ },
+ "granter-ai": {
+  "company_name": "Granter.ai",
+  "brief_description": "World's first AI agent for grants",
+  "city": "Lisbon",
+  "country": "Portugal",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "SaaS"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1740474197998_607293.png",
+  "linkedin_url": "linkedin.com/company/granterai",
+  "website": "granter.ai",
+  "program_names": [
+   "Techstars Transformative World Torino"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/granter-ai.png"
+ },
+ "axem": {
+  "company_name": "axem",
+  "brief_description": "Sovereign AI platform for defense, aerospace and ciritcal infrastructure",
+  "city": "Budapest",
+  "country": "Hungary",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_3f84ef8ccb53bbc30d5f96a05.jpg",
+  "linkedin_url": "linkedin.com/company/axemdev",
+  "website": "axemsolutions.io",
+  "program_names": [
+   "Techstars Transformative World Torino"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/axem.jpg"
+ },
+ "overwatch-ai": {
+  "company_name": "Overwatch AI",
+  "brief_description": "Offline & on-device AI knowledge platform for aviation & energy frontline workers",
+  "city": "Barcelona",
+  "country": "Spain",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Industrials",
+   "Manufacturing",
+   "Mobility tech",
+   "Oil and gas"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_aebcf37097ec86f4383137ae6.png",
+  "linkedin_url": "linkedin.com/company/overwatch-ai",
+  "website": "overwatch-ai.com",
+  "program_names": [
+   "Techstars Tokyo Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/overwatch-ai.png"
+ },
+ "contera-ai": {
+  "company_name": "Contera.ai",
+  "brief_description": "Contera.ai is a SaaS platform that uses a company's internal data, competitor analysis, and market signals to automatically optimize ad campaigns and on-site SEO. By removing manual work and guesswork, Contera helps businesses cut marketing waste, boost profits by up to 20%, and grow without extra team costs.",
+  "city": "Brasov",
+  "country": "Romania",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "E-commerce",
+   "Marketing tech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_33b1e628a0e25c838c9a3b6c3.png",
+  "linkedin_url": "linkedin.com/company/contera-ai",
+  "website": "contera.ai",
+  "program_names": [
+   "Techstars Tokyo Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/contera-ai.png"
+ },
+ "avido-ai": {
+  "company_name": "Avido AI",
+  "brief_description": "Avido provides a purpose-built platform that enables financial institutions to test, monitor, and govern generative AI applications with confidence.",
+  "city": "Klampenborg",
+  "country": "Denmark",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Fintech",
+   "Insurtech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_dc4ebf2d1bcaddfb6d1046a5f.png",
+  "linkedin_url": null,
+  "website": "avidoai.com",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/avido-ai.png"
+ },
+ "auxilius-ai": {
+  "company_name": "Auxilius.ai",
+  "brief_description": "Codified Governance (CoGo) turns manual compliance tasks into tested code, freeing enterprises from repetitive work",
+  "city": "Unterföhring",
+  "country": "Germany",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_45b3d3375b56dc47bb6a85993.png",
+  "linkedin_url": null,
+  "website": "auxilius.ai",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/auxilius-ai.png"
+ },
+ "alethica": {
+  "company_name": "Alethica",
+  "brief_description": "Market intelligence for litigators. We identify litigation opportunities,  mitigate client's litigation risks and streamline investigations. \nWe achieve this via different AI agents. ",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Legal tech"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1741024535505_121282.png",
+  "linkedin_url": "linkedin.com/company/alethica",
+  "website": "alethica.com",
+  "program_names": [
+   "Techstars London Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/alethica.png"
+ },
+ "fintalo": {
+  "company_name": "Fintalo",
+  "brief_description": "Fintalo is the first collaborative infrastructure for all stakeholders in private market transactions.",
+  "city": "Grafrath",
+  "country": "Germany",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Fintech",
+   "Infrastructure",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_ebd84d8bb82a3699363526c3a.png",
+  "linkedin_url": "linkedin.com/company/fintalo",
+  "website": "fintalo.com",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/fintalo.png"
+ },
+ "1-cp": {
+  "company_name": "1-CP",
+  "brief_description": "1-CP is a \"Corporate PayPal\" bringing B2C Convenience into B2B Transactions\u000bwith Embedded Expense, Finance & AI.",
+  "city": "Frankfurt am Main",
+  "country": "Germany",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "E-commerce",
+   "Fintech",
+   "Mobile commerce",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_7b2e9f0beeb0b481da78e8122.png",
+  "linkedin_url": null,
+  "website": "one-cp.com",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/1-cp.png"
+ },
+ "trustbytes": {
+  "company_name": "TRUSTBYTES",
+  "brief_description": "TRUSTBYTES creates the world's first security operations system allowing projects to see, understand and act on their risk posture with confidence.",
+  "city": "Warszawa",
+  "country": "Poland",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Cryptocurrency/Blockchain",
+   "Cybersecurity"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1742312182047_975144.png",
+  "linkedin_url": "linkedin.com/company/trustbytes",
+  "website": "trustbytes.io",
+  "program_names": [
+   "Techstars Web3 Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/trustbytes.png"
+ },
+ "parsimoni": {
+  "company_name": "Parsimoni",
+  "brief_description": "Parsimoni has developed SpaceOS (unikernel architecture; secure by design) that unlocks value by making satellite in-orbit compute resources shareable; with full payload isolation, ultra-compact footprint, and dynamic in-orbit application deployment.",
+  "city": "Pau",
+  "country": "France",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Cybersecurity",
+   "Internet of Things",
+   "SaaS",
+   "Space tech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_3fe9f6fec7bfc128ebc1c094f.png",
+  "linkedin_url": "linkedin.com/company/parsimoni",
+  "website": "parsimoni.co",
+  "program_names": [
+   "Techstars Space Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/parsimoni.png"
+ },
+ "narrative-banking": {
+  "company_name": "Narrative Banking",
+  "brief_description": "Narrative turns banking apps into AI-powered growth coaches for SMEs, lifting loan activation, retention, and revenue for universal banks.",
+  "city": "Blackrock",
+  "country": "Ireland",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Fintech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_0551c5ab5639b3823a56b0fb4.jpg",
+  "linkedin_url": null,
+  "website": "narrativebanking.com",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/narrative-banking.jpg"
+ },
+ "materia-intel": {
+  "company_name": "MATERIA intel",
+  "brief_description": "World's first border carbon adjustment (BCA) market intelligence platform",
+  "city": "Roma",
+  "country": "Italy",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "SaaS"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1738605070838_507156.png",
+  "linkedin_url": "linkedin.com/in/martellafrancesco",
+  "website": "materiaintel.com",
+  "program_names": [
+   "Techstars Transformative World Torino"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/materia-intel.png"
+ },
+ "horalix": {
+  "company_name": "Horalix",
+  "brief_description": "Horalix develops AI-powered diagnostic and clinical workflow tools for hospitals, with a current focus on echocardiography interpretation and decision support.",
+  "city": "Sarajevo",
+  "country": "Bosnia and Herzegovina",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Digital health",
+   "Healthtech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_62538547c0b34ed18fd389cd4.png",
+  "linkedin_url": "linkedin.com/company/horalix",
+  "website": "horalix.com",
+  "program_names": [
+   "Techstars Founder Catalyst Global Program"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/horalix.png"
+ },
+ "mindframe": {
+  "company_name": "Mindframe",
+  "brief_description": "Getting patients to the right mental health care is slow and inconsistent. Mindframe automates intake and determines appropriate care pathways using conversational AI.",
+  "city": "London",
+  "country": "United Kingdom",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Digital health",
+   "Healthtech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_9f2826bb41570235b5d0a6b66.png",
+  "linkedin_url": "linkedin.com/company/mindframecare",
+  "website": "mindframe.care",
+  "program_names": [
+   "Techstars Healthcare Accelerator powered by Permanente Medicine Mid-Atlantic States"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/mindframe.png"
+ },
+ "ovida": {
+  "company_name": "Ovida",
+  "brief_description": "Ovida is an AI-driven communication skills platform that helps people master critical workplace conversations through personalized feedback and skill development. By combining advanced AI analysis with expert-designed learning journeys, we enable organizations to develop their people's communication and leadership capabilities at scale - focusing on the human interactions that will remain essential in the AI era, while delivering results at a fraction of traditional training cost and time.",
+  "city": "Nottingham",
+  "country": "United Kingdom",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "HRtech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_e273c2ffba166e04e73878596.jpeg",
+  "linkedin_url": "linkedin.com/company/ovida-ai",
+  "website": "ovida.org",
+  "program_names": [
+   "Techstars London Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/ovida.jpeg"
+ },
+ "humbrela": {
+  "company_name": "Humbrela",
+  "brief_description": "For brokers who want to consolidate all protections, empower their clients, and unlock new revenue opportunities, Humbrela is the all-in-one platform that centralizes insurance, warranties, and embedded coverages into one smart interface, making it easy for customers to understand their coverage, act independently, and for brokers to upsell at exactly the right moment.",
+  "city": "Vevey",
+  "country": "Switzerland",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Insurtech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_e8facfcad03ec5e514faae682.png",
+  "linkedin_url": "linkedin.com/company/humbrela",
+  "website": "humbrela.com",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/humbrela.png"
+ },
+ "oscar-ai": {
+  "company_name": "Oscar AI",
+  "brief_description": "Oscar AI unifies retail data, automates alerts, and reveals root causes.",
+  "city": "Rockville",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_49066e866b9ffeec32079999c.png",
+  "linkedin_url": "linkedin.com/company/oscaraidata",
+  "website": "oscar.ai",
+  "program_names": [
+   "Techstars Future of Food Powered by Ecolab"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/oscar-ai.png"
+ },
+ "drafted": {
+  "company_name": "Drafted",
+  "brief_description": "AI native recruiting. ",
+  "city": "Miami",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "HRtech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_f27a40233e84d20deaf19d2b4.png",
+  "linkedin_url": "linkedin.com/company/draftedinc",
+  "website": "joindrafted.com",
+  "program_names": [
+   "USC and Techstars Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/drafted.png"
+ },
+ "papr": {
+  "company_name": "Papr",
+  "brief_description": "Papr is a context intelligence infrastructure for AI agent developers that believe their AI agent's memory should get better at scale, not worse. We help you build the brain for your AI-native agents; safe, compliant, and works at scale. 92% Stanford STaRK hit@5 retrieval accuracy, <150ms retrieval.",
+  "city": "Dublin",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_cc9c246917d59976bece90bf0.png",
+  "linkedin_url": "linkedin.com/company/papr.ai",
+  "website": "papr.ai",
+  "program_names": [
+   "Techstars New York City Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/papr.png"
+ },
+ "scalable-ai": {
+  "company_name": "Scalable AI",
+  "brief_description": "Builds an agentic execution system for manufacturers that sits on top of existing ERP and MES systems.",
+  "city": "Farmington Hills",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Manufacturing",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_78949d31ef50b77bb9048cae4.png",
+  "linkedin_url": "linkedin.com/company/scalable-ai",
+  "website": "getscalable.ai",
+  "program_names": [
+   "Techstars Columbus Powered by The Ohio State University"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/scalable-ai.png"
+ },
+ "basecomp-ai": {
+  "company_name": "BaseComp AI",
+  "brief_description": "BaseComp AI continuously validates your infrastructure against business obligations you've committed to.",
+  "city": "Cambridge",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Cybersecurity",
+   "Fintech",
+   "Infrastructure",
+   "Real estate tech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_d63122fc0bd03bbe92bd4fffd.jpg",
+  "linkedin_url": null,
+  "website": "basecomp.ai",
+  "program_names": [
+   "ABN AMRO & Techstars Future of Finance Accelerator"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/basecomp-ai.jpg"
+ },
+ "indora": {
+  "company_name": "Indora",
+  "brief_description": "Compliance infrastructure for regulated data workflows.",
+  "city": "Albuquerque",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Big Data",
+   "Legal tech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_adcf12c158d4e865794db1628.png",
+  "linkedin_url": "linkedin.com/company/indora-labs",
+  "website": "indoralabs.com",
+  "program_names": [
+   "Techstars Anywhere Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/indora.png"
+ },
+ "linesight": {
+  "company_name": "LineSight",
+  "brief_description": "AI agents that optimize production planning for metal service centers, reducing material loss and enabling more efficient, autonomous factory operations.",
+  "city": "Oak Brook",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Industrials",
+   "SaaS",
+   "Supply chain technology"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_21a841f8057cc4017c860e180.png",
+  "linkedin_url": "linkedin.com/company/linesight-ai",
+  "website": "linesight-ai.com",
+  "program_names": [
+   "Techstars Chicago"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/linesight.png"
+ },
+ "volumes": {
+  "company_name": "Volumes",
+  "brief_description": "The Data Layer for Physical AI.",
+  "city": "Westport",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Augmented reality",
+   "Big Data",
+   "Robotics and Drones",
+   "Virtual reality"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_91d2013026efee6403a1da51f.png",
+  "linkedin_url": "linkedin.com/company/volumes-ai",
+  "website": "volumes.cloud",
+  "program_names": [
+   "Techstars Anywhere Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/volumes.png"
+ },
+ "nukleas": {
+  "company_name": "Nukleas",
+  "brief_description": "Operational Infrastructure for Government Contractors",
+  "city": "New York City",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Cybersecurity",
+   "HRtech",
+   "Industrials",
+   "Infrastructure",
+   "SaaS",
+   "Space tech",
+   "Supply chain technology"
+  ],
+  "logo_url": "https://www.techstars.com/os/api/photo/profile-photos/company-logos/e60e4f43-5910-4244-b3a1-c3010b24cce2/1789747172392-hyv5nug0l5q.png",
+  "linkedin_url": "linkedin.com/company/nukleas",
+  "website": "nukleas.com",
+  "program_names": [
+   "Techstars Anywhere Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/nukleas.png"
+ },
+ "shelflife": {
+  "company_name": "Shelflife",
+  "brief_description": "Shelflife automates expiration-date tracking for real-time perishable inventory visibility.",
+  "city": "New York City",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Big Data",
+   "SaaS",
+   "Supply chain technology"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_d5ff610980726be9a380f2b1b.png",
+  "linkedin_url": "linkedin.com/company/shelflifeai",
+  "website": "shelflife.ai",
+  "program_names": [
+   "Techstars Future of Food Powered by Ecolab"
+  ],
+  "is_current_session": true,
+  "is_1b": false,
+  "logo_file": "logos_raw/shelflife.png"
+ },
+ "builtblock": {
+  "company_name": "BuiltBlock",
+  "brief_description": "For companies whose customer insights get buried across disconnected teams and tools, BuiltBlock is a platform that turns every customer interaction into actionable product strategy, driving higher feature adoption, increased revenue, and happier customers.",
+  "city": "Bloomfield",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "SaaS"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1772467014770_601445.png",
+  "linkedin_url": "linkedin.com/company/builtblock",
+  "website": "builtblock.com",
+  "program_names": [
+   "Techstars New York City Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/builtblock.png"
+ },
+ "gild": {
+  "company_name": "Gild",
+  "brief_description": "The workforce operating system for the trades. ",
+  "city": "New York City",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "HRtech",
+   "Manufacturing"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_061845328d0c2cd0757149ffc.png",
+  "linkedin_url": "linkedin.com/company/getgild",
+  "website": "getgild.com",
+  "program_names": [
+   "Techstars Workforce Development Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/gild.png"
+ },
+ "sumly": {
+  "company_name": "Sumly",
+  "brief_description": "Sumly is an AI-powered tax and finance platform that helps solopreneurs and small business owners track income and expenses year-round, uncover every deduction, and file with a Tax Pro, so they keep thousands more of what they earn.",
+  "city": "New York City",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Fintech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_ef49fe1d275cc9db9307cc48c.png",
+  "linkedin_url": "linkedin.com/company/sumly",
+  "website": "getsumly.com",
+  "program_names": [
+   "Techstars Workforce Development Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/sumly.png"
+ },
+ "analog-craft": {
+  "company_name": "Analog Craft",
+  "brief_description": "AI-driven chip design that compresses semiconductor timelines from months to weeks.",
+  "city": "Campbell",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_d23683ea397b2cfbdc0935a4c.png",
+  "linkedin_url": "linkedin.com/company/analog-craft",
+  "website": "analogcraft.ai",
+  "program_names": [
+   "Techstars New York City Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/analog-craft.png"
+ },
+ "verbal": {
+  "company_name": "Verbal",
+  "brief_description": "Verbal is an AI-powered compliance platform delivering 100% visibility into human + AI-driven patient interactions.",
+  "city": "Covina",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Digital health",
+   "Healthtech",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_7e5c92e8993e3ca2e1e539db9.jpg",
+  "linkedin_url": "linkedin.com/company/tryverbal",
+  "website": "tryverbal.com",
+  "program_names": [
+   "Northwestern Medicine & Techstars Healthcare Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/verbal.jpg"
+ },
+ "wattshift": {
+  "company_name": "WattShift",
+  "brief_description": "APIs that deliver unified behind-the-meter electricity price signals, enabling energy devices OEMs to understand and reduce costs across complex utility tariffs.",
+  "city": "Chicago",
+  "country": "United States",
+  "first_session_year": 2026,
+  "industry_vertical": [
+   "Big Data",
+   "Cleantech",
+   "Climate tech",
+   "Internet of Things"
+  ],
+  "logo_url": "https://images.crunchbase.com/image/upload/t_cb-default-original/gkgkptavubfextjueqvn",
+  "linkedin_url": "linkedin.com/company/wattshift",
+  "website": "wattshift.com",
+  "program_names": [
+   "Techstars Chicago"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/wattshift.img"
+ },
+ "legaleaze-technologies": {
+  "company_name": "Legaleaze Technologies",
+  "brief_description": "For law firms struggling with billing inefficiencies, Legaleaze offers an AI-powered platform that tracks legal work and auto-generates detailed, compliant invoices.",
+  "city": "San Francisco",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Legal tech"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_f96045e85134298e3089b23d3.png",
+  "linkedin_url": "linkedin.com/company/legaleaze-ai",
+  "website": "legaleaze.co",
+  "program_names": [
+   "Techstars San Francisco"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/legaleaze-technologies.png"
+ },
+ "oneinbox-ai": {
+  "company_name": "OneInbox.ai",
+  "brief_description": "Voice AI Agent for Sales and Customer Support",
+  "city": "Beaverton",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "SaaS",
+   "Technology, media and telecommunications"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_e104aaba2fe0beb92a82afc7e.png",
+  "linkedin_url": "linkedin.com/company/oneinboxai",
+  "website": "oneinbox.ai",
+  "program_names": [
+   "Techstars Tokyo Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/oneinbox-ai.png"
+ },
+ "nee-ai": {
+  "company_name": "Nee AI",
+  "brief_description": "Nee AI optimizes large language models (LLMs) with real-time evaluation and correction, reducing hallucinations, bias, and evaluation time by up to 80%.",
+  "city": "Hanover",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_146d9eae3e33cc8384ffe3445.png",
+  "linkedin_url": null,
+  "website": "nee-ai.com",
+  "program_names": [
+   "Techstars New York City Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/nee-ai.png"
+ },
+ "tablender": {
+  "company_name": "Tablender",
+  "brief_description": "Tablender simplifies database management for non-technical users with an AI-assisted, spreadsheet-like UI that merges multiple data sources into a unified system.",
+  "city": "New York City",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1741706350418_380915.png",
+  "linkedin_url": "linkedin.com/company/tablender",
+  "website": "tablender.com",
+  "program_names": [
+   "Techstars New York City Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/tablender.png"
+ },
+ "salesplay-x": {
+  "company_name": "SalesPlay X",
+  "brief_description": "AI account planning for B2B sales",
+  "city": "Honolulu",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Marketing tech"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1740469006867_632894.png",
+  "linkedin_url": "linkedin.com/company/salesplay-x",
+  "website": "salesplayx.com",
+  "program_names": [
+   "Techstars San Francisco"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/salesplay-x.png"
+ },
+ "kindred-voice": {
+  "company_name": "Kindred Voice",
+  "brief_description": "For residential property management companies who are stuck with bloated labor costs or unscalable operations, we're building an AI property manager that handles all leasing and maintenance operations without any human intervention. ",
+  "city": "New York City",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Real estate tech"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1742177966971_505412.png",
+  "linkedin_url": "linkedin.com/company/102597889",
+  "website": "kindredvoice.ai",
+  "program_names": [
+   "Techstars Anywhere Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/kindred-voice.png"
+ },
+ "crosscheck": {
+  "company_name": "Crosscheck",
+  "brief_description": "Streamlines agriculture and bioenergy supply chain compliance by automating audits and certification workflows through a dual-sided AI platform for auditors and producers",
+  "city": "New York City",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_d63f808052fb68e343d04367f.jpeg",
+  "linkedin_url": "linkedin.com/company/crosscheck-ai",
+  "website": "crossxcheck.com",
+  "program_names": [
+   "Techstars New York City Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/crosscheck.jpeg"
+ },
+ "cytodyme": {
+  "company_name": "Cytodyme",
+  "brief_description": "We automate document generation and management workflows for life sciences companies.",
+  "city": "San Diego",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Healthtech",
+   "SaaS"
+  ],
+  "logo_url": "https://apimg.techstars.com/profiles/1756799237628_677324.png",
+  "linkedin_url": "linkedin.com/company/cytodyme",
+  "website": "cytodyme.com",
+  "program_names": [
+   "Techstars San Diego powered by San Diego State University"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/cytodyme.png"
+ },
+ "evrim": {
+  "company_name": "Evrim",
+  "brief_description": "Provides automated, multi-modal web data collection infrastructure for government and commercial intelligence analysts.",
+  "city": "Norfolk",
+  "country": "United States",
+  "first_session_year": 2025,
+  "industry_vertical": [
+   "Artificial intelligence and machine learning",
+   "Big Data",
+   "SaaS"
+  ],
+  "logo_url": "http://apimg.techstars.com/sf/accounts/logo/Logo_6acd21c5f147e0eb4dc81ce92.jpeg",
+  "linkedin_url": "linkedin.com/company/evrimai",
+  "website": "evrim.ai",
+  "program_names": [
+   "Techstars New York City Accelerator"
+  ],
+  "is_current_session": false,
+  "is_1b": false,
+  "logo_file": "logos_raw/evrim.jpeg"
+ }
+}

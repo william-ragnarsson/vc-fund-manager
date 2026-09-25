@@ -1,0 +1,213 @@
+[
+  {
+    "id": "siftyml",
+    "name": "SiftyML",
+    "one": "Trade data extraction AI",
+    "about": "Uses AI to extract and structure international trade documents and data for import/export workflows.",
+    "sector": "Trade AI",
+    "city": "London",
+    "country": "United Kingdom",
+    "website": "siftyml.com",
+    "linkedin": "linkedin.com/company/70975358",
+    "stage": "Seed",
+    "inv": "Pre-seed · 2024",
+    "status": "Active",
+    "signal": "Opened a Rotterdam office",
+    "src": "LinkedIn",
+    "when": "Sep 03",
+    "signals": [
+      {
+        "date": "Sep 03",
+        "src": "LinkedIn",
+        "text": "Opened a Rotterdam office",
+        "note": "European expansion announced"
+      },
+      {
+        "date": "Aug 14",
+        "src": "Product",
+        "text": "Shipped trade compliance module",
+        "note": "New capability in platform"
+      },
+      {
+        "date": "Jul 22",
+        "src": "Press",
+        "text": "Featured in freight trade publication",
+        "note": "Supply chain reporter coverage"
+      }
+    ]
+  },
+  {
+    "id": "complok",
+    "name": "Complok",
+    "one": "Compliance automation for fintech",
+    "about": "AI-powered platform that helps fintech compliance teams accelerate regulatory reviews and reduce manual work.",
+    "sector": "Fintech compliance",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "website": "complok.eu",
+    "linkedin": "linkedin.com/company/complok",
+    "stage": "Pre-seed",
+    "inv": "Pre-seed · 2025",
+    "status": "Active",
+    "signal": "Completed SOC 2 Type II",
+    "src": "Website",
+    "when": "Aug 30",
+    "signals": [
+      {
+        "date": "Aug 30",
+        "src": "Website",
+        "text": "Completed SOC 2 Type II",
+        "note": "Trust page updated"
+      },
+      {
+        "date": "Aug 06",
+        "src": "LinkedIn",
+        "text": "Signed first bank customer",
+        "note": "Enterprise compliance deal"
+      },
+      {
+        "date": "Jun 18",
+        "src": "Product",
+        "text": "Launched regulatory rules engine",
+        "note": "Changelog published"
+      }
+    ]
+  },
+  {
+    "id": "rhenari",
+    "name": "Rhenari",
+    "one": "Roadmap drift detection for teams",
+    "about": "Helps enterprise product teams surface, explain, and eliminate roadmap drift continuously using AI-powered insights.",
+    "sector": "Product analytics",
+    "city": "Rapid City",
+    "country": "United States",
+    "website": "rhenari.com",
+    "linkedin": "linkedin.com/company/rhenari",
+    "stage": "Pre-seed",
+    "inv": "Pre-seed · 2025",
+    "status": "Active",
+    "signal": "#2 Product of the Day on Product Hunt",
+    "src": "Product",
+    "when": "Aug 26",
+    "signals": [
+      {
+        "date": "Aug 26",
+        "src": "Product",
+        "text": "#2 Product of the Day on Product Hunt",
+        "note": "1,268 upvotes"
+      },
+      {
+        "date": "Aug 02",
+        "src": "LinkedIn",
+        "text": "Hired founding engineer",
+        "note": "Team expanded to 5"
+      },
+      {
+        "date": "Jul 15",
+        "src": "Website",
+        "text": "Added Jira and Slack integrations",
+        "note": "Integrations page live"
+      }
+    ]
+  },
+  {
+    "id": "harvest",
+    "name": "Harvest",
+    "one": "Web data extraction AI",
+    "about": "Converts web pages into structured, tabular data via an AI chat interface for business research and analysis.",
+    "sector": "Web data",
+    "city": "Monroe",
+    "country": "United States",
+    "website": "goharvest.ai",
+    "linkedin": "linkedin.com/company/goharvestai",
+    "stage": "Seed",
+    "inv": "Pre-seed · 2025",
+    "status": "Active",
+    "signal": "Hiring 4 engineers",
+    "src": "LinkedIn",
+    "when": "Aug 21",
+    "signals": [
+      {
+        "date": "Aug 21",
+        "src": "LinkedIn",
+        "text": "Posted 4 engineering roles",
+        "note": "Expanding technical team"
+      },
+      {
+        "date": "Aug 05",
+        "src": "Product",
+        "text": "Launched public API",
+        "note": "Documentation published"
+      },
+      {
+        "date": "Jul 09",
+        "src": "Website",
+        "text": "Added customer logos section",
+        "note": "14 logos displayed"
+      }
+    ]
+  },
+  {
+    "id": "hylosense",
+    "name": "hylosense",
+    "one": "Weather AI for renewable energy",
+    "about": "Uses per-asset AI weather modeling to reduce energy imbalance costs for utilities and power generators worldwide.",
+    "sector": "Energy AI",
+    "city": "Skopje",
+    "country": "North Macedonia",
+    "website": "hylosense.com",
+    "linkedin": "linkedin.com/company/hylosense",
+    "stage": "Pre-seed",
+    "inv": "Pre-seed · 2024",
+    "status": "Quiet",
+    "signal": "No public activity since July 18",
+    "src": "Monitor",
+    "when": "9 weeks",
+    "signals": [
+      {
+        "date": "Sep 20",
+        "src": "Monitor",
+        "text": "No website, blog or changelog changes",
+        "note": "Flagged as quiet. 9 weeks."
+      },
+      {
+        "date": "Jul 18",
+        "src": "Product",
+        "text": "Released Q3 product update",
+        "note": "Changelog published"
+      },
+      {
+        "date": "Jun 02",
+        "src": "LinkedIn",
+        "text": "Two engineers joined",
+        "note": "Team expansion announced"
+      }
+    ]
+  },
+  {
+    "id": "avido",
+    "name": "Avido",
+    "one": "AI governance for financial services",
+    "about": "Platform for financial institutions to test, monitor, and govern generative AI applications with confidence and compliance.",
+    "sector": "AI governance",
+    "city": "Klampenborg",
+    "country": "Denmark",
+    "website": "avidoai.com",
+    "linkedin": null,
+    "stage": "Pre-seed",
+    "inv": "Pre-seed · Sep 2026",
+    "status": "New",
+    "signal": "Investment closed",
+    "src": "Fund",
+    "when": "Yesterday",
+    "signals": [
+      {
+        "date": "Yesterday",
+        "src": "Fund",
+        "text": "Investment closed: $500k at pre-seed",
+        "note": "Announcement drafted in Public Presence"
+      }
+    ],
+    "whyWeInvested": "The team brings deep fintech expertise and regulatory knowledge essential for AI governance."
+  }
+]

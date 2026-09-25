@@ -1,0 +1,278 @@
+[
+ {
+  "id": "fintalo",
+  "techstars": {
+   "techstars_name": "Fintalo",
+   "techstars_description": "Fintalo is the first collaborative infrastructure for all stakeholders in private market transactions.",
+   "city": "Grafrath",
+   "country": "Germany",
+   "techstars_year": 2025,
+   "website": "fintalo.com",
+   "linkedin": "linkedin.com/company/fintalo",
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "Fintech",
+    "Infrastructure",
+    "SaaS"
+   ]
+  },
+  "stage": "inbound",
+  "score": 67,
+  "b_team_market_traction_fit": [
+   70,
+   62,
+   55,
+   78
+  ],
+  "round": "Pre-seed · $1.2M",
+  "traction": "Pilots with 3 deal teams",
+  "src": "Applied via website · 2h ago"
+ },
+ {
+  "id": "litlyx",
+  "techstars": {
+   "techstars_name": "Litlyx",
+   "techstars_description": "Cookie-less, AI-powered website analytics platform. Get started in 30 seconds from signup. ",
+   "city": "Rome",
+   "country": "Italy",
+   "techstars_year": 2025,
+   "website": "litlyx.com",
+   "linkedin": "linkedin.com/company/litlyx",
+   "verticals": [
+    "SaaS"
+   ]
+  },
+  "stage": "inbound",
+  "score": 66,
+  "b_team_market_traction_fit": [
+   68,
+   58,
+   66,
+   72
+  ],
+  "round": "Seed · $3M",
+  "traction": "$90k ARR",
+  "src": "Intro from a portfolio founder · 1d ago"
+ },
+ {
+  "id": "wattshift",
+  "techstars": {
+   "techstars_name": "WattShift",
+   "techstars_description": "APIs that deliver unified behind-the-meter electricity price signals, enabling energy devices OEMs to understand and reduce costs across complex utility tariffs.",
+   "city": "Chicago",
+   "country": "United States",
+   "techstars_year": 2026,
+   "website": "wattshift.com",
+   "linkedin": "linkedin.com/company/wattshift",
+   "verticals": [
+    "Big Data",
+    "Cleantech",
+    "Climate tech",
+    "Internet of Things"
+   ]
+  },
+  "stage": "inbound",
+  "score": 63,
+  "b_team_market_traction_fit": [
+   72,
+   68,
+   40,
+   60
+  ],
+  "round": "Pre-seed · $1.5M",
+  "traction": "LOI with one utility",
+  "src": "Applied via website · 5h ago"
+ },
+ {
+  "id": "1cp",
+  "techstars": {
+   "techstars_name": "1-CP",
+   "techstars_description": "1-CP is a \"Corporate PayPal\" bringing B2C Convenience into B2B Transactions\u000bwith Embedded Expense, Finance & AI.",
+   "city": "Frankfurt am Main",
+   "country": "Germany",
+   "techstars_year": 2025,
+   "website": "one-cp.com",
+   "linkedin": null,
+   "verticals": [
+    "E-commerce",
+    "Fintech",
+    "Mobile commerce",
+    "SaaS"
+   ]
+  },
+  "stage": "inbound",
+  "score": 61,
+  "b_team_market_traction_fit": [
+   64,
+   60,
+   58,
+   62
+  ],
+  "round": "Pre-seed · $1.5M",
+  "traction": "2 paying mid-market customers",
+  "src": "Applied via website · 3h ago"
+ },
+ {
+  "id": "legaleaze",
+  "techstars": {
+   "techstars_name": "Legaleaze Technologies",
+   "techstars_description": "For law firms struggling with billing inefficiencies, Legaleaze offers an AI-powered platform that tracks legal work and auto-generates detailed, compliant invoices.",
+   "city": "San Francisco",
+   "country": "United States",
+   "techstars_year": 2025,
+   "website": "legaleaze.co",
+   "linkedin": "linkedin.com/company/legaleaze-ai",
+   "verticals": [
+    "Legal tech"
+   ]
+  },
+  "stage": "inbound",
+  "score": 58,
+  "b_team_market_traction_fit": [
+   62,
+   52,
+   55,
+   60
+  ],
+  "round": "Pre-seed · $1.5M",
+  "traction": "$20k ARR",
+  "src": "Applied via website · 4h ago"
+ },
+ {
+  "id": "humbrela",
+  "techstars": {
+   "techstars_name": "Humbrela",
+   "techstars_description": "For brokers who want to consolidate all protections, empower their clients, and unlock new revenue opportunities, Humbrela is the all-in-one platform that centralizes insurance, warranties, and embedded coverages into one smart interface, making it easy for customers to understand their coverage, act independently, and for brokers to upsell at exactly the right moment.",
+   "city": "Vevey",
+   "country": "Switzerland",
+   "techstars_year": 2025,
+   "website": "humbrela.com",
+   "linkedin": "linkedin.com/company/humbrela",
+   "verticals": [
+    "Insurtech"
+   ]
+  },
+  "stage": "inbound",
+  "score": 56,
+  "b_team_market_traction_fit": [
+   60,
+   54,
+   48,
+   58
+  ],
+  "round": "Pre-seed · $1M",
+  "traction": "12 brokers on a waitlist",
+  "src": "Applied via website · 6h ago"
+ },
+ {
+  "id": "gild",
+  "techstars": {
+   "techstars_name": "Gild",
+   "techstars_description": "The workforce operating system for the trades. ",
+   "city": "New York City",
+   "country": "United States",
+   "techstars_year": 2026,
+   "website": "getgild.com",
+   "linkedin": "linkedin.com/company/getgild",
+   "verticals": [
+    "HRtech",
+    "Manufacturing"
+   ]
+  },
+  "stage": "inbound",
+  "score": 55,
+  "b_team_market_traction_fit": [
+   64,
+   58,
+   40,
+   50
+  ],
+  "round": "Pre-seed · $2M",
+  "traction": "Pilot with one contractor",
+  "src": "Applied via website · 8h ago"
+ },
+ {
+  "id": "crosscheck",
+  "techstars": {
+   "techstars_name": "Crosscheck",
+   "techstars_description": "Streamlines agriculture and bioenergy supply chain compliance by automating audits and certification workflows through a dual-sided AI platform for auditors and producers",
+   "city": "New York City",
+   "country": "United States",
+   "techstars_year": 2025,
+   "website": "crossxcheck.com",
+   "linkedin": "linkedin.com/company/crosscheck-ai",
+   "verticals": [
+    "Artificial intelligence and machine learning"
+   ]
+  },
+  "stage": "inbound",
+  "score": 52,
+  "b_team_market_traction_fit": [
+   55,
+   50,
+   42,
+   58
+  ],
+  "round": "Pre-seed · $800k",
+  "traction": "Waitlist of 400",
+  "src": "Applied via website · 30 min ago"
+ },
+ {
+  "id": "safetybolt",
+  "techstars": {
+   "techstars_name": "Safety Bolt",
+   "techstars_description": "Safety Bolt develops monitoring technologies that enable structural bolts to be monitored for cost, time, and risk reduction.",
+   "city": "Stockholm",
+   "country": "Sweden",
+   "techstars_year": 2026,
+   "website": "safety-bolt.com",
+   "linkedin": "linkedin.com/company/safety-bolt",
+   "verticals": [
+    "Big Data",
+    "Industrials",
+    "Infrastructure",
+    "Internet of Things"
+   ]
+  },
+  "stage": "inbound",
+  "score": 47,
+  "b_team_market_traction_fit": [
+   58,
+   40,
+   30,
+   44
+  ],
+  "round": "Pre-seed · $1M",
+  "traction": "Pre-launch",
+  "src": "Applied via website · 1h ago"
+ },
+ {
+  "id": "arcus",
+  "techstars": {
+   "techstars_name": "Arcus Health Limited",
+   "techstars_description": "Arcus Dental enables remote dental assessments through at-home intraoral imaging.",
+   "city": "London",
+   "country": "United Kingdom",
+   "techstars_year": 2026,
+   "website": "arcusdental.co.uk",
+   "linkedin": "linkedin.com/company/arcusdental",
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "Digital health",
+    "Healthtech",
+    "Lifestyles of Health and Sustainability and wellness"
+   ]
+  },
+  "stage": "inbound",
+  "score": 44,
+  "b_team_market_traction_fit": [
+   56,
+   48,
+   30,
+   36
+  ],
+  "round": "Pre-seed · $1.5M",
+  "traction": "Clinical pilot, 60 patients",
+  "src": "Applied via website · 9h ago"
+ }
+]

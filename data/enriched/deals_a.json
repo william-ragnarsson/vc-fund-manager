@@ -1,0 +1,246 @@
+[
+  {
+    "id": "papr",
+    "name": "Papr",
+    "one": "Context intelligence infrastructure for AI agents",
+    "about": "Papr provides memory infrastructure for AI agents, delivering high-accuracy retrieval and performance at scale. Built for developers who need their agent memory to improve as workloads grow.",
+    "sector": "AI infrastructure",
+    "stage": "meeting",
+    "score": 90,
+    "b": [95, 90, 78, 92],
+    "round": "Seed · $4M",
+    "traction": "5 design partners, 2 paying",
+    "src": "Intro from Complok founders · 2w ago",
+    "meeting": {
+      "day": "Tue",
+      "date": "29",
+      "time": "Tue 29 Sep · 14:00 · Video call"
+    },
+    "team": "2 founders, ex-AI infrastructure and ML",
+    "loc": "Dublin",
+    "why": [
+      "Strong AI infrastructure pedigree",
+      "Design partners converting to paid",
+      "Core thesis fit for AI infra"
+    ],
+    "risks": [
+      "Incumbents adding memory layers to LLMs",
+      "Early customer concentration risk"
+    ],
+    "website": "papr.ai",
+    "linkedin": "linkedin.com/company/papr.ai"
+  },
+  {
+    "id": "stemma",
+    "name": "Stemma AI",
+    "one": "AI claims processing for transport insurance",
+    "about": "Stemma AI automates claims processing for transport insurance by analyzing complex multi-thousand-page documents with specialized AI reasoning. Addresses a $10B+ annual leakage problem.",
+    "sector": "Insurtech",
+    "stage": "meeting",
+    "score": 87,
+    "b": [88, 84, 80, 90],
+    "round": "Seed · $3M",
+    "traction": "$120k ARR",
+    "src": "Applied via website · 2w ago",
+    "meeting": {
+      "day": "Thu",
+      "date": "1",
+      "time": "Thu 1 Oct · 10:30 · Founders visiting"
+    },
+    "team": "2 founders, ex-insurance and machine learning",
+    "loc": "London",
+    "why": [
+      "Revenue validates buyer urgency",
+      "Deep insurance domain expertise",
+      "Solving specific compliance leakage"
+    ],
+    "risks": [
+      "Incumbents building AI claims internally",
+      "Regulatory changes in insurance tech"
+    ],
+    "website": "stemma-ai.com",
+    "linkedin": "linkedin.com/company/the-stemma-ai"
+  },
+  {
+    "id": "fopsai",
+    "name": "FopsAI",
+    "one": "AI-native reconciliation for financial services",
+    "about": "FopsAI provides AI-native reconciliation and data operations platform for financial services, automating complex manual processes. Deployed in production with paying customers.",
+    "sector": "Fintech ops",
+    "stage": "screened",
+    "score": 92,
+    "b": [94, 88, 90, 95],
+    "round": "Seed · $2.5M",
+    "traction": "$310k ARR, 14 customers",
+    "src": "Applied via website · 1w ago",
+    "team": "2 founders, ex-fintech operations and ML",
+    "loc": "London",
+    "why": [
+      "Strong revenue and customer base",
+      "Deep fintech ops expertise",
+      "Exact fit for fund thesis"
+    ],
+    "risks": [
+      "Financial services compliance complexity",
+      "Legacy system integration barriers"
+    ],
+    "website": "fopsai.com",
+    "linkedin": null
+  },
+  {
+    "id": "insaio",
+    "name": "Insaio",
+    "one": "AI-driven customer interactions for finance",
+    "about": "Insaio provides an AI-driven customer interaction operating system for insurance and finance, combining AI agents with human oversight for better conversations and advice.",
+    "sector": "Insurtech",
+    "stage": "screened",
+    "score": 88,
+    "b": [90, 84, 86, 90],
+    "round": "Seed · $3M",
+    "traction": "$180k ARR, 22 teams",
+    "src": "Intro from Greyline Capital · 1w ago",
+    "team": "2 founders, ex-insurance and AI",
+    "loc": "Hamburg",
+    "why": [
+      "Revenue and scale with 22 teams",
+      "InsurTech and FinTech double win",
+      "Strong domain founder background"
+    ],
+    "risks": [
+      "Regulatory scrutiny on AI conversations",
+      "Top customer concentration risk"
+    ],
+    "website": "insaio.com",
+    "linkedin": null
+  },
+  {
+    "id": "linesight",
+    "name": "LineSight",
+    "one": "AI production planning for metal operations",
+    "about": "LineSight deploys AI agents to optimize production planning for metal service centers, reducing material loss and enabling more efficient, autonomous factory operations.",
+    "sector": "Industrial AI",
+    "stage": "screened",
+    "score": 86,
+    "b": [88, 86, 78, 88],
+    "round": "Pre-seed · $1.8M",
+    "traction": "3 paying service centers",
+    "src": "Applied via website · 9d ago",
+    "team": "2 founders, ex-manufacturing and AI",
+    "loc": "Oak Brook",
+    "why": [
+      "3 paying customers in target market",
+      "Clear ROI on material savings",
+      "Solving high-margin manufacturing pain"
+    ],
+    "risks": [
+      "Long capital equipment sales cycles",
+      "Manufacturing system integration complexity"
+    ],
+    "website": "linesight-ai.com",
+    "linkedin": "linkedin.com/company/linesight-ai"
+  },
+  {
+    "id": "auxilius",
+    "name": "Auxilius",
+    "one": "Compliance automation through codified governance",
+    "about": "Auxilius turns manual compliance tasks into tested code, enabling enterprises to automate repetitive compliance work and reduce human error at scale.",
+    "sector": "Enterprise compliance",
+    "stage": "screened",
+    "score": 81,
+    "b": [84, 80, 76, 86],
+    "round": "Seed · $2M",
+    "traction": "$140k ARR, 9 customers",
+    "src": "Applied via website · 3d ago",
+    "team": "2 founders, ex-compliance and engineering",
+    "loc": "Unterföhring",
+    "why": [
+      "Revenue from compliance buyers",
+      "Deep enterprise compliance expertise",
+      "Clean product positioning"
+    ],
+    "risks": [
+      "Incumbents adding compliance automation",
+      "Smaller TAM than broader SaaS"
+    ],
+    "website": "auxilius.ai",
+    "linkedin": null
+  },
+  {
+    "id": "indora",
+    "name": "Indora",
+    "one": "Compliance infrastructure for regulated data",
+    "about": "Indora builds compliance infrastructure for regulated data workflows, helping enterprises manage complex regulatory requirements across analytics, data operations and privacy.",
+    "sector": "Data compliance",
+    "stage": "screened",
+    "score": 79,
+    "b": [82, 85, 74, 78],
+    "round": "Seed · $3.5M",
+    "traction": "$210k ARR",
+    "src": "Applied via website · 4d ago",
+    "team": "2 founders, ex-legal tech and data",
+    "loc": "Albuquerque",
+    "why": [
+      "Revenue demonstrates market need",
+      "Strong data and compliance expertise",
+      "Enterprise compliance demand growing"
+    ],
+    "risks": [
+      "Regulatory landscape constantly shifting",
+      "Enterprise sales cycles extending"
+    ],
+    "website": "indoralabs.com",
+    "linkedin": "linkedin.com/company/indora-labs"
+  },
+  {
+    "id": "alethica",
+    "name": "Alethica",
+    "one": "Market intelligence and litigation support",
+    "about": "Alethica delivers market intelligence and litigation support for lawyers, using AI agents to identify opportunities, mitigate risks and streamline case investigations.",
+    "sector": "Legal AI",
+    "stage": "screened",
+    "score": 77,
+    "b": [70, 74, 80, 82],
+    "round": "Pre-seed · $1M",
+    "traction": "35 litigation teams on free trial",
+    "src": "Applied via website · 5d ago",
+    "team": "2 founders, ex-litigation",
+    "loc": "London",
+    "why": [
+      "35 teams on trial show demand",
+      "High-intent legal buyer segment",
+      "Traction validates use case"
+    ],
+    "risks": [
+      "Free-to-paid conversion unproven",
+      "Crowded legal AI market"
+    ],
+    "website": "alethica.com",
+    "linkedin": "linkedin.com/company/alethica"
+  },
+  {
+    "id": "vocations",
+    "name": "Vocations",
+    "one": "Job market intelligence for HR platforms",
+    "about": "Vocations provides sales intelligence for HR companies by using AI agents to extract live job openings directly from company websites.",
+    "sector": "HRtech",
+    "stage": "screened",
+    "score": 74,
+    "b": [80, 70, 62, 78],
+    "round": "Seed · $2.5M",
+    "traction": "4 design partners",
+    "src": "Applied via website · 6d ago",
+    "team": "2 founders, ex-HR and sales ops",
+    "loc": "Cernusco sul Naviglio",
+    "why": [
+      "4 design partners show product fit",
+      "Solving painful data collection task",
+      "Niche HR intelligence segment"
+    ],
+    "risks": [
+      "Data extraction liability concerns",
+      "Limited addressable market"
+    ],
+    "website": "vocations.io",
+    "linkedin": "linkedin.com/company/vocations-io"
+  }
+]

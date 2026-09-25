@@ -1,0 +1,145 @@
+[
+ {
+  "id": "sourcery",
+  "techstars": {
+   "techstars_name": "Sourcery.AI",
+   "techstars_description": "Powering developers to write beautiful, clear code all the time through real time refactoring. Improving code for 1k+ developers/week & teams at top companies.",
+   "city": "London",
+   "country": "United Kingdom",
+   "techstars_year": 2021,
+   "website": "sourcery.ai",
+   "linkedin": "linkedin.com/company/sourcery-ai",
+   "verticals": [
+    "Artificial intelligence and machine learning"
+   ]
+  },
+  "name_hint": "Sourcery",
+  "stage": "Series A",
+  "inv": "Seed · 2023",
+  "status": "Growing",
+  "signal": "Raised $12M Series A led by Greyline Capital",
+  "src": "Press",
+  "when": "2h ago",
+  "story": "The fund's breakout company. Today it announced a $12M Series A led by Greyline Capital (fictional investor). Give 4 signals: Today/Press = the raise; Sep 12/LinkedIn = a senior hire; Aug 30/Website = customer count grew (give a concrete before/after number); Aug 04/Event = a team member spoke on a panel at a developer conference.",
+  "extra": "Also return 'milestone': one short phrase with its customer or usage scale today (e.g. 'reviews code for 3,000+ teams'), and 'earlyDays': one short phrase describing what the product was when the fund first invested (e.g. 'a refactoring plugin for Python')"
+ },
+ {
+  "id": "ekei",
+  "techstars": {
+   "techstars_name": "Ekei",
+   "techstars_description": "Ekei is revolutionizing logistics with the Supply Cloud: a global, provider-agnostic platform unifying freight forwarding and fulfillment. By leveraging automation, AI-driven optimization, and decentralized data sharing, we slash costs, reduce emissions, and enable seamless collaboration across the entire supply chain.",
+   "city": "London",
+   "country": "United Kingdom",
+   "techstars_year": 2024,
+   "website": "ekei.net",
+   "linkedin": "linkedin.com/company/ekeigroup",
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "Supply chain technology"
+   ]
+  },
+  "name_hint": "Ekei",
+  "stage": "Seed",
+  "inv": "Pre-seed · 2024",
+  "status": "Active",
+  "signal": "Speaking at Web Summit, Lisbon",
+  "src": "Event",
+  "when": "Yesterday",
+  "story": "A co-founder was just confirmed as a speaker at Web Summit in Lisbon on Nov 11 (give the stage/track name in the note). Give 2 signals: Yesterday/Event = the talk; Sep 02/Product = a product launch."
+ },
+ {
+  "id": "buildstash",
+  "techstars": {
+   "techstars_name": "Buildstash",
+   "techstars_description": "The build-to-release manager app and game developers have been dreaming of. Automated build archival, simple sharing with your team, and seamless deployment.",
+   "city": "Glasgow",
+   "country": "United Kingdom",
+   "techstars_year": 2024,
+   "website": "buildstash.com",
+   "linkedin": "linkedin.com/company/buildstash",
+   "verticals": [
+    "Cloudtech and DevOps"
+   ]
+  },
+  "name_hint": "Buildstash",
+  "stage": "Seed",
+  "inv": "Pre-seed · 2024",
+  "status": "Active",
+  "signal": "Hired a VP Sales",
+  "src": "LinkedIn",
+  "when": "2d ago",
+  "story": "Give 3 signals: 2d ago/LinkedIn = hired a VP Sales (say what kind of company they came from, no names); Aug 19/Product = a feature launch; Jul 10/Website = pricing or plan change."
+ },
+ {
+  "id": "i-flow",
+  "techstars": {
+   "techstars_name": "i-flow",
+   "techstars_description": "i-flow transforms heterogenous data from a broad range of manufacturing floor machinery to an universally usable dataset, enabling Artificial Intelligence / Machine Learning efficiencies for the factory floor.",
+   "city": "Munich",
+   "country": "Germany",
+   "techstars_year": 2021,
+   "website": "i-flow.io",
+   "linkedin": "linkedin.com/company/i-flow-gmbh",
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "Internet of Things",
+    "Manufacturing"
+   ]
+  },
+  "name_hint": "i-flow",
+  "stage": "Seed",
+  "inv": "Seed · 2023",
+  "status": "Growing",
+  "signal": "Passed 100 factory customers",
+  "src": "Website",
+  "when": "Sep 15",
+  "story": "Give 3 signals: Sep 15/Website = passed 100 factory customers (note: how fast, e.g. 'From first pilot to 100 in 14 months'); Aug 21/LinkedIn = opened a US office; Jul 03/Product = new machine connectors released."
+ },
+ {
+  "id": "granter",
+  "techstars": {
+   "techstars_name": "Granter.ai",
+   "techstars_description": "World's first AI agent for grants",
+   "city": "Lisbon",
+   "country": "Portugal",
+   "techstars_year": 2025,
+   "website": "granter.ai",
+   "linkedin": "linkedin.com/company/granterai",
+   "verticals": [
+    "SaaS"
+   ]
+  },
+  "name_hint": "Granter",
+  "stage": "Pre-seed",
+  "inv": "Pre-seed · 2026",
+  "status": "Active",
+  "signal": "Launched public beta",
+  "src": "Product",
+  "when": "Sep 10",
+  "story": "The fund invested last month. Give 2 signals: Sep 10/Product = public beta launched (note with a number, e.g. waitlist converted); Aug 28/Fund = 'Investment closed: $400k at pre-seed' with note 'Announced on LinkedIn and the website'."
+ },
+ {
+  "id": "motics",
+  "techstars": {
+   "techstars_name": "Motics Technologies",
+   "techstars_description": "Motics Copilot automates clinical note taking, referral letters, and more to save hours a day, enabling practicioners to spend time doing the things that matter.",
+   "city": "London",
+   "country": "United Kingdom",
+   "techstars_year": 2022,
+   "website": "motics.co.uk",
+   "linkedin": "linkedin.com/company/motics",
+   "verticals": [
+    "Healthtech",
+    "SaaS"
+   ]
+  },
+  "name_hint": "Motics",
+  "stage": "Seed",
+  "inv": "Seed · 2024",
+  "status": "Active",
+  "signal": "Added an enterprise pricing tier",
+  "src": "Website",
+  "when": "Sep 08",
+  "story": "Give 3 signals: Sep 08/Website = enterprise pricing tier added (what it includes); Aug 12/LinkedIn = two hospital groups went live (no real hospital names); Jun 30/Product = a feature launch."
+ }
+]

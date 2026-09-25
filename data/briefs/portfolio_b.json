@@ -1,0 +1,150 @@
+[
+ {
+  "id": "siftyml",
+  "techstars": {
+   "techstars_name": "SiftyML",
+   "techstars_description": "Enterprise AI for international trade",
+   "city": "London",
+   "country": "United Kingdom",
+   "techstars_year": 2024,
+   "website": "siftyml.com",
+   "linkedin": "linkedin.com/company/70975358",
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "Supply chain technology"
+   ]
+  },
+  "name_hint": "SiftyML",
+  "stage": "Seed",
+  "inv": "Pre-seed · 2024",
+  "status": "Active",
+  "signal": "Opened a Rotterdam office",
+  "src": "LinkedIn",
+  "when": "Sep 03",
+  "story": "Give 3 signals: Sep 03/LinkedIn = opened a Rotterdam office; Aug 14/Product = a new capability shipped; Jul 22/Press = featured in a trade publication (generic, e.g. 'a freight trade publication')."
+ },
+ {
+  "id": "complok",
+  "techstars": {
+   "techstars_name": "Complok",
+   "techstars_description": "Supercharge Your Compliance. Accelerate Your Business. AI Driven SaaS tool for the compliance team in fintech.",
+   "city": "Tallinn",
+   "country": "Estonia",
+   "techstars_year": 2023,
+   "website": "complok.eu",
+   "linkedin": "linkedin.com/company/complok",
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "Fintech",
+    "SaaS"
+   ]
+  },
+  "name_hint": "Complok",
+  "stage": "Pre-seed",
+  "inv": "Pre-seed · 2025",
+  "status": "Active",
+  "signal": "Completed SOC 2 Type II",
+  "src": "Website",
+  "when": "Aug 30",
+  "story": "Give 3 signals: Aug 30/Website = completed SOC 2 Type II (trust page updated); Aug 06/LinkedIn = signed its first bank customer (no bank name); Jun 18/Product = a feature launch."
+ },
+ {
+  "id": "rhenari",
+  "techstars": {
+   "techstars_name": "Rhenari",
+   "techstars_description": "Operational intelligence for enterprise product teams. Surface, explain, and eliminate roadmap drift continuously with AI.",
+   "city": "Rapid City",
+   "country": "United States",
+   "techstars_year": 2024,
+   "website": "rhenari.com",
+   "linkedin": "linkedin.com/company/rhenari",
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "SaaS"
+   ]
+  },
+  "name_hint": "Rhenari",
+  "stage": "Pre-seed",
+  "inv": "Pre-seed · 2025",
+  "status": "Active",
+  "signal": "#2 Product of the Day on Product Hunt",
+  "src": "Product",
+  "when": "Aug 26",
+  "story": "Give 3 signals: Aug 26/Product = #2 Product of the Day on Product Hunt (note with upvote count); Aug 02/LinkedIn = hired a founding engineer; Jul 15/Website = new integrations page."
+ },
+ {
+  "id": "harvest",
+  "techstars": {
+   "techstars_name": "Harvest",
+   "techstars_description": "For businesses needing real-time web data, Harvest turns the internet into structured, tabular data using AI chat.",
+   "city": "Monroe",
+   "country": "United States",
+   "techstars_year": 2025,
+   "website": "goharvest.ai",
+   "linkedin": "linkedin.com/company/goharvestai",
+   "verticals": [
+    "Artificial intelligence and machine learning"
+   ]
+  },
+  "name_hint": "Harvest",
+  "stage": "Seed",
+  "inv": "Pre-seed · 2025",
+  "status": "Active",
+  "signal": "Hiring 4 engineers",
+  "src": "LinkedIn",
+  "when": "Aug 21",
+  "story": "Give 3 signals: Aug 21/LinkedIn = 4 engineering roles posted; Aug 05/Product = an API launch; Jul 09/Website = customer logos section added (no real customer names; say how many logos)."
+ },
+ {
+  "id": "hylosense",
+  "techstars": {
+   "techstars_name": "hylosense",
+   "techstars_description": "Cutting imbalance costs by up to 65% for energy generators and utilities worldwide, via per-asset AI weather modelling.",
+   "city": "Skopje",
+   "country": "North Macedonia",
+   "techstars_year": 2023,
+   "website": "hylosense.com",
+   "linkedin": "linkedin.com/company/hylosense",
+   "verticals": [
+    "Artificial intelligence and machine learning",
+    "Big Data",
+    "Climate tech",
+    "Oil and gas",
+    "SaaS"
+   ]
+  },
+  "name_hint": "hylosense",
+  "stage": "Pre-seed",
+  "inv": "Pre-seed · 2024",
+  "status": "Quiet",
+  "signal": "No public activity since July 18",
+  "src": "Monitor",
+  "when": "9 weeks",
+  "story": "This company has gone quiet. Give exactly 3 signals: Sep 20/Monitor = 'No website, blog or changelog changes in 9 weeks' with note 'Flagged as quiet. Not shown anywhere public.'; Jul 18/Product = a product release; Jun 02/LinkedIn = 'Two engineers joined'."
+ },
+ {
+  "id": "avido",
+  "techstars": {
+   "techstars_name": "Avido AI",
+   "techstars_description": "Avido provides a purpose-built platform that enables financial institutions to test, monitor, and govern generative AI applications with confidence.",
+   "city": "Klampenborg",
+   "country": "Denmark",
+   "techstars_year": 2025,
+   "website": "avidoai.com",
+   "linkedin": null,
+   "verticals": [
+    "Fintech",
+    "Insurtech"
+   ]
+  },
+  "name_hint": "Avido",
+  "stage": "Pre-seed",
+  "inv": "Pre-seed · Sep 2026",
+  "status": "New",
+  "signal": "Investment closed",
+  "src": "Fund",
+  "when": "Yesterday",
+  "story": "The fund closed its investment yesterday. Give exactly 1 signal: Yesterday/Fund = 'Investment closed: $500k at pre-seed' with note 'Announcement drafted in Public Presence'.",
+  "extra": "Also return 'whyWeInvested': one sentence (max 25 words) a VC would write about why the team is the right one, without naming anyone"
+ }
+]

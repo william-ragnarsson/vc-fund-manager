@@ -1,0 +1,126 @@
+{
+ "sourcery": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "ekei": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "buildstash": {
+  "bleed": true,
+  "bg": "#2a2a2a"
+ },
+ "i-flow": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "granter": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "motics": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "siftyml": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "complok": {
+  "bleed": true,
+  "bg": "#000000"
+ },
+ "rhenari": {
+  "bleed": true,
+  "bg": "#2b2f3a"
+ },
+ "harvest": {
+  "bleed": true,
+  "bg": "#2b3527"
+ },
+ "hylosense": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "avido": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "papr": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "stemma": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "fopsai": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "insaio": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "linesight": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "auxilius": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "indora": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "alethica": {
+  "bleed": true,
+  "bg": "#131444"
+ },
+ "vocations": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "fintalo": {
+  "bleed": true,
+  "bg": "#0d090a"
+ },
+ "litlyx": {
+  "bleed": true,
+  "bg": "#000000"
+ },
+ "wattshift": {
+  "bleed": true,
+  "bg": "#000000"
+ },
+ "1cp": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "legaleaze": {
+  "bleed": true,
+  "bg": "#262626"
+ },
+ "humbrela": {
+  "bleed": true,
+  "bg": "#0d090a"
+ },
+ "gild": {
+  "bleed": true,
+  "bg": "#de572f"
+ },
+ "crosscheck": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "safetybolt": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "arcus": {
+  "bleed": false,
+  "bg": "#ffffff"
+ }
+}

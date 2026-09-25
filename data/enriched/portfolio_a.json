@@ -1,0 +1,220 @@
+[
+  {
+    "id": "sourcery",
+    "name": "Sourcery",
+    "one": "Real-time code refactoring for development teams",
+    "about": "AI tool automating code refactoring and quality improvements. Powers 1.5k+ developers weekly with real-time suggestions within their IDE.",
+    "sector": "Developer tools",
+    "city": "London",
+    "country": "United Kingdom",
+    "website": "sourcery.ai",
+    "linkedin": "linkedin.com/company/sourcery-ai",
+    "stage": "Series A",
+    "inv": "Seed · 2023",
+    "status": "Growing",
+    "signal": "Raised $12M Series A led by Greyline Capital",
+    "src": "Press",
+    "when": "2h ago",
+    "signals": [
+      {
+        "date": "Today",
+        "src": "Press",
+        "text": "Raised $12M Series A led by Greyline Capital",
+        "note": "Announced on TechCrunch, 280 comments"
+      },
+      {
+        "date": "Sep 12",
+        "src": "LinkedIn",
+        "text": "Hired Head of Engineering from Meta",
+        "note": "Led platform infrastructure, 450+ reactions"
+      },
+      {
+        "date": "Aug 30",
+        "src": "Website",
+        "text": "Code reviews automated for 1.5k+ developers",
+        "note": "Up from 1k in July"
+      },
+      {
+        "date": "Aug 04",
+        "src": "Event",
+        "text": "Founder spoke at Python Dev Summit Berlin",
+        "note": "Panel: AI in code quality, 1.2k attendees"
+      }
+    ],
+    "milestone": "automates code reviews for 1.5k+ development teams",
+    "earlyDays": "a VS Code plugin for Python refactoring"
+  },
+  {
+    "id": "ekei",
+    "name": "Ekei",
+    "one": "Logistics coordination and optimization platform",
+    "about": "Supply chain platform unifying freight forwarding and fulfillment. Uses AI and automation to reduce costs and emissions across the logistics network.",
+    "sector": "Logistics",
+    "city": "London",
+    "country": "United Kingdom",
+    "website": "ekei.net",
+    "linkedin": "linkedin.com/company/ekeigroup",
+    "stage": "Seed",
+    "inv": "Pre-seed · 2024",
+    "status": "Active",
+    "signal": "Speaking at Web Summit, Lisbon",
+    "src": "Event",
+    "when": "Yesterday",
+    "signals": [
+      {
+        "date": "Yesterday",
+        "src": "Event",
+        "text": "Speaking at Web Summit Lisbon stage",
+        "note": "Nov 11, Supply Chain & AI track"
+      },
+      {
+        "date": "Sep 02",
+        "src": "Product",
+        "text": "Freight rate optimization engine launched",
+        "note": "Integrates with 50+ carriers, beta ready"
+      }
+    ]
+  },
+  {
+    "id": "buildstash",
+    "name": "Buildstash",
+    "one": "Build management and deployment for game studios",
+    "about": "Build-to-release platform for game developers. Automates archival, sharing, and deployment with team collaboration tools.",
+    "sector": "DevOps",
+    "city": "Glasgow",
+    "country": "United Kingdom",
+    "website": "buildstash.com",
+    "linkedin": "linkedin.com/company/buildstash",
+    "stage": "Seed",
+    "inv": "Pre-seed · 2024",
+    "status": "Active",
+    "signal": "Hired a VP Sales",
+    "src": "LinkedIn",
+    "when": "2d ago",
+    "signals": [
+      {
+        "date": "2d ago",
+        "src": "LinkedIn",
+        "text": "Hired VP Sales from indie game publisher",
+        "note": "Led GTM for 20+ studios, 85 reactions"
+      },
+      {
+        "date": "Aug 19",
+        "src": "Product",
+        "text": "CI/CD integrations expanded significantly",
+        "note": "GitHub Actions, GitLab CI, Jenkins support"
+      },
+      {
+        "date": "Jul 10",
+        "src": "Website",
+        "text": "Pricing tiers launched for all segments",
+        "note": "Enterprise plan scales to 500+ users"
+      }
+    ]
+  },
+  {
+    "id": "i-flow",
+    "name": "i-flow",
+    "one": "AI data platform for manufacturing optimization",
+    "about": "Transforms heterogeneous factory floor machinery data into unified datasets. Enables AI-driven efficiency gains and predictive maintenance across production environments.",
+    "sector": "Industrial AI",
+    "city": "Munich",
+    "country": "Germany",
+    "website": "i-flow.io",
+    "linkedin": "linkedin.com/company/i-flow-gmbh",
+    "stage": "Seed",
+    "inv": "Seed · 2023",
+    "status": "Growing",
+    "signal": "Passed 100 factory customers",
+    "src": "Website",
+    "when": "Sep 15",
+    "signals": [
+      {
+        "date": "Sep 15",
+        "src": "Website",
+        "text": "Reached 100 factory customers milestone",
+        "note": "From first pilot to 100 in 14 months"
+      },
+      {
+        "date": "Aug 21",
+        "src": "LinkedIn",
+        "text": "Opened US operations center in Chicago",
+        "note": "Team of 8, hiring for sales and support"
+      },
+      {
+        "date": "Jul 03",
+        "src": "Product",
+        "text": "15 new machine connectors released",
+        "note": "Laser cutters, CNC systems, 3D printers"
+      }
+    ]
+  },
+  {
+    "id": "granter",
+    "name": "Granter",
+    "one": "AI grant discovery and application assistance",
+    "about": "AI agent helping organizations discover and apply for grants. Streamlines eligibility matching and application documentation.",
+    "sector": "SaaS",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "website": "granter.ai",
+    "linkedin": "linkedin.com/company/granterai",
+    "stage": "Pre-seed",
+    "inv": "Pre-seed · 2026",
+    "status": "Active",
+    "signal": "Launched public beta",
+    "src": "Product",
+    "when": "Sep 10",
+    "signals": [
+      {
+        "date": "Sep 10",
+        "src": "Product",
+        "text": "Public beta launched for early adopters",
+        "note": "2,400 waitlist signups converted to testers"
+      },
+      {
+        "date": "Aug 28",
+        "src": "Fund",
+        "text": "Investment closed: $400k at pre-seed",
+        "note": "Announced on LinkedIn and company website"
+      }
+    ]
+  },
+  {
+    "id": "motics",
+    "name": "Motics",
+    "one": "AI clinical documentation for healthcare teams",
+    "about": "AI copilot automating clinical note-taking and referral letters. Saves healthcare practitioners hours per day on documentation tasks.",
+    "sector": "Clinical AI",
+    "city": "London",
+    "country": "United Kingdom",
+    "website": "motics.co.uk",
+    "linkedin": "linkedin.com/company/motics",
+    "stage": "Seed",
+    "inv": "Seed · 2024",
+    "status": "Active",
+    "signal": "Added an enterprise pricing tier",
+    "src": "Website",
+    "when": "Sep 08",
+    "signals": [
+      {
+        "date": "Sep 08",
+        "src": "Website",
+        "text": "Enterprise pricing tier added to platform",
+        "note": "Unlimited practitioner accounts, priority support"
+      },
+      {
+        "date": "Aug 12",
+        "src": "LinkedIn",
+        "text": "Two hospital groups went live on platform",
+        "note": "Now serving 200+ clinicians across sites"
+      },
+      {
+        "date": "Jun 30",
+        "src": "Product",
+        "text": "Referral letter templates feature launched",
+        "note": "Customizable by clinical specialty"
+      }
+    ]
+  }
+]
