@@ -202,7 +202,7 @@ export function Landing() {
       <footer className="lp-wrap lp-foot">
         <div className="lp-foot-in">
           <span className="lp-brand">Associate</span>
-          <p>Product concept. The demo runs on sample data: company names, logos and descriptions are from the public Techstars portfolio. {FUND.isDefault ? `${FUND.name} is a fictional fund, and all` : 'All'} rounds, scores, events and posts are invented. Not affiliated with Techstars or any company shown.</p>
+          <p>Product concept. The demo runs on sample data: the current portfolio's names, logos and descriptions are from the public Techstars portfolio. {FUND.isDefault ? `${FUND.name} is a fictional fund, and all` : 'All'} former portfolio companies, rounds, scores, events and posts are invented. Not affiliated with Techstars or any company shown.</p>
         </div>
       </footer>
     </div>

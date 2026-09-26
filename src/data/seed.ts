@@ -2,7 +2,7 @@
 // Techstars portfolio (techstars.com/portfolio). Scores, rounds, metrics, events and
 // posts are invented for the demo. Cleaned from Haiku agent output in data/enriched/.
 import { FUND } from '../config';
-import type { Company, Deal, Draft, Published } from './types';
+import type { Company, Deal, Draft, FormerCompany, Published } from './types';
 
 export const seedCompanies = (): Company[] => [
   {
@@ -12,10 +12,10 @@ export const seedCompanies = (): Company[] => [
     stage: 'Series A', inv: 'Seed · 2023', status: 'Growing',
     signal: 'Raised $12M Series A led by Greyline Capital', src: 'Press', when: '2h ago',
     signals: [
-      { date: 'Today', src: 'Press', text: 'Raised $12M Series A led by Greyline Capital', note: 'Company blog and press release' },
-      { date: 'Sep 12', src: 'LinkedIn', text: 'Hired a Head of Engineering (ex-big tech)', note: 'Founder post, 450 reactions' },
-      { date: 'Aug 30', src: 'Website', text: 'Customer page updated: 1,500+ teams', note: 'Up from 1,000 in June' },
-      { date: 'Aug 04', src: 'Event', text: 'CTO on an AI code-quality panel in Berlin', note: 'Event listing' },
+      { on: '2026-09-23', src: 'Press', text: 'Raised $12M Series A led by Greyline Capital', note: 'Company blog and press release' },
+      { on: '2026-09-12', src: 'LinkedIn', text: 'Hired a Head of Engineering (ex-big tech)', note: 'Founder post, 450 reactions' },
+      { on: '2026-08-30', src: 'Website', text: 'Customer page updated: 1,500+ teams', note: 'Up from 1,000 in June' },
+      { on: '2026-08-04', src: 'Event', text: 'CTO on an AI code-quality panel in Berlin', note: 'Event listing' },
     ],
   },
   {
@@ -25,8 +25,8 @@ export const seedCompanies = (): Company[] => [
     stage: 'Seed', inv: 'Pre-seed · 2024', status: 'Active',
     signal: 'Speaking at Web Summit, Lisbon', src: 'Event', when: 'Yesterday',
     signals: [
-      { date: 'Yesterday', src: 'Event', text: 'Co-founder speaking at Web Summit, Nov 11', note: 'Supply chain & AI track' },
-      { date: 'Sep 02', src: 'Product', text: 'Freight rate engine launched', note: 'Changelog · 50+ carriers' },
+      { on: '2026-09-22', src: 'Event', text: 'Co-founder speaking at Web Summit, Nov 11', note: 'Supply chain & AI track' },
+      { on: '2026-09-02', src: 'Product', text: 'Freight rate engine launched', note: 'Changelog · 50+ carriers' },
     ],
   },
   {
@@ -36,9 +36,9 @@ export const seedCompanies = (): Company[] => [
     stage: 'Seed', inv: 'Pre-seed · 2024', status: 'Active',
     signal: 'Hired a VP Sales', src: 'LinkedIn', when: '2d ago',
     signals: [
-      { date: '2d ago', src: 'LinkedIn', text: 'Hired a VP Sales (ex-game publisher)', note: 'Founder post, 85 reactions' },
-      { date: 'Aug 19', src: 'Product', text: 'GitHub Actions and GitLab CI integrations', note: 'Changelog' },
-      { date: 'Jul 10', src: 'Website', text: 'Pricing page adds a Studio plan', note: 'Up to 500 seats' },
+      { on: '2026-09-21', src: 'LinkedIn', text: 'Hired a VP Sales (ex-game publisher)', note: 'Founder post, 85 reactions' },
+      { on: '2026-08-19', src: 'Product', text: 'GitHub Actions and GitLab CI integrations', note: 'Changelog' },
+      { on: '2026-07-10', src: 'Website', text: 'Pricing page adds a Studio plan', note: 'Up to 500 seats' },
     ],
   },
   {
@@ -48,9 +48,9 @@ export const seedCompanies = (): Company[] => [
     stage: 'Seed', inv: 'Seed · 2023', status: 'Growing',
     signal: 'Passed 100 factory customers', src: 'Website', when: 'Sep 15',
     signals: [
-      { date: 'Sep 15', src: 'Website', text: 'Passed 100 factory customers', note: 'From first pilot to 100 in 14 months' },
-      { date: 'Aug 21', src: 'LinkedIn', text: 'Opened a US office in Chicago', note: 'Hiring for sales and support' },
-      { date: 'Jul 03', src: 'Product', text: '15 new machine connectors released', note: 'CNC, laser and injection molding' },
+      { on: '2026-09-15', src: 'Website', text: 'Passed 100 factory customers', note: 'From first pilot to 100 in 14 months' },
+      { on: '2026-08-21', src: 'LinkedIn', text: 'Opened a US office in Chicago', note: 'Hiring for sales and support' },
+      { on: '2026-07-03', src: 'Product', text: '15 new machine connectors released', note: 'CNC, laser and injection molding' },
     ],
   },
   {
@@ -60,8 +60,8 @@ export const seedCompanies = (): Company[] => [
     stage: 'Pre-seed', inv: 'Pre-seed · 2026', status: 'Active',
     signal: 'Launched public beta', src: 'Product', when: 'Sep 10',
     signals: [
-      { date: 'Sep 10', src: 'Product', text: 'Launched public beta', note: '2,400 teams invited from the waitlist' },
-      { date: 'Aug 28', src: 'Fund', text: 'Investment closed: $400k at pre-seed', note: 'Announced on LinkedIn and the website' },
+      { on: '2026-09-10', src: 'Product', text: 'Launched public beta', note: '2,400 teams invited from the waitlist' },
+      { on: '2026-08-28', src: 'Fund', text: 'Investment closed: $400k at pre-seed', note: 'Announced on LinkedIn and the website' },
     ],
   },
   {
@@ -71,9 +71,9 @@ export const seedCompanies = (): Company[] => [
     stage: 'Seed', inv: 'Seed · 2024', status: 'Active',
     signal: 'Added an enterprise pricing tier', src: 'Website', when: 'Sep 08',
     signals: [
-      { date: 'Sep 08', src: 'Website', text: 'Added an enterprise pricing tier', note: 'SSO, audit logs, unlimited seats' },
-      { date: 'Aug 12', src: 'LinkedIn', text: 'Two hospital groups went live', note: '200+ clinicians onboarded' },
-      { date: 'Jun 30', src: 'Product', text: 'Referral letters in one click', note: 'Changelog' },
+      { on: '2026-09-08', src: 'Website', text: 'Added an enterprise pricing tier', note: 'SSO, audit logs, unlimited seats' },
+      { on: '2026-08-12', src: 'LinkedIn', text: 'Two hospital groups went live', note: '200+ clinicians onboarded' },
+      { on: '2026-06-30', src: 'Product', text: 'Referral letters in one click', note: 'Changelog' },
     ],
   },
   {
@@ -83,9 +83,9 @@ export const seedCompanies = (): Company[] => [
     stage: 'Seed', inv: 'Pre-seed · 2024', status: 'Active',
     signal: 'Opened a Rotterdam office', src: 'LinkedIn', when: 'Sep 03',
     signals: [
-      { date: 'Sep 03', src: 'LinkedIn', text: 'Opened a Rotterdam office', note: 'Team of 4, hiring 2 more' },
-      { date: 'Aug 14', src: 'Product', text: 'Customs classification module shipped', note: 'Changelog' },
-      { date: 'Jul 22', src: 'Press', text: 'Featured in a freight trade publication', note: 'Interview with the CEO' },
+      { on: '2026-09-03', src: 'LinkedIn', text: 'Opened a Rotterdam office', note: 'Team of 4, hiring 2 more' },
+      { on: '2026-08-14', src: 'Product', text: 'Customs classification module shipped', note: 'Changelog' },
+      { on: '2026-07-22', src: 'Press', text: 'Featured in a freight trade publication', note: 'Interview with the CEO' },
     ],
   },
   {
@@ -95,9 +95,9 @@ export const seedCompanies = (): Company[] => [
     stage: 'Pre-seed', inv: 'Pre-seed · 2025', status: 'Active',
     signal: 'Completed SOC 2 Type II', src: 'Website', when: 'Aug 30',
     signals: [
-      { date: 'Aug 30', src: 'Website', text: 'Completed SOC 2 Type II', note: 'Trust page updated' },
-      { date: 'Aug 06', src: 'LinkedIn', text: 'Signed its first bank customer', note: 'Founder post, 210 reactions' },
-      { date: 'Jun 18', src: 'Product', text: 'Regulatory rules engine launched', note: 'Changelog' },
+      { on: '2026-08-30', src: 'Website', text: 'Completed SOC 2 Type II', note: 'Trust page updated' },
+      { on: '2026-08-06', src: 'LinkedIn', text: 'Signed its first bank customer', note: 'Founder post, 210 reactions' },
+      { on: '2026-06-18', src: 'Product', text: 'Regulatory rules engine launched', note: 'Changelog' },
     ],
   },
   {
@@ -107,9 +107,9 @@ export const seedCompanies = (): Company[] => [
     stage: 'Pre-seed', inv: 'Pre-seed · 2025', status: 'Active',
     signal: '#2 Product of the Day on Product Hunt', src: 'Product', when: 'Aug 26',
     signals: [
-      { date: 'Aug 26', src: 'Product', text: '#2 Product of the Day on Product Hunt', note: '1,268 upvotes' },
-      { date: 'Aug 02', src: 'LinkedIn', text: 'Hired a founding engineer', note: 'Team is now 5' },
-      { date: 'Jul 15', src: 'Website', text: 'Jira and Slack integrations live', note: 'Integrations page' },
+      { on: '2026-08-26', src: 'Product', text: '#2 Product of the Day on Product Hunt', note: '1,268 upvotes' },
+      { on: '2026-08-02', src: 'LinkedIn', text: 'Hired a founding engineer', note: 'Team is now 5' },
+      { on: '2026-07-15', src: 'Website', text: 'Jira and Slack integrations live', note: 'Integrations page' },
     ],
   },
   {
@@ -119,9 +119,9 @@ export const seedCompanies = (): Company[] => [
     stage: 'Seed', inv: 'Pre-seed · 2025', status: 'Active',
     signal: 'Hiring 4 engineers', src: 'LinkedIn', when: 'Aug 21',
     signals: [
-      { date: 'Aug 21', src: 'LinkedIn', text: 'Hiring 4 engineers', note: 'Roles posted on LinkedIn' },
-      { date: 'Aug 05', src: 'Product', text: 'Launched a public API', note: 'Docs published' },
-      { date: 'Jul 09', src: 'Website', text: 'Customer logos added to the homepage', note: '14 logos' },
+      { on: '2026-08-21', src: 'LinkedIn', text: 'Hiring 4 engineers', note: 'Roles posted on LinkedIn' },
+      { on: '2026-08-05', src: 'Product', text: 'Launched a public API', note: 'Docs published' },
+      { on: '2026-07-09', src: 'Website', text: 'Customer logos added to the homepage', note: '14 logos' },
     ],
   },
   {
@@ -131,9 +131,9 @@ export const seedCompanies = (): Company[] => [
     stage: 'Pre-seed', inv: 'Pre-seed · 2024', status: 'Quiet',
     signal: 'No public activity since July 18', src: 'Monitor', when: '9 weeks',
     signals: [
-      { date: 'Sep 20', src: 'Monitor', text: 'No website, blog or changelog changes in 9 weeks', note: 'Flagged as quiet. Not shown anywhere public.' },
-      { date: 'Jul 18', src: 'Product', text: 'Forecasting v2 released', note: 'Changelog' },
-      { date: 'Jun 02', src: 'LinkedIn', text: 'Two engineers joined', note: 'LinkedIn' },
+      { on: '2026-09-20', src: 'Monitor', text: 'No website, blog or changelog changes in 9 weeks', note: 'Flagged as quiet. Not shown anywhere public.' },
+      { on: '2026-07-18', src: 'Product', text: 'Forecasting v2 released', note: 'Changelog' },
+      { on: '2026-06-02', src: 'LinkedIn', text: 'Two engineers joined', note: 'Team is now 7' },
     ],
   },
   {
@@ -143,9 +143,20 @@ export const seedCompanies = (): Company[] => [
     stage: 'Pre-seed', inv: 'Pre-seed · Sep 2026', status: 'New',
     signal: 'Investment closed', src: 'Fund', when: 'Yesterday',
     signals: [
-      { date: 'Yesterday', src: 'Fund', text: 'Investment closed: $500k at pre-seed', note: 'Announcement drafted in Public Presence' },
+      { on: '2026-09-22', src: 'Fund', text: 'Investment closed: $500k at pre-seed', note: 'Announcement drafted in Public Presence' },
     ],
   },
+];
+
+// Former portfolio companies, under Portfolio → Former.
+// Unlike everything above, these companies are fictional, so no real company is shown as failed.
+export const seedFormer = (): FormerCompany[] => [
+  { id: 'carrowmere', name: 'Carrowmere', one: 'Rota planning for home-care agencies', stage: 'Seed', inv: 'Pre-seed · 2023',
+    outcome: 'Acquired', on: '2025-11-12', note: 'Bought by a home-care software group. 2.4x our entry.' },
+  { id: 'brindlewick', name: 'Brindlewick', one: 'Shelf analytics for independent grocers', stage: 'Seed', inv: 'Seed · 2023',
+    outcome: 'Shut down', on: '2026-03-20', note: 'Wound down after two years. The team joined a customer.' },
+  { id: 'tolvane', name: 'Tolvane', one: 'Carbon reporting for small manufacturers', stage: 'Pre-seed', inv: 'Pre-seed · 2024',
+    outcome: 'Shut down', on: '2026-01-28', note: 'Its main distribution partner pulled out. Remaining cash returned.' },
 ];
 
 type D = Deal;

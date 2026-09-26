@@ -30,5 +30,8 @@ export const FUND = {
   isDefault: name === DEFAULT_NAME,
 };
 
+/** The demo's today. Signal dates and "3 weeks ago" count from it rather than the clock, so every pitch tells the same story. */
+export const TODAY = '2026-09-23';
+
 /** Applications Associate screened this month, shown on Home and in Deal Flow. */
 export const MONTH_SCREENED = 1284;

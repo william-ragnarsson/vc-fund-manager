@@ -1,7 +1,8 @@
 export type SignalSrc = 'Press' | 'LinkedIn' | 'Website' | 'Event' | 'Product' | 'Monitor' | 'Fund';
 
 export interface Signal {
-  date: string;
+  /** ISO date. Shown as "Sep 12" and "3 weeks ago", counted from TODAY in src/config.ts. */
+  on: string;
   src: SignalSrc;
   text: string;
   note: string;
@@ -26,6 +27,20 @@ export interface Company {
   when: string;
   status: CompanyStatus;
   signals: Signal[];
+}
+
+/** A company the fund no longer tracks. Unlike the portfolio, these are fictional, names included. */
+export interface FormerCompany {
+  id: string;
+  name: string;
+  one: string;
+  /** The last round it reached. */
+  stage: string;
+  inv: string;
+  outcome: 'Acquired' | 'Shut down';
+  /** ISO date of the outcome. */
+  on: string;
+  note: string;
 }
 
 export type DealStage = 'inbound' | 'screened' | 'meeting';

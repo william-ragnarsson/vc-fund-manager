@@ -36,7 +36,7 @@ export function App({ tourOpen }: { tourOpen: boolean }) {
   const main = useRef<HTMLElement>(null);
 
   // New page, back to the top, like a real navigation.
-  useEffect(() => { main.current?.scrollTo({ top: 0 }); }, [s.view, s.coId, s.dfTab, s.pTab, s.pubTab]);
+  useEffect(() => { main.current?.scrollTo({ top: 0 }); }, [s.view, s.coId, s.dfTab, s.pFilter, s.pLayout, s.pubTab]);
 
   // The tab title follows the view, which in-app navigation changes without touching the URL.
   useEffect(() => { document.title = s.view === 'apply' ? `Apply · ${FUND.name}` : 'Associate demo'; }, [s.view]);
@@ -75,7 +75,7 @@ export function App({ tourOpen }: { tourOpen: boolean }) {
           <div className="side-avatar">{FUND.initials}</div>
           <div><span className="n">Managing Partner</span><span className="r">{FUND.name}</span></div>
         </div>
-        <div className="side-demo">Demo with sample data. Companies from the public Techstars portfolio; all rounds, scores and posts are invented.</div>
+        <div className="side-demo">Demo with sample data. Current companies are from the public Techstars portfolio; former companies, rounds, scores and posts are invented.</div>
       </aside>
 
       <main className="main" ref={main}>

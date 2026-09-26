@@ -1,8 +1,8 @@
 import { createContext, useCallback, useContext, useMemo, useRef, useState, type ReactNode } from 'react';
 import { BLANK, EXAMPLE, isBlank, isComplete, screenApplication, type Application } from '../apply/screen';
-import { FUND } from '../config';
-import { seedCompanies, seedDeals, seedDrafts, seedPublished } from '../data/seed';
-import type { Company, Deal, DealStage, Draft, Published } from '../data/types';
+import { FUND, TODAY } from '../config';
+import { seedCompanies, seedDeals, seedDrafts, seedFormer, seedPublished } from '../data/seed';
+import type { Company, Deal, DealStage, Draft, FormerCompany, Published } from '../data/types';
 
 /** 'apply' is the founder-facing apply page; every other view is the fund's app. */
 export type View = 'home' | 'deals' | 'portfolio' | 'public' | 'thesis' | 'apply';
@@ -14,8 +14,16 @@ export interface State {
   deals: Deal[];
   selId: string | null;
   companies: Company[];
+  /** Acquired or shut down, under Portfolio → Former. */
+  former: FormerCompany[];
   coId: string | null;
-  pTab: 'cards' | 'table' | 'feed';
+  /** Portfolio: which companies (tabs), how they're grouped and sorted, and cards or table. */
+  pFilter: 'current' | 'quiet' | 'former';
+  pGroup: 'none' | 'batch' | 'stage';
+  pSort: 'latest' | 'quiet' | 'name';
+  pLayout: 'cards' | 'table';
+  /** Companies whose founders got a check-in during this demo. */
+  checkIns: string[];
   pubTab: 'drafts' | 'published' | 'website' | 'auto';
   dfTab: DealStage;
   drafts: Draft[];
@@ -37,8 +45,8 @@ export interface State {
 }
 
 const initialState = (): State => ({
-  view: 'home', deals: seedDeals(), selId: null, companies: seedCompanies(), coId: null,
-  pTab: 'cards', pubTab: 'drafts', dfTab: 'meeting',
+  view: 'home', deals: seedDeals(), selId: null, companies: seedCompanies(), former: seedFormer(), coId: null,
+  pFilter: 'current', pGroup: 'none', pSort: 'latest', pLayout: 'cards', checkIns: [], pubTab: 'drafts', dfTab: 'meeting',
   drafts: seedDrafts(), published: seedPublished(),
   auto: { invest: 'approval', raise: 'approval', milestone: 'auto', event: 'auto', site: 'auto' },
   editing: null, editText: '', toast: null, threshold: 60,
@@ -108,7 +116,7 @@ function useAssociateStore() {
       const co: Company = {
         id: d.id, name: d.name, one: d.one, about: '', sector: d.sector, city: d.loc, country: '', website: d.website,
         stage: round, inv: `${round} · Sep 2026`, signal: 'Investment closed', src: 'Fund', when: 'Just now', status: 'New',
-        signals: [{ date: 'Today', src: 'Fund', text: 'Investment closed', note: 'Now tracked automatically' }],
+        signals: [{ on: TODAY, src: 'Fund', text: 'Investment closed', note: 'Now tracked automatically' }],
       };
       const draft = investDraft(d);
       const autoPost = ref.current.auto.invest === 'auto';
@@ -120,6 +128,17 @@ function useAssociateStore() {
           : prev.published,
       }));
       toast(autoPost ? `${d.name} added to portfolio and announced automatically.` : `${d.name} added to portfolio. Announcement drafted in Public Presence.`);
+    };
+
+    /** A short note to the founders of each company, sent once. */
+    const checkIn = (ids: string[]) => {
+      const fresh = ids.filter(id => !ref.current.checkIns.includes(id));
+      if (!fresh.length) return;
+      const names = fresh.map(id => ref.current.companies.find(c => c.id === id)?.name ?? id);
+      set(prev => ({ checkIns: [...prev.checkIns, ...fresh] }));
+      toast(names.length === 1
+        ? `A short check-in was sent to the ${names[0]} founders.`
+        : `Check-ins sent to ${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}, each written from their last public update.`);
     };
 
     const approve = (id: string) => {
@@ -136,7 +155,7 @@ function useAssociateStore() {
     };
 
     return {
-      set, toast, go, moveDeal, pass, invest, approve, submitApplication,
+      set, toast, go, moveDeal, pass, invest, checkIn, approve, submitApplication,
       /** The tour shows the example filled in, unless the presenter already started one. */
       prefillApplication: () => set(prev => (!prev.appSent && isBlank(prev.appForm) ? { appForm: EXAMPLE } : {})),
       /** Moving on in the tour sends a finished draft, so the next step can show it arrive. */
