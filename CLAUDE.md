@@ -22,4 +22,5 @@ The demo can get as elaborate as it needs, including a working backend. Whatever
 - There are no tests yet, so check changes in the browser.
 - The guided tour (`src/tour/Tour.tsx`) and the landing page retell parts of the seed story, such as FopsAI's score and Sourcery's Series A. A few counts also appear in more than one place. When a seed fact changes, search for where else it's told.
 - `?fund=Name` shows the demo under another fund's name, so text that names the fund comes from `FUND` in `src/config.ts`.
+- The demo's today is fixed (`TODAY` in `src/config.ts`). Signal dates, "3 weeks ago" and who counts as quiet are counted from it, not from the clock.
 - `README.md` lists the pages and explains how to present the demo.
