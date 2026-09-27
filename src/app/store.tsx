@@ -1,11 +1,9 @@
 import { createContext, useCallback, useContext, useMemo, useRef, useState, type ReactNode } from 'react';
-import { BLANK, EXAMPLE, isBlank, isComplete, screenApplication, type Application } from '../apply/screen';
 import { FUND, TODAY } from '../config';
 import { seedCompanies, seedDeals, seedDrafts, seedFormer, seedPublished } from '../data/seed';
 import type { Company, Deal, DealStage, Draft, FormerCompany, Published } from '../data/types';
 
-/** 'apply' is the founder-facing apply page; every other view is the fund's app. */
-export type View = 'home' | 'deals' | 'portfolio' | 'public' | 'thesis' | 'apply';
+export type View = 'home' | 'deals' | 'portfolio' | 'public' | 'thesis';
 export type AutoKey = 'invest' | 'raise' | 'milestone' | 'event' | 'site';
 export type AutoMode = 'approval' | 'auto' | 'off';
 
@@ -38,10 +36,6 @@ export interface State {
   declineNote: string;
   sectors: Record<string, boolean>;
   stages: Record<string, boolean>;
-  /** The apply page: the founder's draft, whether it was sent, and the deal it became. */
-  appForm: Application;
-  appSent: boolean;
-  appliedId: string | null;
 }
 
 const initialState = (): State => ({
@@ -55,7 +49,6 @@ const initialState = (): State => ({
   declineNote: `Thank you for sharing {company} with us. After a careful look, it isn't the right fit for ${FUND.possessive} current fund focus. This says nothing about the quality of what you're building, and we'd be glad to hear from you again as things progress.`,
   sectors: { 'B2B SaaS': true, 'Vertical AI': true, 'AI infrastructure': true, 'Developer tools': false, Fintech: false, Climate: false },
   stages: { 'Pre-seed': true, Seed: true, 'Series A': false },
-  appForm: BLANK, appSent: false, appliedId: null,
 });
 
 const STAGE_LABEL: Record<DealStage, string> = { inbound: 'Inbound', screened: 'Screened', meeting: 'Meetings' };
@@ -90,12 +83,6 @@ function useAssociateStore() {
       timer.current = window.setTimeout(() => set({ toast: null }), 3400);
     };
     const go = (view: View) => set({ view, coId: null, selId: null, editing: null });
-
-    /** Screens the founder's draft against the current thesis and adds it to Inbound. */
-    const submitApplication = () => {
-      const d = screenApplication(ref.current.appForm, ref.current);
-      set(prev => ({ deals: [d, ...prev.deals], appSent: true, appliedId: d.id }));
-    };
 
     const moveDeal = (id: string, stage: DealStage) => {
       const d = ref.current.deals.find(x => x.id === id);
@@ -155,13 +142,7 @@ function useAssociateStore() {
     };
 
     return {
-      set, toast, go, moveDeal, pass, invest, checkIn, approve, submitApplication,
-      /** The tour shows the example filled in, unless the presenter already started one. */
-      prefillApplication: () => set(prev => (!prev.appSent && isBlank(prev.appForm) ? { appForm: EXAMPLE } : {})),
-      /** Moving on in the tour sends a finished draft, so the next step can show it arrive. */
-      sendDraft: () => { if (!ref.current.appSent && isComplete(ref.current.appForm)) submitApplication(); },
-      seeApplication: () => set(prev => ({ view: 'deals', dfTab: 'inbound', selId: prev.appliedId, coId: null, editing: null })),
-      newApplication: () => set({ appForm: BLANK, appSent: false }),
+      set, toast, go, moveDeal, pass, invest, checkIn, approve,
       openDeal: (id: string) => set({ selId: id }),
       closeDeal: () => set({ selId: null }),
       openCompany: (id: string) => set({ view: 'portfolio', coId: id, selId: null }),
