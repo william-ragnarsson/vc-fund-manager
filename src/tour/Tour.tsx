@@ -83,11 +83,10 @@ export function Tour({ step, setStep }: { step: number | null; setStep: (n: numb
         <div className="tour-end">
           <div className="tour-kicker">End of the tour</div>
           <h2 id="tour-end-title">Thanks for taking a look</h2>
-          <p>Everything here runs on sample data, so feel free to keep clicking around. If you'd like to use Associate for your own fund, you can request early access.</p>
+          <p>Everything here runs on sample data, so feel free to keep clicking around.</p>
           <div className="tour-end-acts">
-            <a className="btn btn-primary" href="#access">Request early access</a>
-            <button className="btn btn-secondary" onClick={() => setStep(null)}>Explore on your own</button>
-            <button className="btn btn-ghost" onClick={restart}>Start over</button>
+            <button className="btn btn-primary" onClick={() => setStep(null)}>Continue exploring</button>
+            <button className="btn btn-secondary" onClick={restart}>Start over</button>
           </div>
         </div>
       </div>
