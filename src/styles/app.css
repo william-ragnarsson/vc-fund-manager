@@ -408,5 +408,5 @@
   .drawer-foot { padding: 14px 18px; }
   .score-box { grid-template-columns: 90px minmax(0, 1fr); gap: 14px; }
   .toast { left: 16px; right: 16px; bottom: 16px; max-width: none; }
-  .toast.with-tour { bottom: 170px; }
+  .toast.with-tour { bottom: 196px; }
 }

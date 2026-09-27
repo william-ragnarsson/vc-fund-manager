@@ -17,7 +17,7 @@ The build is a single HTML file with scripts, styles, fonts and logos inlined. I
 | URL | What it shows |
 | --- | --- |
 | `#/` | Landing page, and the demo's hub: its top bar links Home and Dashboard. `#how` and `#access` jump to its sections |
-| `#/demo` | The app with the 10-step guided tour, from a fresh state |
+| `#/demo` | The app with the 9-step guided tour, from a fresh state |
 | `#/app` | The dashboard: the app without the tour. `#/app/deals`, `/portfolio`, `/public` and `/thesis` open a module |
 
 "Associate" at the top of the app's sidebar returns to the landing page.
