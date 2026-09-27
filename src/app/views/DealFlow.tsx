@@ -4,8 +4,7 @@ import type { Deal, DealStage } from '../../data/types';
 import { Logo } from '../Logo';
 import { useStore } from '../store';
 
-/** Fresh applications from the apply page first, then by score. */
-const byScore = (a: Deal, b: Deal) => Number(!!b.applicant) - Number(!!a.applicant) || b.score - a.score;
+const byScore = (a: Deal, b: Deal) => b.score - a.score;
 const stop = (fn: () => void) => (e: MouseEvent) => { e.stopPropagation(); fn(); };
 
 export function useDealLists() {
@@ -81,7 +80,7 @@ export function DealFlow() {
                 <Logo id={d.id} name={d.name} size={44} radius={12} />
                 <div className="sc"><span className="v">{d.score}</span><span className="l">score</span></div>
               </div>
-              <div><div className="nm">{d.name}{d.applicant && <span className="new-pill">New</span>}</div><div className="one">{d.one}</div></div>
+              <div><div className="nm">{d.name}</div><div className="one">{d.one}</div></div>
               <div className="why-box">{d.why[0]}</div>
               <div className="meta">{d.round} · {d.loc}</div>
               <div className="acts">
@@ -99,15 +98,12 @@ export function DealFlow() {
           <div className="panel">
             {inbound.map(d => {
               const passed = d.score < s.threshold;
-              const status = d.applicant
-                ? (passed ? 'Below your bar · note in 2 days' : 'Just applied · above your bar')
-                : (passed ? 'Passed with note' : 'Scoring · checks running');
               return (
-                <div key={d.id} className={d.applicant ? 'in-row fresh' : 'in-row'} onClick={() => a.openDeal(d.id)}>
+                <div key={d.id} className="in-row" onClick={() => a.openDeal(d.id)}>
                   <Logo id={d.id} name={d.name} size={32} radius={8} />
-                  <div style={{ minWidth: 0 }}><span className="nm">{d.name}</span>{d.applicant && <span className="new-pill">New</span>}<span className="one"> · {d.one}</span></div>
+                  <div style={{ minWidth: 0 }}><span className="nm">{d.name}</span><span className="one"> · {d.one}</span></div>
                   <span className="sc">{d.score}</span>
-                  <span className="st" style={{ color: passed ? 'var(--color-neutral-600)' : 'var(--color-accent-800)' }}>{status}</span>
+                  <span className="st" style={{ color: passed ? 'var(--color-neutral-600)' : 'var(--color-accent-800)' }}>{passed ? 'Passed with note' : 'Scoring · checks running'}</span>
                   <button className="btn btn-ghost" onClick={stop(() => a.moveDeal(d.id, 'screened'))}>Move to Screened</button>
                 </div>
               );
@@ -133,11 +129,6 @@ export function DealDrawer() {
   };
   const bars = ['Team', 'Market', 'Traction', 'Thesis fit'].map((label, k) => ({ label, val: d.b[k] }));
   const facts = [{ k: 'Round', v: d.round }, { k: 'Traction', v: d.traction }, { k: 'Team', v: d.team }, { k: 'Location', v: d.loc }];
-  if (d.applicant) facts.push({ k: 'Applied by', v: d.applicant.name }, { k: 'Deck', v: d.applicant.deck ?? 'Not attached' });
-  // An application below the bar gets the thesis's decline note, held back two days so it never reads as automatic.
-  const declined = d.applicant && d.score < s.threshold
-    ? { to: d.applicant.name.split(/\s+/)[0], note: s.declineNote.split('{company}').join(d.name) }
-    : null;
 
   return (
     <>
@@ -171,18 +162,7 @@ export function DealDrawer() {
             <div className="eyebrow list-h">Worth asking about</div>
             {d.risks.map(w => <div key={w} className="risk">{w}</div>)}
           </div>
-          {declined && (
-            <div>
-              <div className="eyebrow list-h">Note to {declined.to}, sent in two days</div>
-              <div className="note-preview">{declined.note}</div>
-            </div>
-          )}
-          <div className="drawer-src">
-            {/* A founder-typed website is shown, not linked. */}
-            {d.src} · {d.applicant
-              ? <>{d.website} · {d.applicant.email}</>
-              : <a href={`https://${d.website}`} target="_blank" rel="noopener noreferrer">{d.website}</a>}
-          </div>
+          <div className="drawer-src">{d.src} · <a href={`https://${d.website}`} target="_blank" rel="noopener noreferrer">{d.website}</a></div>
         </div>
         <div className="drawer-foot">
           <button className="btn btn-primary" onClick={next}>{nextLabel}</button>

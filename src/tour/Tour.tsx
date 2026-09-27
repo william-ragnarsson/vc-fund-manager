@@ -10,17 +10,14 @@ const STEPS: Step[] = [
   { title: `Associate, running ${FUND.name}`,
     body: 'This is the home screen. Associate does three jobs for the fund, and each number opens one of them.',
     apply: a => a.go('home') },
-  { title: 'Founders apply on your website',
-    body: `This is the apply form on ${FUND.domain}. Founders fill in the basics, and Associate gets the rest from their deck and website. Submit the example, or press Next to send it.`,
-    apply: a => { a.go('apply'); a.prefillApplication(); } },
   { title: 'First-layer applications screened for you',
-    body: 'Associate scores every application against your thesis as it comes in. The one you just sent is at the top. Anything below your bar is turned down with a personal note.',
-    apply: a => { a.sendDraft(); a.go('deals'); a.set({ dfTab: 'inbound' }); } },
+    body: 'Associate scores every application against your thesis as it comes in. Anything below your bar is turned down with a personal note, and the rest move on to Screened.',
+    apply: a => { a.go('deals'); a.set({ dfTab: 'inbound' }); } },
   { title: 'Source for reasoning',
-    body: "Here's why it got the score it did. You can see how each part was rated, why it fits your thesis and what to ask the founders about.",
-    // Opens the application sent in the tour, or FopsAI if there isn't one.
+    body: 'Open any application to see how it was scored, why it fits your thesis and what to ask the founders.',
+    // FopsAI, on whichever tab it's in by now. If it was passed on, just Screened.
     apply: a => { a.go('deals'); a.set(prev => {
-      const d = prev.deals.find(x => x.id === prev.appliedId) ?? prev.deals.find(x => x.id === 'fopsai');
+      const d = prev.deals.find(x => x.id === 'fopsai');
       return d ? { dfTab: d.stage, selId: d.id } : { dfTab: 'screened' };
     }); } },
   { title: 'Screens based on a set rubric',
@@ -30,7 +27,7 @@ const STEPS: Step[] = [
     body: 'All your portfolio companies, with the latest news first. Associate follows their websites, LinkedIn and press, and flags the ones that have gone quiet.',
     apply: a => { a.go('portfolio'); a.set({ pFilter: 'current', pGroup: 'none', pSort: 'latest', pLayout: 'cards' }); } },
   { title: 'Up-to-date activity of the startups',
-    body: "Sourcery announced its Series A this morning, and it's already at the top of its timeline. Each entry shows where Associate found it.",
+    body: "Sourcery announced its Series A this morning, and it's already at the top. The timeline runs back to when you invested, and each entry shows where Associate found it.",
     apply: a => a.openCompany('sourcery') },
   { title: 'Draft posts',
     body: "Associate writes a post when something happens in the portfolio, like Sourcery's round. You can edit it, or approve it and it goes out on LinkedIn and your website.",
@@ -70,8 +67,8 @@ export function Tour({ step, setStep }: { step: number | null; setStep: (n: numb
   const restart = () => { a.reset(); goTo(0); };
 
   if (step === null) {
-    // The apply page has its own way back, and an open brief needs its footer buttons clear.
-    if (s.view === 'apply' || s.selId) return null;
+    // An open brief needs its footer buttons clear.
+    if (s.selId) return null;
     return (
       <div className="tour-dock">
         <button className="tour-chip" onClick={() => goTo(0)}>Guided tour</button>
@@ -100,7 +97,7 @@ export function Tour({ step, setStep }: { step: number | null; setStep: (n: numb
   const cur = STEPS[step];
   const last = step === STEPS.length - 1;
   return (
-    <div className={s.view === 'apply' ? 'tour solo' : s.selId ? 'tour beside-drawer' : 'tour'} role="region" aria-label="Guided tour" aria-live="polite">
+    <div className={s.selId ? 'tour beside-drawer' : 'tour'} role="region" aria-label="Guided tour" aria-live="polite">
       <div className="tour-progress"><div style={{ width: `${((step + 1) / STEPS.length) * 100}%` }} /></div>
       <div className="tour-row">
         <div className="tour-count">{step + 1}<span>/{STEPS.length}</span></div>
