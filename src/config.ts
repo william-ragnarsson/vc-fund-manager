@@ -1,7 +1,7 @@
 // The fictional fund the demo runs for. Add ?fund=Your%20Fund%20Name to the URL
 // (before the #) to show the demo under another fund's name.
 
-const DEFAULT_NAME = 'Kittiwake Ventures';
+const DEFAULT_NAME = 'Pilot Ventures';
 
 function readFundName(): string {
   try {
