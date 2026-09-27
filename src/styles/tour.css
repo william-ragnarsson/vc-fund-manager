@@ -18,7 +18,7 @@
 @keyframes tour-in { from { transform: translate(-50%, 10px); opacity: 0; } }
 .tour-progress { height: 3px; background: rgba(255, 255, 255, .1); }
 .tour-progress div { height: 100%; background: #9aaecb; transition: width .25s ease; }
-.tour-row { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 14px 16px 10px 20px; }
+.tour-row { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 14px 16px 14px 20px; }
 .tour-count { font-size: 22px; font-weight: 600; letter-spacing: -0.02em; line-height: 1; min-width: 38px; }
 .tour-count span { font-size: 12px; font-weight: 400; color: #93a0b5; }
 .tour-title { font-weight: 600; font-size: 15px; line-height: 1.3; }
@@ -31,10 +31,7 @@
 .tour-btn.ghost:hover { background: rgba(255, 255, 255, .16); }
 .tour-btn:disabled { opacity: .35; cursor: default; }
 .tour-btn.close { padding: 8px 11px; }
-.tour-btn:focus-visible, .tour-foot button:focus-visible, .tour-chip:focus-visible { outline: 2px solid #9aaecb; outline-offset: 2px; }
-.tour-foot { display: flex; justify-content: space-between; padding: 0 20px 10px 74px; font-size: 11px; color: #7f8ba0; }
-.tour-foot button { border: 0; background: none; color: #93a0b5; font: inherit; font-size: 11px; cursor: pointer; padding: 0; text-decoration: underline; text-underline-offset: 2px; }
-.tour-foot button:hover { color: #fff; }
+.tour-btn:focus-visible, .tour-chip:focus-visible { outline: 2px solid #9aaecb; outline-offset: 2px; }
 
 .tour-dock { position: fixed; z-index: 70; right: 20px; bottom: 20px; display: flex; gap: 6px; }
 .tour-chip { border: 1px solid var(--color-divider); background: #fff; color: var(--color-text); font: inherit; font-size: 13px; padding: 7px 12px; border-radius: 999px; box-shadow: var(--shadow-md); cursor: pointer; }
@@ -55,7 +52,6 @@
   .tour-count { display: none; }
   .tour-body { font-size: 13px; }
   .tour-acts { justify-content: flex-end; }
-  .tour-foot { display: none; }
   /* The drawer is full width here, so it ends above the tour bar instead. */
   .app.tour-open .drawer { bottom: 176px; border-radius: 0 0 16px 16px; }
   .tour-dock { right: 12px; bottom: 12px; left: 12px; justify-content: flex-end; flex-wrap: wrap; }

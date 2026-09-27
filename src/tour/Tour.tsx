@@ -8,37 +8,38 @@ interface Step { title: string; body: string; apply: (a: Actions) => void }
 
 const STEPS: Step[] = [
   { title: `Associate, running ${FUND.name}`,
-    body: 'Everything it handled for the fund this month, in three numbers. Each one opens its module.',
+    body: 'This is the home screen. Associate does three jobs for the fund, and each number opens one of them.',
     apply: a => a.go('home') },
   { title: 'Founders apply on your website',
-    body: `A short form on ${FUND.domain}: the essentials, plus a deck. Associate reads the deck and the website for the rest. Submit this one, or press Next.`,
+    body: `This is the apply form on ${FUND.domain}. Founders fill in the basics, and Associate gets the rest from their deck and website. Submit the example, or press Next to send it.`,
     apply: a => { a.go('apply'); a.prefillApplication(); } },
-  { title: 'Every application, read for you',
-    body: 'Each one is scored against your thesis the moment it arrives. The ones that miss your bar get a personal note.',
+  { title: 'First-layer applications screened for you',
+    body: 'Associate scores every application against your thesis as it comes in. The one you just sent is at the top. Anything below your bar is turned down with a personal note.',
     apply: a => { a.sendDraft(); a.go('deals'); a.set({ dfTab: 'inbound' }); } },
-  { title: 'Only the ones worth your time',
-    body: 'About 10% clear your bar and land here, each with the reason it fits. Invite or pass in one click.',
-    apply: a => { a.go('deals'); a.set({ dfTab: 'screened' }); } },
-  { title: 'A brief before every call',
-    body: 'Score breakdown, the facts, why it fits and what to ask the founders. Ready before the meeting.',
-    apply: a => { a.go('deals'); a.set({ dfTab: 'screened' }); a.openDeal('fopsai'); } },
-  { title: 'Your thesis, your rules',
-    body: 'Sectors, stages, weights and the bar are yours to set. Change them and every application is re-scored.',
+  { title: 'Source for reasoning',
+    body: "Here's why it got the score it did. You can see how each part was rated, why it fits your thesis and what to ask the founders about.",
+    // Opens the application sent in the tour, or FopsAI if there isn't one.
+    apply: a => { a.go('deals'); a.set(prev => {
+      const d = prev.deals.find(x => x.id === prev.appliedId) ?? prev.deals.find(x => x.id === 'fopsai');
+      return d ? { dfTab: d.stage, selId: d.id } : { dfTab: 'screened' };
+    }); } },
+  { title: 'Screens based on a set rubric',
+    body: 'This is the rubric every application is scored on. You set the focus, how much each part counts and where the bar is. Save it and everything gets re-scored.',
     apply: a => a.go('thesis') },
-  { title: 'Portfolio updates, no chasing',
-    body: 'Websites, LinkedIn, press, launches and event listings are checked around the clock, so founders never get an update request.',
+  { title: 'Clear portfolio overview',
+    body: 'All your portfolio companies, with the latest news first. Associate follows their websites, LinkedIn and press, and flags the ones that have gone quiet.',
     apply: a => { a.go('portfolio'); a.set({ pFilter: 'current', pGroup: 'none', pSort: 'latest', pLayout: 'cards' }); } },
-  { title: 'Every signal has a source',
-    body: 'Sourcery announced its Series A this morning. It shows up at the top of its timeline with the evidence, above everything before it.',
+  { title: 'Up-to-date activity of the startups',
+    body: "Sourcery announced its Series A this morning, and it's already at the top of its timeline. Each entry shows where Associate found it.",
     apply: a => a.openCompany('sourcery') },
-  { title: 'The post is already written',
-    body: 'Associate drafted the LinkedIn post and the website update. Edit it, or approve and publish in one click.',
+  { title: 'Draft posts',
+    body: "Associate writes a post when something happens in the portfolio, like Sourcery's round. You can edit it, or approve it and it goes out on LinkedIn and your website.",
     apply: a => { a.go('public'); a.set({ pubTab: 'drafts' }); } },
   { title: 'Your website stays in sync',
-    body: 'The portfolio page and the Recent section update when you publish. No more stale websites.',
+    body: `Approved posts also go on ${FUND.domain}, and the portfolio list keeps itself current. If you approved Sourcery's post, it's now at the top under Recent.`,
     apply: a => { a.go('public'); a.set({ pubTab: 'website' }); } },
-  { title: 'You choose what needs you',
-    body: 'Keep approvals where they matter, like new investments. Let the rest run on its own, with an hour to undo.',
+  { title: 'Select permissions',
+    body: 'Choose what needs your OK and what Associate can just do. New investments and raises ask you first, and the rest happens on its own with an hour to undo.',
     apply: a => { a.go('public'); a.set({ pubTab: 'auto' }); } },
 ];
 
@@ -83,9 +84,9 @@ export function Tour({ step, setStep }: { step: number | null; setStep: (n: numb
     return (
       <div className="tour-end-wrap" role="dialog" aria-modal="true" aria-labelledby="tour-end-title">
         <div className="tour-end">
-          <div className="tour-kicker">That's the tour</div>
-          <h2 id="tour-end-title">Would Associate take work off your plate?</h2>
-          <p>Deal flow screened against your thesis, a portfolio that reports itself, and a public presence that stays current. You approve what matters and skip the busywork.</p>
+          <div className="tour-kicker">End of the tour</div>
+          <h2 id="tour-end-title">Thanks for taking a look</h2>
+          <p>Everything here runs on sample data, so feel free to keep clicking around. If you'd like to use Associate for your own fund, you can request early access.</p>
           <div className="tour-end-acts">
             <a className="btn btn-primary" href="#access">Request early access</a>
             <button className="btn btn-secondary" onClick={() => setStep(null)}>Explore on your own</button>
@@ -112,10 +113,6 @@ export function Tour({ step, setStep }: { step: number | null; setStep: (n: numb
           <button className="tour-btn primary" onClick={() => goTo(step + 1)}>{last ? 'Finish' : 'Next →'}</button>
           <button className="tour-btn ghost close" onClick={() => setStep(null)} aria-label="Close tour">✕</button>
         </div>
-      </div>
-      <div className="tour-foot">
-        <span>Use ← → to step through</span>
-        <button onClick={restart}>Reset demo</button>
       </div>
     </div>
   );

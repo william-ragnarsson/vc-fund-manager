@@ -17,7 +17,7 @@ The build is a single HTML file with scripts, styles, fonts and logos inlined. I
 | URL | What it shows |
 | --- | --- |
 | `#/` | Landing page, and the demo's hub: its top bar links Home, Apply for funding and Dashboard. `#how` and `#access` jump to its sections |
-| `#/demo` | The app with the 11-step guided tour, from a fresh state |
+| `#/demo` | The app with the 10-step guided tour, from a fresh state |
 | `#/app` | The dashboard: the app without the tour. `#/app/deals`, `/portfolio`, `/public` and `/thesis` open a module |
 | `#/apply` | The fund's apply page, as a founder sees it. A submitted application lands at the top of Deal Flow → Inbound, scored against the thesis as it is set at that moment |
 
