@@ -1,7 +1,7 @@
-import type { ReactNode } from 'react';
+import { useState, type ReactNode } from 'react';
 import { FUND, TODAY } from '../../config';
 import type { Company, CompanyStatus, FormerCompany, Signal } from '../../data/types';
-import { ago, batchOf, isQuiet, lastActive, monthYear, QUIET_WEEKS, quietWeeks, shortDate } from '../activity';
+import { batchOf, dateLines, isQuiet, lastActive, monthYear, QUIET_WEEKS, quietWeeks, shortDate } from '../activity';
 import { Logo } from '../Logo';
 import { useStore, type State } from '../store';
 
@@ -198,7 +198,7 @@ function CompanyPage() {
         </div>
       </div>
       <div className="co-grid">
-        <Timeline c={c} sent={sent} />
+        <Timeline key={c.id} c={c} sent={sent} />
         <div className="co-side">
           {c.about && (
             <div className="panel watch">
@@ -222,6 +222,7 @@ type Row =
   | { kind: 'sent' }
   | { kind: 'signal'; sg: Signal }
   | { kind: 'gap'; weeks: number }
+  | { kind: 'more'; n: number }
   | { kind: 'origin'; year: string; round: string };
 
 /** Newest first, from now back to the investment. A quiet stretch shows as a dashed gap before the last public update. */
@@ -243,8 +244,20 @@ function timelineRows(c: Company, sent: boolean): Row[] {
   return rows;
 }
 
+// A long history shows its latest updates and keeps the rest one click away. Short ones never fold, so the button always hides a few.
+const FOLD_AFTER = 6;
+const FOLD_MAX = 8;
+
+function fold(rows: Row[]): Row[] {
+  const signals = rows.filter(r => r.kind === 'signal');
+  if (signals.length <= FOLD_MAX) return rows;
+  const cut = rows.indexOf(signals[FOLD_AFTER]);
+  return [...rows.slice(0, cut), { kind: 'more', n: signals.length - FOLD_AFTER }, ...rows.filter(r => r.kind === 'origin')];
+}
+
 function Timeline({ c, sent }: { c: Company; sent: boolean }) {
-  const rows = timelineRows(c, sent);
+  const [unfolded, setUnfolded] = useState(false);
+  const rows = unfolded ? timelineRows(c, sent) : fold(timelineRows(c, sent));
   // Rows above the gap sit in the quiet stretch, so their line is dashed too.
   const gapAt = rows.findIndex(r => r.kind === 'gap');
   const lastUpdate = c.signals.find(sg => sg.on === lastActive(c) && sg.src !== 'Monitor');
@@ -279,6 +292,13 @@ function Timeline({ c, sent }: { c: Company; sent: boolean }) {
             <div className="tl-body"><span className="tl-gap">{r.weeks} weeks without a public update</span></div>
           </li>
         );
+        if (r.kind === 'more') return (
+          <li key="more" className="tl-item more">
+            <div className="tl-when" />
+            <div className="tl-rail" />
+            <div className="tl-body"><button className="tl-more" onClick={() => setUnfolded(true)}>Show {r.n} earlier updates</button></div>
+          </li>
+        );
         if (r.kind === 'origin') return (
           <li key="origin" className="tl-item origin">
             <div className="tl-when"><span className="d">{r.year}</span></div>
@@ -287,9 +307,10 @@ function Timeline({ c, sent }: { c: Company; sent: boolean }) {
           </li>
         );
         const { sg } = r;
+        const [day, rel] = dateLines(sg.on);
         return (
           <li key={`${sg.on}-${i}`} className={`tl-item ${sg.src === 'Monitor' ? 'monitor' : sg.src === 'Fund' ? 'fund' : 'signal'}${dashed}`}>
-            <div className="tl-when"><span className="d">{shortDate(sg.on)}</span><span className="r">{ago(sg.on)}</span></div>
+            <div className="tl-when"><span className="d">{day}</span><span className="r">{rel}</span></div>
             <div className="tl-rail"><span className="tl-dot" /></div>
             <div className="tl-body">
               <div className="tl-card">

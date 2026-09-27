@@ -3,6 +3,7 @@ import { FUND, MONTH_SCREENED } from '../config';
 import { Logo } from '../app/Logo';
 import { FundMark } from '../app/LinkedInPost';
 import { AssociateMark } from '../app/AssociateMark';
+import { seedCompanies } from '../data/seed';
 
 const MODULES = [
   {
@@ -134,7 +135,7 @@ export function Landing() {
               <a className="btn btn-primary lp-cta" href="#/demo">Take the 3-minute tour</a>
               <a className="btn btn-ghost" href="#/app">or explore on your own</a>
             </div>
-            <div className="lp-proof">In the demo fund this month: {MONTH_SCREENED.toLocaleString('en-US')} applications screened, 12 companies tracked, 0 update emails to founders.</div>
+            <div className="lp-proof">In the demo fund this month: {MONTH_SCREENED.toLocaleString('en-US')} applications screened, {seedCompanies().length} companies tracked, 0 update emails to founders.</div>
           </div>
           <HeroVisual />
         </div>
