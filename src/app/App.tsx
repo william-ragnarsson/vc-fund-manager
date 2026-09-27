@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { FUND, MONTH_SCREENED } from '../config';
+import { AssociateMark } from './AssociateMark';
 import { useStore, type View } from './store';
 import { DealDrawer, DealFlow, useDealLists } from './views/DealFlow';
 import { Portfolio } from './views/Portfolio';
@@ -53,7 +54,7 @@ export function App({ tourOpen }: { tourOpen: boolean }) {
   return (
     <div className={tourOpen ? 'app tour-open' : 'app'}>
       <aside className="side">
-        <div className="side-brand"><a href="#/">Associate</a></div>
+        <div className="side-brand"><a href="#/"><AssociateMark />Associate</a></div>
         <div className="side-fund"><span className="k">Fund</span><span className="v">{FUND.fund}</span></div>
         <nav className="side-nav" aria-label="Main">
           {nav.map(([key, label, count]) => (

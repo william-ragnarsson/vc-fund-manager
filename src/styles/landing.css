@@ -4,7 +4,7 @@ html:has(.lp) { scroll-behavior: smooth; }
 .lp-wrap { max-width: 1160px; margin: 0 auto; padding: 0 32px; }
 .lp-band { padding: 96px 0; scroll-margin-top: 64px; }
 .lp-eyebrow { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--color-neutral-600); }
-.lp-brand { font-weight: 600; font-size: 19px; letter-spacing: -0.02em; color: var(--color-text); text-decoration: none; }
+.lp-brand { font-weight: 600; font-size: 19px; letter-spacing: -0.02em; color: var(--color-text); text-decoration: none; white-space: nowrap; }
 .lp-brand:hover { color: var(--color-text); }
 
 /* — nav — */
@@ -120,4 +120,10 @@ html:has(.lp) { scroll-behavior: smooth; }
   .lp-rule .opt { padding: 6px 9px; font-size: 12px; }
   .lp-access-card { padding: 20px; }
   .lp-submit { align-self: stretch; }
+}
+/* The narrowest phones (~280px): the logo takes the footer's size and the nav tightens up, so both fit inside the page margins. */
+@media (max-width: 300px) {
+  .lp-nav .lp-brand { font-size: 16px; }
+  .lp-nav-in, .lp-nav nav { gap: 10px; }
+  .lp-nav .btn { padding-inline: 10px; }
 }

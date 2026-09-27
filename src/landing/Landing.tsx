@@ -2,6 +2,7 @@ import { useState, type FormEvent } from 'react';
 import { FUND, MONTH_SCREENED } from '../config';
 import { Logo } from '../app/Logo';
 import { FundMark } from '../app/LinkedInPost';
+import { AssociateMark } from '../app/AssociateMark';
 
 const MODULES = [
   {
@@ -114,7 +115,7 @@ export function Landing() {
     <div className="lp">
       <header className="lp-nav">
         <div className="lp-wrap lp-nav-in">
-          <a className="lp-brand" href="#/">Associate</a>
+          <a className="lp-brand" href="#/"><AssociateMark />Associate</a>
           {/* The demo's hub: the landing page and the fund's dashboard. */}
           <nav aria-label="Main">
             <a href="#/" aria-current="page" onClick={() => window.scrollTo({ top: 0 })}>Home</a>
@@ -200,7 +201,7 @@ export function Landing() {
 
       <footer className="lp-wrap lp-foot">
         <div className="lp-foot-in">
-          <span className="lp-brand">Associate</span>
+          <span className="lp-brand"><AssociateMark />Associate</span>
           <p>Product concept. The demo runs on sample data: the current portfolio's names, logos and descriptions are from the public Techstars portfolio. {FUND.isDefault ? `${FUND.name} is a fictional fund, and all` : 'All'} former portfolio companies, rounds, scores, events and posts are invented. Not affiliated with Techstars or any company shown.</p>
         </div>
       </footer>
