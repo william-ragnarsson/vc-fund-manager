@@ -11,7 +11,7 @@ Associate is becoming a VC fund manager: software that takes over everything in 
 
 ## Where it is now
 
-It is a demo, made to show an investor the idea and its potential. It runs a fictional fund, Kittiwake Ventures, on hardcoded seed data in `src/data/seed.ts`. The companies are real, taken from the public Techstars portfolio. Everything else is invented, from rounds and scores to investors and posts.
+It is a demo, made to show an investor the idea and its potential. It runs a fictional fund, Pilot Ventures, on hardcoded seed data in `src/data/seed.ts`. The companies are real, taken from the public Techstars portfolio. Everything else is invented, from rounds and scores to investors and posts.
 
 The demo can get as elaborate as it needs, including a working backend. Whatever it gains, one button brings everything back to the original hardcoded state, so every pitch starts from the same story. Today that button is the "Reset demo" chip. It refills the in-memory store (`src/app/store.tsx`) from the seed, and opening `#/demo` does the same.
 

@@ -28,7 +28,7 @@ Add `?fund=Name` before the `#` to run the demo under another fund's name, for e
 
 ## Data
 
-Company names, logos, websites and descriptions come from the public Techstars portfolio. It is searched through the site's public Typesense index; the raw pulls are in `data/`. Claude Haiku agents drafted the enrichment in `data/enriched/`, which was then cleaned up by hand into `src/data/seed.ts`. Everything else is invented: the fund, rounds, scores, metrics, events and posts. Kittiwake Ventures is a fictional fund. The three former portfolio companies under Portfolio → Former (Carrowmere, Brindlewick and Tolvane) are fictional too, names included, so no real company is shown as acquired or shut down.
+Company names, logos, websites and descriptions come from the public Techstars portfolio. It is searched through the site's public Typesense index; the raw pulls are in `data/`. Claude Haiku agents drafted the enrichment in `data/enriched/`, which was then cleaned up by hand into `src/data/seed.ts`. Everything else is invented: the fund, rounds, scores, metrics, events and posts. Pilot Ventures is a fictional fund. The three former portfolio companies under Portfolio → Former (Carrowmere, Brindlewick and Tolvane) are fictional too, names included, so no real company is shown as acquired or shut down.
 
 The demo's today is fixed at Sep 23, 2026 (`TODAY` in `src/config.ts`). Timeline dates, "4 weeks ago" and which companies count as quiet (no public update in 4+ weeks: hylosense, Profit Optimizer, Reeler, Harvest and Rhenari, under Portfolio → Quiet) are all counted from it.
 
