@@ -101,6 +101,9 @@ button { font: inherit; color: inherit; }
 textarea.input { min-height: 90px; resize: vertical; }
 input[type=range] { accent-color: #3b5478; }
 
+/* — Associate's logo in front of the wordmark: 1.1em tall, centered on the capitals (Archivo's cap height is 0.686em). — */
+.brand-mark { display: inline-block; width: 1.1em; height: 1.1em; margin-right: .36em; vertical-align: -0.207em; }
+
 /* — logo tile — */
 .logo { position: relative; display: grid; place-items: center; flex: none; overflow: hidden; }
 .logo img { width: 100%; height: 100%; object-fit: cover; }
