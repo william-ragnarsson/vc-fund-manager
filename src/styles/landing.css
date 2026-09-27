@@ -110,7 +110,6 @@ html:has(.lp) { scroll-behavior: smooth; }
 }
 @media (max-width: 560px) {
   .lp-nav nav { gap: 14px; }
-  .lp-nav-long { display: none; }
   .lp-visual { padding: 12px; border-radius: 18px; }
   .lp-flow::before { left: 29px; }
   .lp-step { grid-template-columns: 36px minmax(0, 1fr); gap: 12px; padding: 12px; }

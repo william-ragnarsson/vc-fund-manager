@@ -7,7 +7,7 @@ const MODULES = [
   {
     eyebrow: 'Deal flow',
     title: 'Every application, read and scored',
-    body: 'Founders apply through a short form on your website, and each application is scored against your thesis on arrival. The strongest reach your shortlist with a brief. The rest get a personal note in your words.',
+    body: 'Inbound applications are scored against your thesis the moment they arrive. The strongest reach your shortlist with a brief. The rest get a personal note in your words.',
     example: { id: 'fopsai', name: 'FopsAI', line: 'Scored 92. Revenue tripled in 6 months.' },
     href: '#/app/deals',
   },
@@ -115,10 +115,9 @@ export function Landing() {
       <header className="lp-nav">
         <div className="lp-wrap lp-nav-in">
           <a className="lp-brand" href="#/">Associate</a>
-          {/* The demo's hub: the landing page, the founder's apply page and the fund's dashboard. */}
+          {/* The demo's hub: the landing page and the fund's dashboard. */}
           <nav aria-label="Main">
             <a href="#/" aria-current="page" onClick={() => window.scrollTo({ top: 0 })}>Home</a>
-            <a href="#/apply">Apply<span className="lp-nav-long"> for funding</span></a>
             <a className="btn btn-primary" href="#/app">Dashboard</a>
           </nav>
         </div>

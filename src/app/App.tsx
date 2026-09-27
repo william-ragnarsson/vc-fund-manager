@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react';
-import { Apply } from '../apply/Apply';
 import { FUND, MONTH_SCREENED } from '../config';
 import { useStore, type View } from './store';
 import { DealDrawer, DealFlow, useDealLists } from './views/DealFlow';
@@ -38,17 +37,11 @@ export function App({ tourOpen }: { tourOpen: boolean }) {
   // New page, back to the top, like a real navigation.
   useEffect(() => { main.current?.scrollTo({ top: 0 }); }, [s.view, s.coId, s.dfTab, s.pFilter, s.pLayout, s.pubTab]);
 
-  // The tab title follows the view, which in-app navigation changes without touching the URL.
-  useEffect(() => { document.title = s.view === 'apply' ? `Apply · ${FUND.name}` : 'Associate demo'; }, [s.view]);
-
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape' && s.selId) a.closeDeal(); };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [s.selId, a]);
-
-  // The founder's apply page replaces the whole app shell: it is the fund's website.
-  if (s.view === 'apply') return <Apply tourOpen={tourOpen} />;
 
   const nav: [View, string, number | string | null][] = [
     ['home', 'Home', null],

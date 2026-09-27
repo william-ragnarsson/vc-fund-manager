@@ -5,7 +5,6 @@ import './styles/app.css';
 import './styles/linkedin.css';
 import './styles/tour.css';
 import './styles/landing.css';
-import './styles/apply.css';
 import { Root } from './Root';
 
 createRoot(document.getElementById('root')!).render(<StrictMode><Root /></StrictMode>);
