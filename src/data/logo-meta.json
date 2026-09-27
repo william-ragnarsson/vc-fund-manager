@@ -47,6 +47,54 @@
   "bleed": false,
   "bg": "#ffffff"
  },
+ "prediko": {
+  "bleed": true,
+  "bg": "#000000"
+ },
+ "bruin": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "reeler": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "telekinesis": {
+  "bleed": true,
+  "bg": "#16161a"
+ },
+ "imaginario": {
+  "bleed": true,
+  "bg": "#030101"
+ },
+ "profit-optimizer": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "overwatch-ai": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "trissino": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
+ "kindred-voice": {
+  "bleed": true,
+  "bg": "#f8f8f8"
+ },
+ "meridyan": {
+  "bleed": true,
+  "bg": "#0456cb"
+ },
+ "nukleas": {
+  "bleed": true,
+  "bg": "#111113"
+ },
+ "volumes": {
+  "bleed": false,
+  "bg": "#ffffff"
+ },
  "papr": {
   "bleed": false,
   "bg": "#ffffff"

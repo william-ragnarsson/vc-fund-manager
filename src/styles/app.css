@@ -255,6 +255,10 @@
 .tl-origin { color: var(--color-neutral-800); font-weight: 500; }
 .tl-item.gap .tl-body { padding: 10px 0 22px; }
 .tl-gap { display: inline-block; font-size: 12px; padding: 3px 10px; border-radius: 999px; background: #fbf1e4; color: #7a4a12; }
+.tl-item.more .tl-rail::before { border-left-style: dotted; }
+.tl-item.more .tl-body { padding: 4px 0 16px; }
+.tl-more { font-size: 12px; padding: 3px 12px; border-radius: 999px; border: 1px solid var(--color-divider); background: #fff; color: var(--color-neutral-700); line-height: 1.55; cursor: pointer; transition: background .15s; }
+.tl-more:hover { background: var(--color-neutral-100); }
 .co-side { display: flex; flex-direction: column; gap: 16px; }
 .watch { padding: 20px; }
 .watch .eyebrow { margin-bottom: 10px; }
@@ -394,7 +398,7 @@
   .tl-dot { left: 4px; top: 4px; }
   .tl-body { grid-column: 2; grid-row: 2; padding-bottom: 16px; }
   .tl-now, .tl-origin { padding-top: 0; }
-  .tl-item.gap .tl-body { grid-row: 1 / span 2; padding: 2px 0 18px; }
+  .tl-item.gap .tl-body, .tl-item.more .tl-body { grid-row: 1 / span 2; padding: 2px 0 18px; }
   .drafts { padding: 20px 16px 32px; }
   .draft-body { padding: 14px; gap: 18px; }
   .draft-side { min-width: 0; }
