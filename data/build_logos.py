@@ -22,6 +22,10 @@ CHOSEN = {
     "sourcery": "sourcery-ai", "ekei": "ekei", "buildstash": "buildstash", "i-flow": "i-flow",
     "granter": "granter-ai", "motics": "motics-technologies", "siftyml": "siftyml", "complok": "complok",
     "rhenari": "rhenari", "harvest": "harvest", "hylosense": "hylosense", "avido": "avido-ai",
+    "prediko": "prediko", "bruin": "bruin", "reeler": "reeler", "telekinesis": "telekinesis-ai",
+    "imaginario": "imaginario-ai", "profit-optimizer": "profit-optimizer", "overwatch-ai": "overwatch-ai",
+    "trissino": "trissino", "kindred-voice": "kindred-voice", "meridyan": "meridyan", "nukleas": "nukleas",
+    "volumes": "volumes",
     # deal flow
     "papr": "papr", "stemma": "stemma-ai", "fopsai": "fopsai-ltd", "insaio": "insaio",
     "linesight": "linesight", "auxilius": "auxilius-ai", "indora": "indora", "alethica": "alethica",
@@ -41,6 +45,11 @@ OVERRIDES: dict[str, dict] = {
     "insaio": {"mode": "crop", "box": (0, 0, 0.26, 1)},
     "alethica": {"mode": "bleed-icon"},
     "humbrela": {"mode": "bleed-icon"},
+    "reeler": {"mode": "pad-wide"},
+    "trissino": {"mode": "pad-wide"},
+    "profit-optimizer": {"mode": "pad-wide"},
+    "kindred-voice": {"mode": "bleed"},
+    "volumes": {"mode": "icon-top"},
 }
 
 

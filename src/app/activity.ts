@@ -29,6 +29,12 @@ export function ago(iso: string) {
   return `${Math.floor(n / 30)} months ago`;
 }
 
+/** The two lines under a timeline date: "Sep 02" and how long ago, or "Mar 04" and "2025" before the demo's year. */
+export function dateLines(iso: string): [string, string] {
+  const [y, m, d] = ymd(iso);
+  return [`${MONTHS[m - 1]} ${String(d).padStart(2, '0')}`, y === ymd(TODAY)[0] ? ago(iso) : String(y)];
+}
+
 /** The last day the company itself did something public. Associate's own monitor notes don't count. */
 export const lastActive = (c: Company) => c.signals.reduce((last, sg) => (sg.src !== 'Monitor' && sg.on > last ? sg.on : last), '');
 
