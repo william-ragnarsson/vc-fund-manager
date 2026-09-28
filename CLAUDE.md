@@ -35,6 +35,7 @@ Now it is moving toward the final product, starting with a working backend. The 
 - `npm run dev` runs the demo.
 - `npm run build` type-checks and packs the whole demo into one self-contained file, `dist/associate-demo.html`. It opens from disk and can be sent as is.
 - There are no tests yet, so check changes in the browser.
+- Branch from `dev` and open PRs against it. `main` is production, since Vercel deploys every push to it, and it only changes when `dev` is merged into it for a release.
 - The guided tour (`src/tour/Tour.tsx`) and the landing page retell parts of the seed story, such as FopsAI's score and Sourcery's Series A. A few counts also appear in more than one place. When a seed fact changes, search for where else it's told.
 - `?fund=Name` shows the demo under another fund's name, so text that names the fund comes from `FUND` in `src/config.ts`.
 - The demo's today is fixed (`TODAY` in `src/config.ts`). Signal dates, "3 weeks ago" and who counts as quiet are counted from it, not from the clock.
