@@ -10,9 +10,52 @@ export interface Signal {
 
 export type CompanyStatus = 'Growing' | 'Active' | 'Quiet' | 'New';
 
+/** The fund's profile and this month's counters, from the funds row. */
+export interface Fund {
+  id: string;
+  /** The name the fund's email goes out under. The screen uses FUND.name, which ?fund= can change. */
+  name: string;
+  /** "$40M Fund I". */
+  size: string;
+  focus: string;
+  tagline: string;
+  /** "4,812 followers". */
+  followers: string;
+  timezone: string;
+  monthScreened: number;
+  monthPassed: number;
+}
+
+/** One thing the fund scores applications on. The keys match the scores on each deal. */
+export interface Criterion {
+  key: string;
+  label: string;
+  description: string;
+  /** Percent of the score. The weights add up to 100. */
+  weight: number;
+}
+
+/** The fund's thesis as last saved. Each save is a new version. */
+export interface Rubric {
+  id: string;
+  version: number;
+  criteria: Criterion[];
+  sectors: Record<string, boolean>;
+  stages: Record<string, boolean>;
+  geos: Record<string, boolean>;
+  chequeMin: number | null;
+  chequeMax: number | null;
+  threshold: number;
+  /** "{company}" is replaced with the applicant's name when the note is sent. */
+  declineNote: string;
+}
+
 /** A portfolio company. Name, logo, one-liner and about come from the public Techstars portfolio; everything else is invented. */
 export interface Company {
+  /** The slug. Logos and the tour look companies up by it. */
   id: string;
+  /** The companies row, for writes. */
+  rowId: string;
   name: string;
   one: string;
   about: string;
@@ -46,7 +89,11 @@ export interface FormerCompany {
 export type DealStage = 'inbound' | 'screened' | 'meeting';
 
 export interface Deal {
+  /** The company's slug. */
   id: string;
+  /** The applications row, for writes. */
+  rowId: string;
+  companyRowId: string;
   name: string;
   one: string;
   sector: string;
@@ -56,8 +103,8 @@ export interface Deal {
   traction: string;
   team: string;
   loc: string;
-  /** Team, Market, Traction, Thesis fit — each 0–100. */
-  b: [number, number, number, number];
+  /** Score per rubric criterion, keyed by criterion key, each 0–100. */
+  scores: Record<string, number>;
   why: string[];
   risks: string[];
   src: string;
@@ -71,7 +118,7 @@ export interface SiteEntry {
   body: string;
 }
 
-export type PostType = 'raise' | 'invest' | 'milestone' | 'event';
+export type PostType = 'raise' | 'invest' | 'milestone' | 'event' | 'batch' | 'other';
 
 export interface Draft {
   id: string;
@@ -83,9 +130,12 @@ export interface Draft {
   /** Post body. "@Name" of the company is rendered as a LinkedIn mention. */
   text: string;
   tags: string;
-  site: SiteEntry;
+  /** "LinkedIn + Website". */
+  channels: string;
+  /** The website update, when the post goes to the website too. */
+  site?: SiteEntry;
   siteNote: string;
-  image: { kicker: string; title: string; sub: string };
+  image?: { kicker: string; title: string; sub: string };
   imgBg: string;
 }
 
@@ -101,3 +151,6 @@ export interface Published {
   site?: SiteEntry;
   stats?: string;
 }
+
+export type AutoKey = 'invest' | 'raise' | 'milestone' | 'event' | 'site';
+export type AutoMode = 'approval' | 'auto' | 'off';

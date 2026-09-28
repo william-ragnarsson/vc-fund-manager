@@ -1,4 +1,4 @@
-import { TODAY } from '../config';
+import { NOW, TODAY } from '../config';
 import type { Company } from '../data/types';
 
 // How recently each portfolio company did something public, counted from the demo's fixed today.
@@ -27,6 +27,27 @@ export function ago(iso: string) {
   if (n < 14) return `${n} days ago`;
   if (n < 70) return `${Math.floor(n / 7)} weeks ago`;
   return `${Math.floor(n / 30)} months ago`;
+}
+
+/** "Just now", "30 min ago", "2h ago", "3d ago", "2w ago": how long before the demo's clock something happened. Later times read "Just now". */
+export function postedAgo(iso: string) {
+  const min = Math.floor(Math.max(0, Date.parse(NOW) - Date.parse(iso)) / 60_000);
+  if (min < 1) return 'Just now';
+  if (min < 60) return `${min} min ago`;
+  const h = Math.floor(min / 60);
+  if (h < 24) return `${h}h ago`;
+  const d = Math.floor(h / 24);
+  if (d < 7) return `${d}d ago`;
+  return `${Math.floor(d / 7)}w ago`;
+}
+
+/** When a portfolio card's latest signal happened: "2h ago" today, then "Yesterday", "2d ago" and "Sep 18". */
+export function cardWhen(on: string, detectedAt: string) {
+  const n = daysAgo(on);
+  if (n <= 0) return postedAgo(detectedAt);
+  if (n === 1) return 'Yesterday';
+  if (n < 3) return `${n}d ago`;
+  return shortDate(on);
 }
 
 /** The two lines under a timeline date: "Sep 02" and how long ago, or "Mar 04" and "2025" before the demo's year. */

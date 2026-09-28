@@ -75,12 +75,16 @@ function Drafts() {
                 editing={editing} editText={s.editText} onEditText={v => a.set({ editText: v })}
               />
               <div className="draft-side">
-                <div className="eyebrow">Also updates the website</div>
-                <div className="site-card">
-                  <Logo id={p.companyId} name={p.company} size={36} radius={9} />
-                  <div><div className="k">{p.site.kicker}</div><div className="t">{p.site.title}</div><div className="b">{p.site.body}</div></div>
-                </div>
-                <div className="site-note">{p.siteNote}</div>
+                {p.site && (
+                  <>
+                    <div className="eyebrow">Also updates the website</div>
+                    <div className="site-card">
+                      <Logo id={p.companyId} name={p.company} size={36} radius={9} />
+                      <div><div className="k">{p.site.kicker}</div><div className="t">{p.site.title}</div><div className="b">{p.site.body}</div></div>
+                    </div>
+                    <div className="site-note">{p.siteNote}</div>
+                  </>
+                )}
                 <div className="draft-acts">
                   <button className="btn btn-primary approve" onClick={() => a.approve(p.id)}>Approve &amp; publish</button>
                   <div className="row">
@@ -133,8 +137,8 @@ function Website() {
             <span className="brand"><FundMark size={28} radius={6} />{FUND.name}</span>
             <div className="links"><span>Portfolio</span><span>Team</span><span className="apply">Apply for funding</span></div>
           </div>
-          <h1>{FUND.tagline}</h1>
-          <div className="focus">{FUND.focus} · {FUND.size}</div>
+          <h1>{s.fund.tagline}</h1>
+          <div className="focus">{s.fund.focus} · {s.fund.size}</div>
           <div className="sec">Recent</div>
           <div className="site-recent">
             {recent.map(r => <div key={r.title}><div className="k">{r.kicker}</div><div className="t">{r.title}</div><div className="b">{r.body}</div></div>)}
