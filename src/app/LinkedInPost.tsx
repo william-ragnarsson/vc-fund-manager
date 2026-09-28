@@ -1,6 +1,7 @@
 import { useLayoutEffect, useRef, useState, type ReactNode } from 'react';
 import { FUND } from '../config';
 import { Logo } from './Logo';
+import { useStore } from './store';
 
 /** Splits post text into plain runs, company mentions and hashtags, the way LinkedIn renders them. */
 function richText(text: string, mention: string): ReactNode[] {
@@ -32,7 +33,7 @@ export function LinkedInPost(props: {
   company: string;
   text: string;
   tags: string;
-  image: PostImage;
+  image?: PostImage;
   imgBg: string;
   status: string;
   editing?: boolean;
@@ -41,6 +42,7 @@ export function LinkedInPost(props: {
   counts?: { reactions: string; right: string };
 }) {
   const { companyId, company, text, tags, image, imgBg, status, editing, editText, onEditText, counts } = props;
+  const { s } = useStore();
   const [expanded, setExpanded] = useState(false);
   const [clamped, setClamped] = useState(false);
   const body = useRef<HTMLDivElement>(null);
@@ -57,7 +59,7 @@ export function LinkedInPost(props: {
         <FundMark />
         <div className="li-who">
           <span className="li-name">{FUND.name}</span>
-          <span className="li-sub">{FUND.followers}</span>
+          <span className="li-sub">{s.fund.followers}</span>
           <span className="li-sub li-time">{status} · <Globe /></span>
         </div>
         <span className="li-more" aria-hidden="true">···</span>
@@ -76,17 +78,19 @@ export function LinkedInPost(props: {
         )}
       </div>
 
-      <div className="li-img" style={{ background: imgBg }}>
-        <div className="c1" /><div className="c2" />
-        <div className="li-img-top"><span>{FUND.name} · Portfolio</span><span className="k">{image.kicker}</span></div>
-        <div className="li-img-mid">
-          <div className="li-img-logo"><Logo id={companyId} name={company} size={84} radius={20} ring={false} /></div>
-          <div>
-            <div className="t">{image.title}</div>
-            <div className="s">{image.sub}</div>
+      {image && (
+        <div className="li-img" style={{ background: imgBg }}>
+          <div className="c1" /><div className="c2" />
+          <div className="li-img-top"><span>{FUND.name} · Portfolio</span><span className="k">{image.kicker}</span></div>
+          <div className="li-img-mid">
+            <div className="li-img-logo"><Logo id={companyId} name={company} size={84} radius={20} ring={false} /></div>
+            <div>
+              <div className="t">{image.title}</div>
+              <div className="s">{image.sub}</div>
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       <div className="li-counts">
         {counts ? (

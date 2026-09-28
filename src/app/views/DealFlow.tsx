@@ -1,5 +1,5 @@
 import type { MouseEvent } from 'react';
-import { FUND, MONTH_SCREENED } from '../../config';
+import { FUND } from '../../config';
 import type { Deal, DealStage } from '../../data/types';
 import { Logo } from '../Logo';
 import { useStore } from '../store';
@@ -13,20 +13,20 @@ export function useDealLists() {
   return { meetings: by('meeting'), screened: by('screened'), inbound: by('inbound') };
 }
 
-/** Inbound counts every application this month; the seed shows the 10 most recent. */
-const SEED_INBOUND = 10;
-export const inboundTotal = (shown: number) => MONTH_SCREENED - SEED_INBOUND + shown;
+/** Inbound counts every application this month; the demo data lists the 10 most recent. */
+const DEMO_INBOUND = 10;
 
 export function DealFlow() {
   const { s, a } = useStore();
   const { meetings, screened, inbound } = useDealLists();
+  const inboundTotal = s.fund.monthScreened - DEMO_INBOUND + inbound.length;
   const onSectors = Object.keys(s.sectors).filter(k => s.sectors[k]);
   const onStages = Object.keys(s.stages).filter(k => s.stages[k]);
   const onGeos = Object.keys(s.geos).filter(k => s.geos[k]);
   const tabs: [DealStage, string, number | string][] = [
     ['meeting', 'Meetings', meetings.length],
     ['screened', 'Screened', screened.length],
-    ['inbound', 'Inbound', inboundTotal(inbound.length).toLocaleString('en-US')],
+    ['inbound', 'Inbound', inboundTotal.toLocaleString('en-US')],
   ];
 
   return (
@@ -108,7 +108,7 @@ export function DealFlow() {
                 </div>
               );
             })}
-            <div className="in-more">Plus {(inboundTotal(inbound.length) - inbound.length).toLocaleString('en-US')} more this month. 1,153 were passed with a personal note from {FUND.name}.</div>
+            <div className="in-more">Plus {(inboundTotal - inbound.length).toLocaleString('en-US')} more this month. {s.fund.monthPassed.toLocaleString('en-US')} were passed with a personal note from {FUND.name}.</div>
           </div>
         </div>
       )}
@@ -127,7 +127,7 @@ export function DealDrawer() {
     if (d.stage === 'meeting') a.invest(d);
     else { a.moveDeal(d.id, order[order.indexOf(d.stage) + 1]); a.closeDeal(); }
   };
-  const bars = ['Team', 'Market', 'Traction', 'Thesis fit'].map((label, k) => ({ label, val: d.b[k] }));
+  const bars = s.rubric.criteria.filter(c => c.key in d.scores).map(c => ({ label: c.label, val: d.scores[c.key] }));
   const facts = [{ k: 'Round', v: d.round }, { k: 'Traction', v: d.traction }, { k: 'Team', v: d.team }, { k: 'Location', v: d.loc }];
 
   return (

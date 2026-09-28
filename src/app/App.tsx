@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import { FUND, MONTH_SCREENED } from '../config';
+import { FUND } from '../config';
 import { AssociateMark } from './AssociateMark';
 import { useStore, type View } from './store';
 import { DealDrawer, DealFlow, useDealLists } from './views/DealFlow';
@@ -10,7 +10,7 @@ import { Thesis } from './views/Thesis';
 function Home() {
   const { s, a } = useStore();
   const metrics = [
-    { value: MONTH_SCREENED.toLocaleString('en-US'), label: 'applications screened this month', go: 'deals' as View },
+    { value: s.fund.monthScreened.toLocaleString('en-US'), label: 'applications screened this month', go: 'deals' as View },
     { value: String(s.companies.length), label: 'portfolio companies tracked', go: 'portfolio' as View },
     { value: String(s.published.length), label: 'posts published this quarter', go: 'public' as View },
   ];
@@ -44,11 +44,12 @@ export function App({ tourOpen }: { tourOpen: boolean }) {
     return () => window.removeEventListener('keydown', onKey);
   }, [s.selId, a]);
 
+  const ready = s.status === 'ready';
   const nav: [View, string, number | string | null][] = [
     ['home', 'Home', null],
-    ['deals', 'Deal Flow', meetings.length],
-    ['portfolio', 'Portfolio', s.companies.length],
-    ['public', 'Public Presence', s.drafts.length || ''],
+    ['deals', 'Deal Flow', ready ? meetings.length : null],
+    ['portfolio', 'Portfolio', ready ? s.companies.length : null],
+    ['public', 'Public Presence', ready ? s.drafts.length || '' : null],
   ];
 
   return (
@@ -73,11 +74,18 @@ export function App({ tourOpen }: { tourOpen: boolean }) {
       </aside>
 
       <main className="main" ref={main}>
-        {s.view === 'home' && <Home />}
-        {s.view === 'deals' && <DealFlow />}
-        {s.view === 'thesis' && <Thesis />}
-        {s.view === 'portfolio' && <Portfolio />}
-        {s.view === 'public' && <PublicPresence />}
+        {s.status === 'loading' && <div className="load-state" role="status">Loading {FUND.name}…</div>}
+        {s.status === 'error' && (
+          <div className="load-state" role="alert">
+            Couldn't load the fund's data. Check your connection and try again.
+            <button className="btn btn-secondary" onClick={a.retry}>Try again</button>
+          </div>
+        )}
+        {ready && s.view === 'home' && <Home />}
+        {ready && s.view === 'deals' && <DealFlow />}
+        {ready && s.view === 'thesis' && <Thesis />}
+        {ready && s.view === 'portfolio' && <Portfolio />}
+        {ready && s.view === 'public' && <PublicPresence />}
         {tourOpen && s.view !== 'home' && <div className="tour-spacer" aria-hidden="true" />}
       </main>
 

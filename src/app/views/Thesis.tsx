@@ -1,18 +1,10 @@
-import { FUND } from '../../config';
+import { money } from '../../data/api';
 import { useStore } from '../store';
 
-const WEIGHTS = [
-  ['team', 'Team', 'Founder experience, speed and technical depth'],
-  ['market', 'Market', 'Size, urgency and timing'],
-  ['traction', 'Traction', 'Revenue, usage and growth rate'],
-  ['fit', 'Thesis fit', 'Sector, stage and geography match'],
-] as const;
-
-type Weights = { team: number; market: number; traction: number; fit: number };
-
 /** Sets one weight and scales the others so the total stays at 100. */
-function rebalance(w: Weights, key: keyof Weights, value: number): Weights {
-  const others = (Object.keys(w) as (keyof Weights)[]).filter(k => k !== key);
+function rebalance(w: Record<string, number>, key: string, value: number): Record<string, number> {
+  const others = Object.keys(w).filter(k => k !== key);
+  if (!others.length) return w;
   const rest = others.reduce((sum, k) => sum + w[k], 0);
   const next = { ...w, [key]: value };
   others.forEach(k => { next[k] = rest ? Math.round((w[k] / rest) * (100 - value)) : Math.round((100 - value) / others.length); });
@@ -24,6 +16,7 @@ function rebalance(w: Weights, key: keyof Weights, value: number): Weights {
 export function Thesis() {
   const { s, a } = useStore();
   const total = Object.values(s.weights).reduce((x, y) => x + y, 0);
+  const { chequeMin, chequeMax } = s.rubric;
   const chips = (key: 'sectors' | 'stages' | 'geos') => (
     <div className="chips">
       {Object.keys(s[key]).map(label => (
@@ -42,7 +35,9 @@ export function Thesis() {
           <div><div className="chip-label">Sectors</div>{chips('sectors')}</div>
           <div><div className="chip-label">Stages</div>{chips('stages')}</div>
           <div><div className="chip-label">Geography</div>{chips('geos')}</div>
-          <div className="kv-row"><span className="k">Initial check</span><span className="v">{FUND.cheque}</span></div>
+          {chequeMin !== null && chequeMax !== null && (
+            <div className="kv-row"><span className="k">Initial check</span><span className="v">{money(chequeMin)} to {money(chequeMax)}</span></div>
+          )}
         </div>
 
         <div className="panel panel-pad" style={{ gap: 18 }}>
@@ -50,12 +45,12 @@ export function Thesis() {
             <span className="eyebrow">Scoring weights</span>
             <span style={{ fontSize: 12, color: 'var(--color-neutral-600)' }}>Total {total}%</span>
           </div>
-          {WEIGHTS.map(([k, label, desc]) => (
-            <div key={k} className="weight-row">
-              <div><div className="t">{label}</div><div className="d">{desc}</div></div>
-              <input type="range" min={0} max={60} value={s.weights[k]} aria-label={`${label} weight`}
-                onChange={e => a.set(prev => ({ weights: rebalance(prev.weights, k, Number(e.target.value)) }))} style={{ width: '100%' }} />
-              <span className="n">{s.weights[k]}%</span>
+          {s.rubric.criteria.map(c => (
+            <div key={c.key} className="weight-row">
+              <div><div className="t">{c.label}</div><div className="d">{c.description}</div></div>
+              <input type="range" min={0} max={60} value={s.weights[c.key] ?? 0} aria-label={`${c.label} weight`}
+                onChange={e => a.set(prev => ({ weights: rebalance(prev.weights, c.key, Number(e.target.value)) }))} style={{ width: '100%' }} />
+              <span className="n">{s.weights[c.key] ?? 0}%</span>
             </div>
           ))}
         </div>
